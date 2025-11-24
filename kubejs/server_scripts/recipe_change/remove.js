@@ -440,7 +440,7 @@ const removeItemsbyID = [
   'extendedae_plus:entity_speed_card_4x',
   'extendedae_plus:entity_speed_card_8x',
   'extendedae_plus:entity_speed_card_16x',
-  '',
+  'avaritia:blaze_cube',
   '',
   '',
   '',

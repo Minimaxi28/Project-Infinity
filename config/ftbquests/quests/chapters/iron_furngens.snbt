@@ -90,7 +90,6 @@
 				item: "mysticalagriculture:inferium_furnace"
 				type: "item"
 			}]
-			title: "Iron Furnace"
 			x: -2.0d
 			y: -13.5d
 		}
@@ -107,7 +106,6 @@
 				item: "mysticalagriculture:prudentium_furnace"
 				type: "item"
 			}]
-			title: "Iron Furnace"
 			x: -2.0d
 			y: -15.5d
 		}

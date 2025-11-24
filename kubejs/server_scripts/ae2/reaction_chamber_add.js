@@ -208,4 +208,30 @@ ServerEvents.recipes((event) => {
       },
     })
     .id('reaction_chamber3_advanced_ae_shattered_singularity');
+
+  event
+    .custom({
+      type: 'advanced_ae:reaction',
+      energy: 50000,
+      fluid: {
+        fluidStack: {
+          Amount: 1000,
+          FluidName: 'minecraft:water',
+        },
+      },
+      input_items: [
+        {
+          amount: 64,
+          ingredient: {
+            item: 'appflux:charged_redstone',
+          },
+        },
+      ],
+      output: {
+        '#': 64,
+        '#c': 'ae2:i',
+        id: 'appflux:printed_energy_processor',
+      },
+    })
+    .id('reaction_chamber_appflux_printed_energy_processor');
 });
