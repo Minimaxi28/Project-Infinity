@@ -26,7 +26,7 @@ ServerEvents.recipes((event) => {
           item: 'woot_revived:netherite_enchanted_plate',
         },
         E: {
-          item: 'bloodmagic:hellforgedparts',
+          item: 'draconicevolution:chaotic_core',
         },
         F: {
           item: 'pipez:ultimate_upgrade',

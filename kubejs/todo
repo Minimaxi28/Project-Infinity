@@ -19,12 +19,17 @@ EMC
 changelog v. 0.0.44.1
 -updated some mods
 -added better p2p (thx to bashwrld999)
+-downgraded avaritia to fix curio compatibility crash
 
--fixed penrose multiblock not forming
+-fixed penrose multiblock not forming and added tier 1-3
 -removed unused blaze cube recipe (thx to realpious)
 -fixed typo in Furnace quest (thx to KeksNino)
 -fixed energy values for crafting core recipes (thx to FluffehWolfie)
 -added recipe for printed energy ciurcuit in the reaction chamber (thx to Sohail160)
+-replaced hellforged parts from creative items with chaotic core from draconicevolution (thx to Water_Element)
+-fixed voidminers not working in nether and end (thx to Water_Element)
+    -BIG INFO: NEXT UPDATE WILL REMOVE ALL VOIDMINER AND SOLARPANELS FROM YOUR WORLDS. PLEASE TAKE THIS INTO ACCOUNT BEFORE UPDATING!
+    -Voidminers mod got a Namespace rename and therefore all old blocks will be removed on update!
 /---------------------------
 known bugs:
 -polymorph (changing the output for mod conflicts) is not possible with tinkers crafting station

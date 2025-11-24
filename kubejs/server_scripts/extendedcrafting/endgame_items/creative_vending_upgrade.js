@@ -49,7 +49,7 @@ ServerEvents.recipes((event) => {
           item: 'kubejs:infinity_12',
         },
         K: {
-          item: 'bloodmagic:hellforgedparts',
+          item: 'draconicevolution:chaotic_core',
         },
         L: {
           item: 'aether:regeneration_stone',

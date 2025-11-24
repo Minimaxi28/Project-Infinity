@@ -4,7 +4,7 @@
   "MINER_DIMENSION_SETTINGS": {
     "enabled": true,
     "defaultAllow": false,
-    "globalAllow": ["minecraft:overworld","minecraft:nether","minecraft:the_end"],
+    "globalAllow": ["minecraft:overworld","minecraft:the_nether","minecraft:the_end"],
     "globalBlock": [],
     "tierRules": {}
   },
