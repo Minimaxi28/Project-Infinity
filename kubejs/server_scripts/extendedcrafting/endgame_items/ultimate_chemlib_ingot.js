@@ -5,12 +5,6 @@ ServerEvents.recipes((event) => {
       type: 'extendedcrafting:shapeless_table',
       ingredients: [
         {
-          item: 'avaritia:neutron_pile',
-        },
-        {
-          item: 'avaritia:neutron_nugget',
-        },
-        {
           item: 'chemlib:lithium_ingot',
         },
         {

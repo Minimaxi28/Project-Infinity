@@ -5,8 +5,9 @@ fix shop prices high prio
 super endgame microminers?
 woot config
 Extra and EM combine (Extra --> EM --> Extra --> EM .....)
-better p2p mod?
 rf tools recipes
+-change Inf ingots 1-3 to 0,3333333333    0,666666666    0.99999999 and 1
+-add inf 2 and 3 with occutism and mana recipe
 /--------------------------------------------------------------------------------------------------------------/
 //recipes
 creative items recipes!
@@ -16,20 +17,16 @@ creative items recipes!
 EMC
 
 /---------------------------------------------------------------------------------------------------------------/
-changelog v. 0.0.44.1
+changelog v. 0.0.45.0
 -updated some mods
--added better p2p (thx to bashwrld999)
--downgraded avaritia to fix curio compatibility crash
+-added Integrated Mekanism (thx to Scarwxk)
+-added Woot Addon Botania and Woot Addon Industrial Foregoing
+-VOIDMINERS got a rename. All ITEMS will get removed!!!!!!
 
--fixed penrose multiblock not forming and added tier 1-3
--removed unused blaze cube recipe (thx to realpious)
--fixed typo in Furnace quest (thx to KeksNino)
--fixed energy values for crafting core recipes (thx to FluffehWolfie)
--added recipe for printed energy ciurcuit in the reaction chamber (thx to Sohail160)
--replaced hellforged parts from creative items with chaotic core from draconicevolution (thx to Water_Element)
--fixed voidminers not working in nether and end (thx to Water_Element)
-    -BIG INFO: NEXT UPDATE WILL REMOVE ALL VOIDMINER AND SOLARPANELS FROM YOUR WORLDS. PLEASE TAKE THIS INTO ACCOUNT BEFORE UPDATING!
-    -Voidminers mod got a Namespace rename and therefore all old blocks will be removed on update!
+-added a new research station struture to the mbtool.
+    -the tier 1 is the first one you need to build
+    -after getting the nokia and the stabilisierer you have to use the tier 2 strucutre
+-
 /---------------------------
 known bugs:
 -polymorph (changing the output for mod conflicts) is not possible with tinkers crafting station

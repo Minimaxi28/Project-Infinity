@@ -1350,6 +1350,7 @@
 			y: 2.0d
 		}
 		{
+			description: ["Use the Multibuilder Tool to build your multiblocks fast. Just place the items in the inventory from the tool and select the structure."]
 			icon: {
 				Count: 1
 				id: "patchouli:guide_book"

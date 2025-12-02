@@ -217,6 +217,7 @@
 					type: "item"
 				}
 			]
+			title: "Fission Fusion Controller"
 			x: 7.0d
 			y: -1.0d
 		}
@@ -292,6 +293,7 @@
 					type: "item"
 				}
 			]
+			title: "Fusion Chamber Controller"
 			x: 7.0d
 			y: 1.0d
 		}

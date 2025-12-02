@@ -5,7 +5,7 @@
 	group: "5F4DF11C296D769D"
 	icon: "cataclysm:altar_of_fire"
 	id: "0110D8011BD7DB63"
-	order_index: 2
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{

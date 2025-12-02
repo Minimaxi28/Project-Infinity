@@ -2513,6 +2513,7 @@
 			}]
 			tasks: [{
 				consume_items: true
+				count: 2L
 				id: "54722D68DC46E769"
 				item: "kubejs:infused_coin"
 				type: "item"
@@ -2545,7 +2546,7 @@
 			}]
 			tasks: [{
 				consume_items: true
-				count: 16L
+				count: 32L
 				id: "7A702DF243008BB5"
 				item: "kubejs:infused_coin"
 				type: "item"
@@ -2578,7 +2579,7 @@
 			}]
 			tasks: [{
 				consume_items: true
-				count: 32L
+				count: 64L
 				id: "175CF227477D8AA6"
 				item: "kubejs:ascended_coin"
 				type: "item"
@@ -2611,7 +2612,7 @@
 			}]
 			tasks: [{
 				consume_items: true
-				count: 64L
+				count: 128L
 				id: "24B228A5C14318BD"
 				item: "kubejs:ascended_coin"
 				type: "item"
@@ -2644,7 +2645,7 @@
 			}]
 			tasks: [{
 				consume_items: true
-				count: 128L
+				count: 256L
 				id: "0A2CCB9210FC6E6B"
 				item: "kubejs:ascended_coin"
 				type: "item"
@@ -2677,7 +2678,7 @@
 			}]
 			tasks: [{
 				consume_items: true
-				count: 256L
+				count: 512L
 				id: "5864F0B11BF51CFD"
 				item: "kubejs:ascended_coin"
 				type: "item"

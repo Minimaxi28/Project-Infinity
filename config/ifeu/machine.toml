@@ -22,6 +22,10 @@
 		maxStoredPower = 20000
 		#Chance to increase the executions of the current processor, 0.1 = 10% chance - Default: [0.1]
 		chanceToIncreaseExecutions = 0.1
+		#Use the same blacklist as for HydroponicBed - Default: [true]
+		useSameList = true
+		#BlackList for SimulatedHydroponicBed
+		blackList = []
 
 	[MachineConfig.RuleControllerConfig]
 		#Amount of Power Consumed per Tick - Default: [30FE]
@@ -124,4 +128,8 @@
 		maxInputTankSize = 8000
 		#Max Amount of Stored Fluid [Output] - Default: [8000mB]
 		maxOutputTankSize = 8000
+
+	[MachineConfig.HydroponicBedConfig]
+		#BlackList for HydroponicBed
+		blackList = []
 

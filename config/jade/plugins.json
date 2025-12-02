@@ -169,6 +169,9 @@
     "jade_chamber": true,
     "jade_wireless": true
   },
+  "voidminers": {
+    "miner_modifiers": true
+  },
   "apotheosis": {
     "ench": true,
     "spawner": true
