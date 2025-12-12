@@ -866,6 +866,7 @@
 				}
 				type: "item"
 			}]
+			title: "EMC Link"
 			x: 5.0d
 			y: 2.0d
 		}
@@ -1020,6 +1021,7 @@
 				}
 				type: "item"
 			}]
+			title: "Power Flower"
 			x: 5.0d
 			y: -1.0d
 		}
@@ -1029,11 +1031,7 @@
 				"17A986A4AF5A781F"
 				"1D44E9BC799A988D"
 			]
-			description: [
-				"&dGem armor&r is the best this mod has to offer, each piece gives you &cspecial abilities&r, including, &9Night-vision&r, &eflight,&r &bspeed,&r and &6fire-resistance&r"
-				""
-				"The &dWatch of flowing time&r allows you to move time &aforwards&r or &bbackwards&r when held and when placed on a &0pedestal&r will speed &eblock functions&r around it while &6slowing mobs&r."
-			]
+			description: ["&dGem armor&r is the best this mod has to offer, each piece gives you &cspecial abilities&r, including, &9Night-vision&r, &eflight,&r &bspeed,&r and &6fire-resistance&r"]
 			id: "72A62522BD359871"
 			rewards: [
 				{
@@ -1066,20 +1064,6 @@
 				{
 					id: "2F79D3C292FCC2B6"
 					item: "projecte:gem_helmet"
-					type: "item"
-				}
-				{
-					id: "103E676C8C7C8684"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							Parent: { }
-						}
-						id: "projecte:watch_of_flowing_time"
-						tag: {
-							TimeMode: 0b
-						}
-					}
 					type: "item"
 				}
 			]

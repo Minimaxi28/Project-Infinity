@@ -25,6 +25,11 @@ ServerEvents.recipes((event) => {
     'avaritia:singularity',
     'extendedcrafting:ultimate_singularity'
   );
+    event.replaceInput(
+    { output: 'projecte:gem_leggings' },
+    'projecte:watch_of_flowing_time',
+    'projecte:body_stone'
+  );
   event.replaceInput(
     { output: 'cyclic:soulstone' },
     'thermal:netherite_nugget',

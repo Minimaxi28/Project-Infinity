@@ -138,6 +138,12 @@
 		}
 		{
 			dependencies: ["613DA71A509DC39C"]
+			description: [
+				"You have to build the multiblock correctly. The Multibuilder tool helps you."
+				""
+				"And you need a lot of power. "
+				"If you want to extract the ores you need to connect the miner with a pipe to a chest or use AE2 importers. "
+			]
 			icon: "voidminers:rubetine_miner"
 			id: "6A5C0FD659ACF33A"
 			tasks: [

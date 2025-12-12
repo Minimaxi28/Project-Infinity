@@ -35,19 +35,19 @@ ServerEvents.recipes((event) => {
   event.recipes.thermal
     .bottler('kubejs:infinity_1_333333', [
       Fluid.of('kubejs:molten_basalz', 500),
-      '3x kubejs:infinity_1',
+      'kubejs:infinity_1',
     ])
     .energy(10000);
   event.recipes.thermal
     .bottler('kubejs:infinity_1_666666', [
       Fluid.of('kubejs:molten_blizz', 500),
-      '3x kubejs:infinity_1',
+      'kubejs:infinity_1',
     ])
     .energy(10000);
   event.recipes.thermal
     .bottler('kubejs:infinity_1_999999', [
       Fluid.of('kubejs:molten_blitz', 500),
-      '3x kubejs:infinity_1',
+      'kubejs:infinity_1',
     ])
     .energy(10000);
 

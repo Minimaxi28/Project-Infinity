@@ -11,7 +11,7 @@ ServerEvents.recipes((event) => {
           B: ['kubejs:empowered_super_block'],
           C: ['advancednetherite:netherite_diamond_block'],
           D: ['ae2omnicells:ender_ingot_block'],
-          E: ['botanicalextramachinery:crimson_dragonstone_block'],
+          E: ['botanicalextramachinery:saffron_dragonstone_block'],
           F: ['advanced_ae:quantum_alloy_block'],
           G: ['ae2omnicells:singularity_block'],
         },
