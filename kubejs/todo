@@ -17,23 +17,16 @@ creative items recipes!
 EMC
 
 /---------------------------------------------------------------------------------------------------------------/
-changelog v. 0.0.45.2
+changelog v. 0.0.45.3
 -updated some mods
 
--changed recipe for Industrial Foregoing Enchantment Applicator (thx to Aureal)
--fixed voidminer config (thx to ryguyqwerty)
--added recipe for computer screen module (thx to Snelfs)
--added recipe for pump upgrades (sophisticatedstorage) (thx to Snelfs)
--fixed Other Storage system quests (thx to TheShiragami)
--changed recipe for Advanced AE Reaction Chamber (thx to Sohail160)
--fixed flügel tiara recipe in JEI (thx to Shadowdragon)
--swapped recipe for inf 4 with 9 
-    -inf 4 needs blood magic
-    -inf 9 needs crazy ae2 setup
--changed recipe for marine fisher (thx to Lashmak :O )
--changed recipe for advanced_enchanting_infuser (thx to Lashmak :O )
--fixed calculation_processor using to little quartz_blocks (thx to Lashmak :O )
--added a small quest for the naquadah fission reactor (thx to BabyMudkip)
+-fixed mega dissolver recipes and added a recipe for the controller (thx to Water_Element)
+-changed recipe for the aqueous accumulator (thx to suri_07)
+-fixed recipe for the reaction chamber (thx to YoshikoJanai)
+-changed recipe for draconic flight module (thx to InfamousSonDR)
+-added recipe in the barrel craft --> compressed dust into compressed clay (thx to Sohail160)
+-added a recipe for compressed glass (and added a new block) from compressed sand (thx to Azzaroth)
+-fixed a Woot Crash while using a Gaia Fake spawner
 /---------------------------
 known bugs:
 -polymorph (changing the output for mod conflicts) is not possible with tinkers crafting station

@@ -223,6 +223,13 @@
 		}
 		{
 			dependencies: ["6A5C0FD659ACF33A"]
+			description: [
+				"This Multiblock is sometimes weird to build with the multibuilder tool."
+				""
+				"If its not forming then rotate the multiblock once with shift and mouse wheel. It will work!"
+				""
+				"Thank you :)"
+			]
 			icon: "voidminers:aurantium_miner"
 			id: "4447B5220839E9E6"
 			tasks: [
@@ -570,6 +577,13 @@
 		}
 		{
 			dependencies: ["6E34E7248F1B7E27"]
+			description: [
+				"This Multiblock is sometimes weird to build with the multibuilder tool."
+				""
+				"If its not forming then rotate the multiblock once with shift and mouse wheel. It will work!"
+				""
+				"Thank you :)"
+			]
 			id: "00BFF2A289A45C93"
 			rewards: [{
 				id: "0FC4DD916E687384"

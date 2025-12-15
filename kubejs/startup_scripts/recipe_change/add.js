@@ -88,94 +88,94 @@ StartupEvents.registry('item', (e) => {
     .tag('ae2:metal_ingots')
     .tag('forge:ingots')
     .tag('balm:ingots')
-    .texture('kubejs:item/infinityingot/infinity_1')
+    .texture('kubejs:item/infinityingot/infinity_1');
   e.create('infinity_1_333333')
     .displayName('Infinity 1.333333')
     .tag('forge:ingots/infinity_1_333333')
     .tag('ae2:metal_ingots')
     .tag('forge:ingots')
     .tag('balm:ingots')
-    .texture('kubejs:item/infinityingot/infinity_1_333333')
+    .texture('kubejs:item/infinityingot/infinity_1_333333');
   e.create('infinity_1_666666')
     .displayName('Infinity 1.666666')
     .tag('forge:ingots/infinity_1_666666')
     .tag('ae2:metal_ingots')
     .tag('forge:ingots')
     .tag('balm:ingots')
-    .texture('kubejs:item/infinityingot/infinity_1_666666')
+    .texture('kubejs:item/infinityingot/infinity_1_666666');
   e.create('infinity_1_999999')
     .displayName('Infinity 1.999999')
     .tag('forge:ingots/infinity_1_999999')
     .tag('ae2:metal_ingots')
     .tag('forge:ingots')
     .tag('balm:ingots')
-    .texture('kubejs:item/infinityingot/infinity_1_999999')
+    .texture('kubejs:item/infinityingot/infinity_1_999999');
   e.create('infinity_2')
     .tag('forge:ingots/infinity_2')
     .tag('ae2:metal_ingots')
     .tag('forge:ingots')
     .tag('balm:ingots')
-    .texture('kubejs:item/infinityingot/infinity_2')
+    .texture('kubejs:item/infinityingot/infinity_2');
   e.create('infinity_3')
     .tag('forge:ingots/infinity_3')
     .tag('ae2:metal_ingots')
     .tag('forge:ingots')
     .tag('balm:ingots')
-    .texture('kubejs:item/infinityingot/infinity_3')
+    .texture('kubejs:item/infinityingot/infinity_3');
   e.create('infinity_4')
     .tag('forge:ingots/infinity_4')
     .tag('ae2:metal_ingots')
     .tag('forge:ingots')
     .tag('balm:ingots')
-    .texture('kubejs:item/infinityingot/infinity_4')
+    .texture('kubejs:item/infinityingot/infinity_4');
   e.create('infinity_5')
     .tag('forge:ingots/infinity_5')
     .tag('ae2:metal_ingots')
     .tag('forge:ingots')
     .tag('balm:ingots')
-    .texture('kubejs:item/infinityingot/infinity_5')
+    .texture('kubejs:item/infinityingot/infinity_5');
   e.create('infinity_6')
     .tag('forge:ingots/infinity_6')
     .tag('ae2:metal_ingots')
     .tag('forge:ingots')
     .tag('balm:ingots')
-    .texture('kubejs:item/infinityingot/infinity_6')
+    .texture('kubejs:item/infinityingot/infinity_6');
   e.create('infinity_7')
     .tag('forge:ingots/infinity_7')
     .tag('ae2:metal_ingots')
     .tag('forge:ingots')
     .tag('balm:ingots')
-    .texture('kubejs:item/infinityingot/infinity_7')
+    .texture('kubejs:item/infinityingot/infinity_7');
   e.create('infinity_8')
     .tag('forge:ingots/infinity_8')
     .tag('ae2:metal_ingots')
     .tag('forge:ingots')
     .tag('balm:ingots')
-    .texture('kubejs:item/infinityingot/infinity_8')
+    .texture('kubejs:item/infinityingot/infinity_8');
   e.create('infinity_9')
     .tag('forge:ingots/infinity_9')
     .tag('ae2:metal_ingots')
     .tag('forge:ingots')
     .tag('balm:ingots')
-    .texture('kubejs:item/infinityingot/infinity_9')
+    .texture('kubejs:item/infinityingot/infinity_9');
   e.create('infinity_10')
     .tag('forge:ingots/infinity_10')
     .tag('ae2:metal_ingots')
     .tag('forge:ingots')
     .tag('balm:ingots')
-    .texture('kubejs:item/infinityingot/infinity_10')
+    .texture('kubejs:item/infinityingot/infinity_10');
   e.create('infinity_11')
     .tag('forge:ingots/infinity_11')
     .tag('ae2:metal_ingots')
     .tag('forge:ingots')
     .tag('balm:ingots')
-    .texture('kubejs:item/infinityingot/infinity_11')
+    .texture('kubejs:item/infinityingot/infinity_11');
   e.create('infinity_12')
     .tag('forge:ingots/infinity_12')
     .tag('ae2:metal_ingots')
     .tag('forge:ingots')
     .tag('balm:ingots')
-    .texture('kubejs:item/infinityingot/infinity_12')
+    .texture('kubejs:item/infinityingot/infinity_12');
 
   //silent items
   function createingot (e, input) {
@@ -404,6 +404,16 @@ StartupEvents.registry('block', (event) => {
     .hardness(0.8)
     .resistance(1.0)
     .textureAll('kubejs:block/silent/pink_slime_block');
+
+  event
+    .create('compressed_glass')
+    .displayName('Compressed Glass')
+    .soundType('glass')
+    .glassSoundType()
+    .hardness(0.5)
+    .resistance(0.7)
+    .defaultCutout()
+    .textureAll('kubejs:block/silent/compressed_glass');
 
   event
     .create('chaotic_essence_block')

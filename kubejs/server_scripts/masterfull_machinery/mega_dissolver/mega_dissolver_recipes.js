@@ -67,9 +67,9 @@ MMEvents.createProcesses((event) => {
       id: 'discs',
       input: '#minecraft:music_discs',
       outputs: [
-        { item: 'chemlib:polyvinyl_chloride', count: 64 },
-        { item: 'chemlib:lead', count: 16 },
-        { item: 'chemlib:cadmium', count: 16 },
+        { item: 'chemlib:polyvinyl_chloride', count: 64, chance: 1.0 },
+        { item: 'chemlib:lead', count: 16, chance: 1.0 },
+        { item: 'chemlib:cadmium', count: 16, chance: 1.0 },
       ],
     },
     // Fire Coral Fan
@@ -77,8 +77,8 @@ MMEvents.createProcesses((event) => {
       id: 'fire_coral_fan',
       input: 'minecraft:fire_coral_fan',
       outputs: [
-        { item: 'chemlib:calcium_carbonate', count: 4 },
-        { item: 'chemlib:cobalt_nitrate', count: 2 },
+        { item: 'chemlib:calcium_carbonate', count: 4, chance: 1.0 },
+        { item: 'chemlib:cobalt_nitrate', count: 2, chance: 1.0 },
       ],
     },
     // Granite
@@ -99,15 +99,15 @@ MMEvents.createProcesses((event) => {
     {
       id: 'ghast_tear',
       input: 'minecraft:ghast_tear',
-      outputs: [{ item: 'chemlib:polonium', count: 16 }],
+      outputs: [{ item: 'chemlib:polonium', count: 16, chance: 1.0 }],
     },
     //Shulker Shell
     {
       id: 'shulker_shell',
       input: 'minecraft:shulker_shell',
       outputs: [
-        { item: 'chemlib:lutetium', count: 8 },
-        { item: 'chemlib:calcium_carbonate', count: 8 },
+        { item: 'chemlib:lutetium', count: 8, chance: 1.0 },
+        { item: 'chemlib:calcium_carbonate', count: 8, chance: 1.0 },
       ],
     },
     //Soul Sand
@@ -115,8 +115,8 @@ MMEvents.createProcesses((event) => {
       id: 'soul_sand',
       input: '#chipped:soul_sand',
       outputs: [
-        { item: 'chemlib:silicon_dioxide', count: 4 },
-        { item: 'chemlib:thulium', count: 1 },
+        { item: 'chemlib:silicon_dioxide', count: 4, chance: 1.0 },
+        { item: 'chemlib:thulium', count: 1, chance: 1.0 },
       ],
     },
     //Ender Pearl
@@ -124,24 +124,24 @@ MMEvents.createProcesses((event) => {
       id: 'ender_pearl',
       input: 'minecraft:ender_pearl',
       outputs: [
-        { item: 'chemlib:silicon', count: 16 },
-        { item: 'chemlib:neodymium', count: 16 },
-        { item: 'chemlib:mercury', count: 16 },
+        { item: 'chemlib:silicon', count: 16, chance: 1.0 },
+        { item: 'chemlib:neodymium', count: 16, chance: 1.0 },
+        { item: 'chemlib:mercury', count: 16, chance: 1.0 },
       ],
     },
     //Phantom Membrane
     {
       id: 'phantom_membrane',
       input: 'minecraft:phantom_membrane',
-      outputs: [{ item: 'chemlib:cerium', count: 8 }],
+      outputs: [{ item: 'chemlib:cerium', count: 8, chance: 1.0 }],
     },
     //Quartz
     {
       id: 'quartz',
       input: 'minecraft:quartz',
       outputs: [
-        { item: 'chemlib:silicon_dioxide', count: 32 },
-        { item: 'chemlib:barium', count: 16 },
+        { item: 'chemlib:silicon_dioxide', count: 32, chance: 1.0 },
+        { item: 'chemlib:barium', count: 16, chance: 1.0 },
       ],
     },
     //Diorite
@@ -191,7 +191,7 @@ MMEvents.createProcesses((event) => {
     {
       id: 'purple_dye',
       input: '#forge:dyes/purple',
-      outputs: [{ item: 'chemlib:potassium_permanganate', count: 4 }],
+      outputs: [{ item: 'chemlib:potassium_permanganate', count: 4, chance: 1.0 }],
     },
     //Deepslate
     {
@@ -225,26 +225,26 @@ MMEvents.createProcesses((event) => {
       id: 'emerald',
       input: 'minecraft:emerald',
       outputs: [
-        { item: 'chemlib:chromium', count: 8 },
-        { item: 'chemlib:beryllium', count: 8 },
-        { item: 'chemlib:vanadium', count: 4 },
+        { item: 'chemlib:chromium', count: 8, chance: 1.0 },
+        { item: 'chemlib:beryllium', count: 8, chance: 1.0 },
+        { item: 'chemlib:vanadium', count: 4, chance: 1.0 },
       ],
     },
     //Light Gray Dye
     {
       id: 'light_gray_dye',
       input: 'minecraft:light_gray_dye',
-      outputs: [{ item: 'chemlib:magnesium_sulfate', count: 4 }],
+      outputs: [{ item: 'chemlib:magnesium_sulfate', count: 4, chance: 1.0 }],
     },
     //Lapis Lazuli Block
     {
       id: 'lapis_lazuli_block',
       input: '#forge:storage_blocks/lapis',
       outputs: [
-        { item: 'chemlib:sodium', count: 54 },
-        { item: 'chemlib:mullite', count: 27 },
-        { item: 'chemlib:calcium_sulfide', count: 18 },
-        { item: 'chemlib:silicon', count: 27 },
+        { item: 'chemlib:sodium', count: 54, chance: 1.0 },
+        { item: 'chemlib:mullite', count: 27, chance: 1.0 },
+        { item: 'chemlib:calcium_sulfide', count: 18, chance: 1.0 },
+        { item: 'chemlib:silicon', count: 27, chance: 1.0 },
       ],
     },
     //Dark Prismarine
@@ -252,10 +252,10 @@ MMEvents.createProcesses((event) => {
       id: 'dark_prismarine',
       input: '#chipped:dark_prismarine',
       outputs: [
-        { item: 'chemlib:niobium', count: 24 },
-        { item: 'chemlib:selenium', count: 8 },
-        { item: 'chemlib:titanium_oxide', count: 4 },
-        { item: 'chemlib:beryl', count: 32 },
+        { item: 'chemlib:niobium', count: 24, chance: 1.0 },
+        { item: 'chemlib:selenium', count: 8, chance: 1.0 },
+        { item: 'chemlib:titanium_oxide', count: 4, chance: 1.0 },
+        { item: 'chemlib:beryl', count: 32, chance: 1.0 },
       ],
     },
 

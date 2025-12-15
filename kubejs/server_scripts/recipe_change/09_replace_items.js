@@ -125,4 +125,9 @@ ServerEvents.recipes((event) => {
     '#c:gears/iron',
     'allthemodium:unobtainium_gear'
   );
+    event.replaceInput(
+    { output: 'thermal:device_water_gen' },
+    'minecraft:copper_ingot',
+    'allthemodium:unobtainium_gear'
+  );
 });

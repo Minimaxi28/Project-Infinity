@@ -4775,6 +4775,22 @@
 			x: 14.0d
 			y: 8.0d
 		}
+		{
+			dependencies: ["6C52741D22052A14"]
+			id: "79728D70E04CE259"
+			rewards: [{
+				id: "35593285FEF62692"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "51150EAAFE7C9F5D"
+				item: "mysticalagriculture:iron_seeds"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 9.0d
+		}
 	]
 	title: "Mystical Agriculture"
 }

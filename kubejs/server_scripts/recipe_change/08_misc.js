@@ -539,6 +539,18 @@ ServerEvents.recipes((event) => {
     ]
   );
 
+  create3x3(event, 'draconicevolution:item_draconic_flight', [
+    'kubejs:infinity_1',
+    'draconicevolution:wyvern_core',
+    'kubejs:infinity_2',
+    'draconicevolution:wyvern_core',
+    'draconicevolution:item_wyvern_flight',
+    'draconicevolution:wyvern_core',
+    'kubejs:infinity_3',
+    'minecraft:firework_rocket',
+    'kubejs:infinity_4',
+  ]);
+
   shapeless(event, '9x minecraft:end_stone', ['compressium:endstone_1']);
 
   shapeless(event, '8x ironfurnaces:rainbow_plating', [
@@ -565,6 +577,8 @@ ServerEvents.recipes((event) => {
   ]);
 
   event.smelting('armorplus:lava_crystal', 'armorplus:ore_lava_crystal_stone');
+
+  event.smelting('kubejs:compressed_glass', 'compressium:sand_1');
 
   event.smelting(
     'armorplus:frost_crystal',
