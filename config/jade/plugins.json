@@ -147,6 +147,7 @@
     "framed_item_frame": true
   },
   "mm": {
+    "port_priority": true,
     "controller_progress": true
   },
   "compactmachines": {

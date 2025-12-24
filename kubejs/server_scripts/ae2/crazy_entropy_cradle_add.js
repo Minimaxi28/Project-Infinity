@@ -52,24 +52,24 @@ ServerEvents.recipes((event) => {
       consumables: [
         {
           item: 'crazyae2addons:super_singularity',
-          count: 8,
+          count: 64,
           computation: 432,
         },
         {
           item: 'evolvedmekanism:block_better_gold',
-          count: 8,
+          count: 64,
           computation: 432,
         },
         {
           item: 'evolvedmekanism:block_plaslitherite',
-          count: 8,
+          count: 64,
           computation: 432,
         },
-        { item: 'botania:terrasteel_block', count: 8, computation: 432 },
-        { item: 'allthemodium:unobtainium_vibranium_alloy_block', count: 8, computation: 432 },
+        { item: 'botania:terrasteel_block', count: 64, computation: 432 },
+        { item: 'allthemodium:unobtainium_vibranium_alloy_block', count: 64, computation: 432 },
         { item: 'ae2:dense_energy_cell', count: 64, computation: 432 },
         { item: 'ae2:dense_energy_cell', count: 64, computation: 432 },
-        { item: 'ae2:fluix_block', count: 8, computation: 432 },
+        { item: 'ae2:fluix_block', count: 64, computation: 432 },
       ],
       drive: true,
       unlock: {
