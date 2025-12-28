@@ -336,6 +336,21 @@
   "singularity.extendedcrafting.unobtainium_vibranium_ingot": "Unobtainium Vibranium Ingot",
   "singularity.extendedcrafting.vibranium_ingot": "Vibranium Ingot",
 
+  "crop.mysticalcustomization.allthemodium": "Allthemodium",
+  "crop.mysticalcustomization.boron": "Boron",
+  "crop.mysticalcustomization.cognizant_dust": "Cognizant Dust",
+  "crop.mysticalcustomization.dark_metal_ingot": "Dark Metal",
+  "crop.mysticalcustomization.iesnium": "Iesnium",
+  "crop.mysticalcustomization.ignitium": "Ignitium",
+  "crop.mysticalcustomization.lithium": "Lithium",
+  "crop.mysticalcustomization.niter": "Niter",
+  "crop.mysticalcustomization.plastic": "Plastic",
+  "crop.mysticalcustomization.plutonium": "Plutonium",
+  "crop.mysticalcustomization.sky_steel": "Sky Steel",
+  "crop.mysticalcustomization.ultimate_infinity": "Ultimate Infinity",
+  "crop.mysticalcustomization.unobtainium": "Unobtainium",
+  "crop.mysticalcustomization.vibranium": "Vibranium",
+
   "tooltip.avaritia.infinity_tools": "You can right click me.",
   
   "tooltip.nuclearcraft.water_collector": "%s mB every 2 sec. Put this item inside the Pump(Nuclearcraft). You can Upgrade the speed and energy.",
