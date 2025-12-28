@@ -188,6 +188,14 @@
   "fluid.kubejs.molten_blizz": "Molten Blizz",
   "fluid.kubejs.molten_blitz": "Molten Blitz",
 
+  "item.enderio.conductive_conduit": "Conductive Alloy Energy Conduit",
+  "item.enderio.energetic_conduit": "Energetic Alloy Energy Conduit",
+  "item.enderio.vibrant_conduit": "Vibrant Alloy Energy Conduit",
+  "item.enderio.endsteel_conduit": "End Steel Energy Conduit",
+  "item.enderio.lumium_conduit": "Lumium Energy Conduit",
+  "item.enderio.signalum_conduit": "Signalum Energy Conduit",
+  "item.enderio.enderium_conduit": "Enderium Energy Conduit",
+
   "item.kubejs.quantum_hyperdense_lapis_lazuli_singularity": "Quantum Hyperdense Lapis Lazuli Singularity",
   "item.kubejs.quantum_hyperdense_prosperity_ingot_singularity": "Quantum Hyperdense Prosperity Ingot Singularity",
   "item.kubejs.quantum_hyperdense_rose_gold_ingot_singularity": "Quantum Hyperdense Rose Gold Ingot Singularity",
