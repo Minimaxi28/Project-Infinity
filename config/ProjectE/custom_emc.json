@@ -17,10 +17,6 @@
       "emc": 1000000000
     },
     {
-      "item": "kubejs:infinity_7",
-      "emc": 555555555
-    },
-    {
       "item": "kubejs:infinity_11",
       "emc": 9223372036854775806
     },

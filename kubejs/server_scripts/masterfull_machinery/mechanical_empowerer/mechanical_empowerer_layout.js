@@ -19,7 +19,7 @@ MMEvents.createStructures((event) => {
           block: 'enderio:end_steel_block',
         })
         .key('4', {
-          block: 'mob_grinding_utils:saw',
+          block: 'kubejs:fake_mob_masher',
         })
         .key('5', {
           portType: 'mm:item',

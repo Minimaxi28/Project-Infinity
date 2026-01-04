@@ -156,13 +156,13 @@
 ["Ender Guardian"]
 	#EnderGuardian's Health Multiplier
 	#Range: 0.0 ~ 1000000.0
-	EnderGuardianHealthMultiplier = 1.0
+	EnderGuardianHealthMultiplier = 1.5
 	#EnderGuardian's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
-	EnderGuardianDamageMultiplier = 1.0
+	EnderGuardianDamageMultiplier = 1.2
 	#EnderGuardian's DamageCap
 	#Range: 0.0 ~ 1000000.0
-	EnderGuardianDamageCap = 22.0
+	EnderGuardianDamageCap = 350.0
 	#EnderGuardian's DamageTime
 	#Range: 0 ~ 100
 	EnderGuardianDamageTime = 30
@@ -217,10 +217,10 @@
 	LavaBombRandomDuration = 150
 	#Monstrosity's Health Multiplier
 	#Range: 0.0 ~ 1000000.0
-	MonstrosityHealthMultiplier = 1.0
+	MonstrosityHealthMultiplier = 1.5
 	#Monstrosity's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
-	MonstrosityDamageMultiplier = 1.0
+	MonstrosityDamageMultiplier = 1.2
 	#Monstrosity's Healing Multiplier
 	#Range: 0.0 ~ 1000000.0
 	MonstrosityHealingMultiplier = 1.0
@@ -229,7 +229,7 @@
 	MonstrosityNatureHealing = 25.0
 	#Monstrosity's DamageCap
 	#Range: 0.0 ~ 1000000.0
-	MonstrosityDamageCap = 22.0
+	MonstrosityDamageCap = 350.0
 	#Monstrosity's DamageTime
 	#Range: 0 ~ 100
 	MonstrosityDamageTime = 10
@@ -252,18 +252,18 @@
 	"Endergolem's prevent attacks from far away Range" = 6.0
 	#Golem's Health Multiplier
 	#Range: 0.0 ~ 1000000.0
-	GolemHealthMultiplier = 1.0
+	GolemHealthMultiplier = 1.5
 	#Golem's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
-	GolemDamageMultiplier = 1.0
+	GolemDamageMultiplier = 1.2
 
 [Ignis]
 	#Ignis's Health Multiplier
 	#Range: 0.0 ~ 1000000.0
-	IgnisHealthMultiplier = 1.0
+	IgnisHealthMultiplier = 1.5
 	#Ignis's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
-	IgnisDamageMultiplier = 1.0
+	IgnisDamageMultiplier = 1.2
 	#Ignis's Healing with out target
 	#Range: 0.0 ~ 1000000.0
 	IgnisNatureHealing = 25.0
@@ -275,7 +275,7 @@
 	"Ignis's prevent attacks from far away Range" = 15.0
 	#Ignis's DamageCap
 	#Range: 0.0 ~ 1000000.0
-	IgnisDamageCap = 20.0
+	IgnisDamageCap = 350.0
 	#Ignis's DamageTime
 	#Range: 0 ~ 100
 	IgnisDamageTime = 15
@@ -285,10 +285,10 @@
 [revenant]
 	#Revenant's Health Multiplier
 	#Range: 0.0 ~ 1000000.0
-	RevenantHealthMultiplier = 1.0
+	RevenantHealthMultiplier = 1.5
 	#Revenant's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
-	RevenantDamageMultiplier = 1.0
+	RevenantDamageMultiplier = 1.2
 
 ["The Prowler"]
 	#The Prowler's Immune to Long distance attack range.
@@ -296,18 +296,18 @@
 	"The Prowler's prevent attacks from far away Range" = 16.0
 	#Prowler's Health Multiplier
 	#Range: 0.0 ~ 1000000.0
-	ProwlerHealthMultiplier = 1.0
+	ProwlerHealthMultiplier = 1.5
 	#Prowler's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
-	ProwlerDamageMultiplier = 1.0
+	ProwlerDamageMultiplier = 1.2
 
 ["The Harbinger"]
 	#Harbinger's Health Multiplier
 	#Range: 0.0 ~ 1000000.0
-	HarbingerHealthMultiplier = 1.0
+	HarbingerHealthMultiplier = 1.5
 	#Harbinger's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
-	HarbingerDamageMultiplier = 1.0
+	HarbingerDamageMultiplier = 1.2
 	#Harbinger's Healing Multiplier
 	#Range: 0.0 ~ 1000000.0
 	HarbingerHealingMultiplier = 1.0
@@ -322,7 +322,7 @@
 	"The Harbinger's prevent attacks from far away Range" = 35.0
 	#Harbinger's DamageCap
 	#Range: 0.0 ~ 1000000.0
-	"The Harbinger DamageCap" = 22.0
+	"The Harbinger DamageCap" = 350.0
 	#Harbinger's DamageTime
 	#Range: 0 ~ 100
 	"The Harbinger DamageTime" = 12
@@ -335,10 +335,10 @@
 ["The Leviathan"]
 	#Leviathan's Health Multiplier
 	#Range: 0.0 ~ 1000000.0
-	LeviathanHealthMultiplier = 1.0
+	LeviathanHealthMultiplier = 1.5
 	#Leviathan's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
-	LeviathanDamageMultiplier = 1.0
+	LeviathanDamageMultiplier = 1.2
 	#Leviathan's Healing with out target
 	#Range: 0.0 ~ 1000000.0
 	LeviathanNatureHealing = 25.0
@@ -359,7 +359,7 @@
 	"Leviathan's Tentacle Hp Damage" = 0.03
 	#Leviathan's DamageCap
 	#Range: 0.0 ~ 1000000.0
-	LeviathanDamageCap = 20.0
+	LeviathanDamageCap = 350.0
 	#Leviathan's DamageTime
 	#Range: 0 ~ 100
 	"Leviathan DamageTime" = 15
@@ -371,42 +371,42 @@
 ["The Baby Leviathan"]
 	#BabyLeviathan's Health Multiplier
 	#Range: 0.0 ~ 1000000.0
-	BabyLeviathanHealthMultiplier = 1.0
+	BabyLeviathanHealthMultiplier = 1.5
 	#BabyLeviathan's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
-	BabyLeviathanDamageMultiplier = 1.0
+	BabyLeviathanDamageMultiplier = 1.2
 
 ["Modern Remnant"]
 	#Modern Remnant's Health Multiplier
 	#Range: 0.0 ~ 1000000.0
-	ModernRemnantHealthMultiplier = 1.0
+	ModernRemnantHealthMultiplier = 1.5
 	#Modern Remnant's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
-	ModernRemnantDamageMultiplier = 1.0
+	ModernRemnantDamageMultiplier = 1.2
 
 ["Netherite Ministrosity"]
 	#Ministrosity's Health Multiplier
 	#Range: 0.0 ~ 1000000.0
-	MinistrosityHealthMultiplier = 1.0
+	MinistrosityHealthMultiplier = 1.5
 
 ["Amethyst Crab"]
 	#Amethyst Crab's Health Multiplier
 	#Range: 0.0 ~ 1000000.0
-	AmethystCrabHealthMultiplier = 1.0
+	AmethystCrabHealthMultiplier = 1.5
 	#Amethyst Crab's EarthQuake Damage
 	#Range: 0.0 ~ 1000000.0
 	AmethystCrabEarthQuakeDamage = 5.0
 	#Amethyst Crab's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
-	AmethystCrabDamageMultiplier = 1.0
+	AmethystCrabDamageMultiplier = 1.2
 
 ["Ancient Remnant"]
 	#Ancient Remnant's Health Multiplier
 	#Range: 0.0 ~ 1000000.0
-	AncientRemnantHealthMultiplier = 1.0
+	AncientRemnantHealthMultiplier = 1.5
 	#Ancient Remnant's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
-	AncientRemnantDamageMultiplier = 1.0
+	AncientRemnantDamageMultiplier = 1.2
 	#AncientRemnant's Healing with out target
 	#Range: 0.0 ~ 1000000.0
 	AncientRemnantNatureHealing = 25.0
@@ -415,7 +415,7 @@
 	"Ancient Remnant's prevent attacks from far away Range" = 14.0
 	#Ancient Remnant's DamageCap
 	#Range: 0.0 ~ 1000000.0
-	AncientRemnantCap = 21.0
+	AncientRemnantCap = 350.0
 	#Ancient Remnant's DamageTime
 	#Range: 0 ~ 100
 	"Ancient Remnant DamageTime" = 12
@@ -444,26 +444,26 @@
 	KobolediatorBlockBreaking = false
 	#Kobolediator's Health Multiplier
 	#Range: 0.0 ~ 1000000.0
-	KobolediatorHealthMultiplier = 1.0
+	KobolediatorHealthMultiplier = 1.5
 	#Kobolediator's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
-	KobolediatorDamageMultiplier = 1.0
+	KobolediatorDamageMultiplier = 1.2
 
 [Wadjet]
 	#Wadjet's Health Multiplier
 	#Range: 0.0 ~ 1000000.0
-	WadjetHealthMultiplier = 1.0
+	WadjetHealthMultiplier = 1.5
 	#Wadjet's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
-	WadjetDamageMultiplier = 1.0
+	WadjetDamageMultiplier = 1.2
 
 [Aptrgangr]
 	#Aptrgangr's Health Multiplier
 	#Range: 0.0 ~ 1000000.0
-	AptrgangrHealthMultiplier = 1.0
+	AptrgangrHealthMultiplier = 1.5
 	#Aptrgangr's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
-	AptrgangrDamageMultiplier = 1.0
+	AptrgangrDamageMultiplier = 1.2
 	#Axe Blade's Damage
 	#Range: 0.0 ~ 1000000.0
 	AptrgangrAxeBladeDamage = 8.0
@@ -471,18 +471,18 @@
 [Clawdian]
 	#Clawdian's Health Multiplier
 	#Range: 0.0 ~ 1000000.0
-	ClawdianHealthMultiplier = 1.0
+	ClawdianHealthMultiplier = 1.5
 	#Clawdian's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
-	ClawdianDamageMultiplier = 1.0
+	ClawdianDamageMultiplier = 1.2
 
 [Scylla]
 	#Scylla's Health Multiplier
 	#Range: 0.0 ~ 1000000.0
-	ScyllaHealthMultiplier = 1.0
+	ScyllaHealthMultiplier = 1.5
 	#Scylla's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
-	ScyllaDamageMultiplier = 1.0
+	ScyllaDamageMultiplier = 1.2
 	#Scylla's Immune to Long distance attack range.
 	#Range: 1.0 ~ 1000000.0
 	"Scylla's prevent attacks from far away Range" = 10.0
@@ -508,7 +508,7 @@
 	"Scylla Weather Change" = true
 	#Scylla's DamageCap
 	#Range: 0.0 ~ 1000000.0
-	"Scylla DamageCap" = 22.0
+	"Scylla DamageCap" = 350.0
 	#Scylla's DamageTime
 	#Range: 0 ~ 100
 	"Scylla DamageTime" = 25
@@ -525,10 +525,10 @@
 [Maledictus]
 	#Maledictus's Health Multiplier
 	#Range: 0.0 ~ 1000000.0
-	MaledictusHealthMultiplier = 1.0
+	MaledictusHealthMultiplier = 1.5
 	#Maledictus's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
-	MaledictusDamageMultiplier = 1.0
+	MaledictusDamageMultiplier = 1.2
 	#Maledictus's Immune to Long distance attack range.
 	#Range: 1.0 ~ 1000000.0
 	"Maledictus's prevent attacks from far away Range" = 12.0
@@ -540,7 +540,7 @@
 	"Maledictus' Phantom Halberd Damage'" = 10.0
 	#Maledictus's DamageCap
 	#Range: 0.0 ~ 1000000.0
-	MaledictusDamageCap = 20.0
+	MaledictusDamageCap = 350.0
 	#Maledictus's DamageTime
 	#Range: 0 ~ 100
 	"Maledictus DamageTime" = 30

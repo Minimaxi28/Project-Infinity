@@ -90,3 +90,16 @@ MMEvents.registerPorts((event) => {
       c.capacity(2147483647);
     });
 });
+
+
+MMEvents.registerPorts((event) => {
+  event
+    .create('compressed_titanic_item_port')
+    .name('Compressed Titanic Item Port')
+    .controllerId('mm:controller')
+    .config('mm:item', (c) => {
+      c.rows(8)
+      .columns(12)
+      .slotCapacity(512);
+    });
+});

@@ -22,7 +22,7 @@ ServerEvents.recipes((event) => {
           item: 'kubejs:infinity_12',
         },
         C: {
-          item: 'pneumaticcraft:capacitor',
+          item: 'functionalstorage:creative_vending_upgrade',
         },
         D: {
           item: 'avaritia:endest_pearl',

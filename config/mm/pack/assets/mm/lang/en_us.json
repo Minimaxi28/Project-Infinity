@@ -12,6 +12,8 @@
   "block.mm.colossal_gas_port_output": "Colossal Gas Port Output",
   "block.mm.colossal_item_port_input": "Colossal Item Port Input",
   "block.mm.colossal_item_port_output": "Colossal Item Port Output",
+  "block.mm.compressed_titanic_item_port_input": "Compressed Titanic Item Port Input",
+  "block.mm.compressed_titanic_item_port_output": "Compressed Titanic Item Port Output",
   "block.mm.enormous_energy_port_input": "Enormous Energy Port Input",
   "block.mm.enormous_energy_port_output": "Enormous Energy Port Output",
   "block.mm.enormous_fluid_port_input": "Enormous Fluid Port Input",

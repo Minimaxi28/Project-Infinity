@@ -5,7 +5,7 @@
 	group: "29543B666C58207C"
 	icon: "allthemodium:allthemodium_ingot"
 	id: "45266BB4B938FF39"
-	order_index: 16
+	order_index: 8
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
@@ -450,7 +450,6 @@
 			y: 7.0d
 		}
 		{
-			dependencies: ["79385E9EDA7936A9"]
 			id: "2C459814EFC92B12"
 			rewards: [
 				{
@@ -473,7 +472,6 @@
 			y: 6.5d
 		}
 		{
-			dependencies: ["79385E9EDA7936A9"]
 			id: "6A6ACFC1BAFCDBEE"
 			rewards: [
 				{
@@ -614,7 +612,6 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["79385E9EDA7936A9"]
 			id: "49253D81234DEC7D"
 			rewards: [{
 				id: "0BC4279292D51052"
@@ -646,7 +643,6 @@
 			y: 5.5d
 		}
 		{
-			dependencies: ["79385E9EDA7936A9"]
 			id: "370FB72EABE6E9B4"
 			rewards: [{
 				id: "56771A829A3CD27E"
@@ -662,7 +658,6 @@
 			y: 12.5d
 		}
 		{
-			dependencies: ["79385E9EDA7936A9"]
 			id: "4359F33346D2F6D3"
 			rewards: [{
 				id: "4BB1D1F72AA98544"
@@ -678,7 +673,6 @@
 			y: 13.5d
 		}
 		{
-			dependencies: ["79385E9EDA7936A9"]
 			id: "5562245536C63F7B"
 			rewards: [{
 				id: "31B80673C8D3AB5B"
@@ -694,7 +688,6 @@
 			y: 10.5d
 		}
 		{
-			dependencies: ["79385E9EDA7936A9"]
 			id: "1A992D8ADE610577"
 			rewards: [{
 				id: "5A784FD157118819"
@@ -710,7 +703,6 @@
 			y: 10.0d
 		}
 		{
-			dependencies: ["79385E9EDA7936A9"]
 			id: "1FB3C83A0FA88B41"
 			rewards: [{
 				id: "189B1CDACE8AAFA2"
@@ -726,7 +718,6 @@
 			y: 11.5d
 		}
 		{
-			dependencies: ["79385E9EDA7936A9"]
 			id: "357A1C73F3B5E89F"
 			rewards: [{
 				id: "33A70D8FE699CA57"
@@ -742,7 +733,6 @@
 			y: 12.5d
 		}
 		{
-			dependencies: ["79385E9EDA7936A9"]
 			id: "7A8E8443F66B469D"
 			rewards: [{
 				id: "29C40F4CC2A56E1D"
@@ -758,7 +748,6 @@
 			y: 10.0d
 		}
 		{
-			dependencies: ["79385E9EDA7936A9"]
 			id: "05FE2B47DABF3AFE"
 			rewards: [{
 				id: "3168DC6F658EA547"
@@ -873,7 +862,6 @@
 			y: 13.0d
 		}
 		{
-			dependencies: ["79385E9EDA7936A9"]
 			id: "6C2B451CBC4DA76F"
 			rewards: [{
 				id: "04218775493328A4"

@@ -1,0 +1,1536 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 300
+	default_quest_shape: ""
+	filename: "crazy_ae2"
+	group: "29543B666C58207C"
+	icon: "crazyae2addons:super_singularity"
+	id: "7422FAB7EA32F136"
+	images: [
+		{
+			height: 5.0d
+			image: "kubejs:block/screen/research_station"
+			rotation: 0.0d
+			width: 8.85d
+			x: -4.0d
+			y: -8.5d
+		}
+		{
+			height: 7.0d
+			image: "kubejs:block/screen/research_multiblock_full1"
+			rotation: 0.0d
+			width: 7.0d
+			x: 4.0d
+			y: -10.5d
+		}
+		{
+			height: 5.0d
+			image: "kubejs:block/screen/spawner_extractor"
+			rotation: 0.0d
+			width: 7.0d
+			x: -1.5d
+			y: 6.5d
+		}
+		{
+			click: "https://www.youtube.com/playlist?list=PLB8Rr5Xojkr5T1qoPr_4JdETiBkF4qF6r"
+			height: 1.0d
+			hover: ["Open Youtube Playlist"]
+			image: "crazyae2addons:item/super_singularity"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: -0.5d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&3AE2&r is already powerful, but &bCrazy AE2&r pushes automation beyond all limits."
+				""
+				"Build massive multiblocks, generate extreme amounts of energy, and unlock experimental AE technology beyond standard limitations."
+				""
+				"&eINFO:&r"
+				"There is a &avideo tutorial for every feature&r."
+				""
+				"&eYouTube Channel:&r &bGilbertzRivi&r"
+			]
+			id: "2E66DFDA5014FCD7"
+			min_width: 300
+			rewards: [{
+				id: "628280F030093D6F"
+				type: "xp"
+				xp: 1
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "00C12255BA12C395"
+				title: "Welcome to Crazy AE2"
+				type: "checkmark"
+			}]
+			title: "Getting Started with Crazy AE2"
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2E66DFDA5014FCD7"]
+			description: [
+				"To unlock the advanced technology of &bCrazy AE2&r, &eresearch&r is required."
+				""
+				"The &bResearch Station&r is the foundation for many powerful machines and multiblocks."
+				"Use the &eMultibuilder Tool&r to preview and construct the structure correctly."
+				""
+				"{@pagebreak}"
+				""
+				"Research in &bCrazy AE2&r is not as simple as building a single structure."
+				""
+				"Each &eResearch Pedestal Bottom&r requires its own &ddedicated multiblock&r."
+				"All connections must remain &cseparate&r."
+				""
+				"It is &apossible&r to &7wall-share&r multiblocks,"
+				"&cbut NOT to share cables or internal components&r."
+				""
+				"&4⚠ VERY IMPORTANT:&r"
+				"Each &eResearch Pedestal Bottom&r requires its &2OWN&r"
+				"&dResearch Unit&r multiblock."
+				""
+				"&cCables must NOT intersect.&r"
+			]
+			icon: "crazyae2addons:research_station"
+			id: "2038BB072CF5A537"
+			min_width: 300
+			rewards: [
+				{
+					count: 8
+					id: "1696C89396758254"
+					item: "ae2:quartz_vibrant_glass"
+					type: "item"
+				}
+				{
+					id: "45244EF2D7950EE2"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "4F701D191C0CCBF7"
+					item: "crazyae2addons:research_station"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "50A43452F32B7603"
+					item: "crazyae2addons:research_pedestal_bottom"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "087B5C23793FC865"
+					item: "crazyae2addons:research_pedestal_top"
+					type: "item"
+				}
+			]
+			title: "Research Begins"
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2038BB072CF5A537"]
+			description: [
+				"Building &dResearch Unit&r multiblocks is only the &efirst step&r."
+				""
+				"Empty multiblocks do &7nothing&r on their own — they must be &2filled&r with &dAE2 Crafting Storage&r blocks to provide &acomputation power&r."
+				""
+				"You can insert &dAE2 Crafting Storage&r blocks ranging from:"
+				"• Crafting Storage &11k&r &7(1/16 CP)&r"
+				"• Crafting Storage &34k&r &7(1/4 CP)&r"
+				"• Crafting Storage &b16k&r &7(1 CP)&r"
+				"• Crafting Storage &264k&r &7(4 CP)&r"
+				"• Crafting Storage &a256k&r &7(16 CP)&r"
+				""
+				"Each &dCrafting Storage&r tier provides a different amount of &acomputation power (CP)&r, but also increases &cenergy&r and &bcoolant&r consumption."
+				""
+				"{@pagebreak}"
+				""
+				"In addition to standard &dAE2 Crafting Storage&r blocks, there are also &9custom blocks&r that can be inserted into &dResearch Units&r:"
+				""
+				"• &9Empowered Super Block&r &7(18 CP)&r"
+				"• &9Crystal Matrix Block&r &7(22 CP)&r"
+				"• &9Neutronium Block&r &7(25 CP)&r"
+				"• &9Infinity Block&r &7(30 CP)&r"
+				""
+				"&cIMPORTANT:&r  "
+				"Each &6Research Pedestal Bottom&r must be connected to its &2OWN&r &dResearch Unit&r multiblock."
+				""
+				"Sharing &acomputation&r between pedestals is &cNOT possible&r."
+			]
+			icon: "crazyae2addons:research_unit"
+			id: "45FC26A201DB8F40"
+			rewards: [{
+				id: "1AA7AE215B172D14"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "6DC34411268AD53D"
+					item: "crazyae2addons:research_unit"
+					type: "item"
+				}
+				{
+					count: 43L
+					id: "1457DF1D6F9744E9"
+					item: "crazyae2addons:research_unit_frame"
+					type: "item"
+				}
+				{
+					id: "4275E85C09F35314"
+					item: "ae2:sky_stone_tank"
+					type: "item"
+				}
+				{
+					count: 53L
+					id: "06773C43B12BC154"
+					item: "ae2:quartz_vibrant_glass"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["45FC26A201DB8F40"]
+			description: [
+				"We have talked a lot about &emultiblocks&r, &acomputation&r, and &6pedestals&r —"
+				"but we forgot the &cmost important question&r:"
+				""
+				"&eHow do you actually START researching?&r"
+				""
+				"The answer is &asimple&r, but &cEVERY part is required&r."
+				"Missing even &cone step&r will prevent research from running."
+				""
+				"&eTo start research, you must:&r"
+				""
+				"• Supply &aFE&r energy to the &bResearch Station&r"
+				"• Connect the &bResearch Station&r itself to the &3AE2&r network"
+				"• Connect &cALL&r &dResearch Unit&r multiblocks to your &3AE2&r network"
+				"• Insert a &eData Drive&r into the &bResearch Station&r"
+				"• Pump &bResearch Fluid&r into the &eSky Stone Tanks&r on top of the &dResearch Units&r"
+				""
+				"{@pagebreak}"
+				""
+				"&cAll Research Units must be connected to the SAME AE2 system.&r"
+				""
+				"The &3AE2&r network provides the required &3AE&r power to the &dResearch Units&r,"
+				"which is converted into &acomputation&r during research."
+				""
+				"&cResearch will NOT start without a Data Drive.&r"
+				""
+				"Completed research writes &eunlock keys&r directly onto the drive."
+				"The drive is &2not consumed&r and &bcan be reused&r."
+			]
+			icon: "crazyae2addons:data_drive"
+			id: "5672D678F1141D28"
+			min_width: 250
+			rewards: [{
+				id: "060F2DD606E39770"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "03BFA174EDDFA2C3"
+					item: "crazyae2addons:data_drive"
+					type: "item"
+				}
+				{
+					id: "16FFB82F842723F3"
+					item: "crazyae2addons:research_fluid_bucket"
+					type: "item"
+				}
+			]
+			title: "How to Start Research"
+			x: 3.5d
+			y: -4.0d
+		}
+		{
+			description: [
+				"You placed everything."
+				"You powered everything."
+				"And yet… &cnothing happens&r."
+				""
+				"Don’t worry — the Research System is &estrict&r."
+				"Let’s go through the most common reasons why research refuses to start."
+				""
+				"✔ Is the &bResearch Station&r supplied with &aFE&r?"
+				"✔ Is the &bResearch Station&r connected to an &3AE2&r network?"
+				"✔ Is a &eData Drive&r inserted into the &bResearch Station&r?"
+				""
+				"✔ Are all &dResearch Units&r connected to the &3SAME AE2&r network?"
+				"✔ Does &cEACH&r &6Research Pedestal Bottom&r have its &cOWN&r &dResearch Unit&r multiblock?"
+				"✔ Are all multiblocks fully formed and &cNOT overlapping&r?"
+				""
+				"✔ Are &6Pedestal Tops&r:"
+				"   • within &eRadius 3&r (&77×7 area&r)?"
+				"   • placed exactly &e1 block ABOVE&r the station?"
+				"   • holding the &acorrect item&r and &aenough of it&r?"
+				""
+				"✔ Do all &dResearch Units&r have:"
+				"   • &3AE&r power available?"
+				"   • &bResearch Fluid&r in the &eSky Stone Tank&r?"
+			]
+			id: "392E44A7B5380224"
+			min_width: 250
+			optional: true
+			rewards: [{
+				id: "1EF061C88F2DD23F"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "36BAB0B828EC8B73"
+				title: "&cNothing Happens?&r &7Debug Checklist&r"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"5672D678F1141D28"
+				"392E44A7B5380224"
+				"286DFCAB75949B1C"
+			]
+			description: [
+				"Everything is prepared."
+				"Now it is time to start your &afirst research project&r."
+				""
+				"Follow the steps carefully — if everything is set up correctly, the Research Station will begin working &aimmediately&r."
+				""
+				"To begin this research, and finish the quest, you must:"
+				""
+				"• Place &e32 Blank Patterns&r on a &6Research Pedestal Top&r"
+				"• Place another &e32 Blank Patterns&r on a &6second Research Pedestal Top&r"
+				"• Insert a &eData Drive&r into the &bResearch Station&r"
+				""
+				"Make sure that:"
+				""
+				"• Both pedestals are within &eRadius 3&r of the &bResearch Station&r"
+				"• Each pedestal has its &2OWN&r &dResearch Unit&r"
+				"• The &bResearch Station&r is supplied with &aFE&r"
+				"• All Research Units have &3AE&r power and &bResearch Fluid&r"
+				""
+				"If everything is set up correctly, the &bResearch Station&r should start working &aimmediately&r."
+				""
+				"&eINFO:&r"
+				"You can &aright-click&r your &eData Drive&r to view all &eunlock keys&r you have already researched."
+			]
+			id: "5FBF1560EAB8D685"
+			min_width: 300
+			rewards: [{
+				id: "5907A8011E4267A9"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0A663DEE507D4290"
+				item: {
+					Count: 1
+					id: "crazyae2addons:data_drive"
+					tag: {
+						keys: ["crazyae2addons:pattern_modifier_research"]
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "First Research Project"
+			x: 5.5d
+			y: -4.0d
+		}
+		{
+			description: [
+				"If research &astarts&r but keeps &cRESETTING&r, check the following:"
+				""
+				"• &bFE&r input to the &bResearch Station&r is unstable"
+				"• A &dResearch Unit&r runs out of &3AE&r power"
+				"• A &dResearch Unit&r runs out of &bResearch Fluid&r"
+				"• &6Pedestals&r or items are moved during research"
+				""
+				"Each &eConsumable&r in a research recipe must be provided by"
+				"&cEXACTLY ONE&r &6Pedestal&r."
+				""
+				"You &cCANNOT&r split inputs across multiple pedestals"
+				"or combine different recipe inputs on the same pedestal."
+			]
+			id: "286DFCAB75949B1C"
+			min_width: 250
+			rewards: [{
+				id: "3A5B593E32679D70"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3FBA25780889E406"
+				title: "&cResearch Keeps Resetting&r"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5FBF1560EAB8D685"]
+			description: [
+				"Research alone does not craft items."
+				""
+				"Once a research is completed, its &eunlock key&r is stored on your &eData Drive&r."
+				"To actually use the unlocked recipe, you must use the &bRecipe Fabricator&r."
+				""
+				"• Insert a &eData Drive&r into the &bRecipe Fabricator&r"
+				"• The Fabricator checks the unlock keys stored on the drive"
+				"• Only unlocked recipes will be available for crafting"
+				""
+				"• The &eData Drive&r is &2not consumed&r"
+				"• You can reuse the same drive for multiple research unlocks"
+				"• Removing the drive will lock the recipes again"
+			]
+			id: "72E818B455A6950B"
+			min_width: 250
+			rewards: [{
+				id: "24FAB2425C1BC5ED"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "2967199909D4AC01"
+					item: "crazyae2addons:recipe_fabricator"
+					type: "item"
+				}
+				{
+					id: "15E166855B9AD571"
+					item: "crazyae2addons:crazy_pattern_modifier"
+					type: "item"
+				}
+			]
+			title: "&eUsing the Recipe Fabricator&r"
+			x: 7.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["72E818B455A6950B"]
+			description: [
+				"Research is running… but progress feels painfully slow."
+				""
+				"This is not a bug — research speed depends entirely"
+				"on the &acomputation&r available to your pedestals."
+				""
+				"• Each Research Pedestal contributes computation per tick"
+				"• Total progress increases by the &asum of all computation&r"
+				"• Low computation means very slow research"
+				""
+				"• Using only &dsmall Crafting Storage&r blocks (1k / 4k)"
+				"• Not enough Research Units for multiple pedestals"
+				"• Limiting AE power or Research Fluid throughput"
+				""
+				"• Upgrade to &dlarger Crafting Storage&r blocks"
+				"• Add more &dResearch Units&r (one per pedestal!)"
+				"• Improve &3AE&r power and &bResearch Fluid&r supply"
+			]
+			id: "3654EB87EB46796D"
+			min_width: 250
+			rewards: [{
+				id: "2909859044EAB29E"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "18A2C3FCB6FFC162"
+				title: "&cWhy Is This Research So Slow?&r"
+				type: "checkmark"
+			}]
+			x: 7.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["72E818B455A6950B"]
+			description: [
+				"We have talked a lot about the &bResearch Station&r,"
+				"&dResearch Unit&r multiblocks, and &eData Drives&r."
+				""
+				"But what is all of this actually &efor&r?"
+				""
+				"Research unlocks &apowerful items&r and &eadvanced machines&r"
+				"that cannot be crafted in any other way."
+				""
+				"Once researched, these items become available"
+				"through the &bRecipe Fabricator&r."
+				""
+				"Using the Research System, you can unlock:"
+				""
+				"• &dAdvanced AE components&r"
+				"• &eUnique machines&r from &bCrazy AE2&r"
+				"• &6Powerful upgrades&r and automation tools"
+				"• &cLate-game progression&r items"
+				""
+				"Research does &cNOT&r give you the item directly."
+				""
+				"&eTip:&r Keep your &eData Drive&r safe — losing it means"
+				"all stored &eunlock keys&r will need to be &cresearched again&r."
+			]
+			hide_dependent_lines: true
+			id: "6BED74AB906CBFE5"
+			rewards: [{
+				id: "153D7710F5AD9164"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "527A9494CD9293E7"
+				title: "&eWhat Is Research For?&r"
+				type: "checkmark"
+			}]
+			x: 13.0d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"6BED74AB906CBFE5"
+				"5C7C5653FD5840C9"
+			]
+			description: [
+				"The &dAuto Enchanter&r is a standalone enchanting machine that automatically enchants &ebooks&r and &atools&r using &bXP Shards&r from your &3ME Network&r."
+				""
+				"It behaves like a vanilla (and Apotheosis) Enchanting Table — but fully automated."
+				""
+				"The &dAuto Enchanter&r must be placed &cEXACTLY&r &etwo blocks below&r a real &6Enchanting Table&r."
+				""
+				"The Enchanting Table must be surrounded by &ebookshelves&r just like in vanilla Minecraft."
+				""
+				"More bookshelves = higher enchantment power."
+				""
+				"1. Place an item to enchant in the &eInput Slot&r"
+				"   • Tools, weapons, or books"
+				""
+				"2. Insert &9Lapis Lazuli&r into the Lapis slot"
+				""
+				"3. Select an &eenchantment level&r (1–3) in the GUI"
+				"   • The estimated &bXP cost&r is shown"
+				""
+				"4. The enchanted item appears in the &aOutput Slot&r"
+				""
+				"{@pagebreak}"
+				""
+				"• The Auto Enchanter consumes &bXP Shards&r from your &3ME Network&r"
+				"• &71 XP Shard = 10 XP&r"
+				"• XP cost scales with the amount of bookshelves"
+				""
+				"The Auto Enchanter can pull items directly from your network:"
+				""
+				"• &aAuto Supply Lapis&r"
+				"  Automatically refills lapis from the ME network"
+				""
+				"• &aAuto Supply Books&r"
+				"  Automatically refills books from the ME network"
+				""
+				"Because &5Apotheosis&r is installed:"
+				""
+				"• Nearby shelves are scanned for &dEterna&r, &dQuanta&r, &dArcana&r, and &dClues&r"
+				"• &6Treasure Enchantments&r are supported"
+				"• Enchanting behaves exactly like an Apotheosis setup"
+			]
+			hide_dependency_lines: true
+			id: "26CDA9B2273B550A"
+			min_width: 300
+			rewards: [{
+				id: "3FCADFD0E6FED2C4"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2B8782E39F2DF871"
+				item: "crazyae2addons:auto_enchanter"
+				type: "item"
+			}]
+			title: "&dAuto Enchanter&r"
+			x: 11.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6BED74AB906CBFE5"]
+			description: [
+				"The &dAuto Builder&r is a programmable building robot powered by &3AE2&r."
+				""
+				"It reads a &eBuilder Pattern Item&r and automatically"
+				"&aplaces&r or &cremoves&r blocks in the world"
+				"based on predefined instructions."
+				""
+				"1. &eCreate a Pattern&r"
+				"• Use a &eBuilder Pattern Item&r"
+				"• &aRight-click&r to select the first corner"
+				"• &aShift + Right-click&r to select the second corner"
+				"• &aRight-click air&r to copy the structure"
+				""
+				"2. &eEdit the Pattern (Optional)&r"
+				"• &aShift + Right-click&r the pattern to open the editor"
+				"• Adjust &edelays&r, add &eresets&r, &eloops&r, removals, or macros"
+				"• Delay is measured in &7ticks&r (20 ticks = 1 second)"
+				"• Set delay to &a0&r for maximum speed"
+				""
+				"3. &eInsert the Pattern&r"
+				"• Insert ONE &eBuilder Pattern Item&r into the &dAuto Builder&r"
+				"• Patterns can be inserted or extracted using automation"
+				"{@pagebreak}"
+				"4. &eProvide Power and Items&r"
+				"• Connect the &dAuto Builder&r to an &3ME Network&r"
+				"• All required building materials must be stored in ME storage"
+				"• The builder withdraws the &cENTIRE energy cost upfront&r"
+				"• If power is insufficient, the build will &cNOT start&r"
+				"• Supports &eCrafting Cards&r"
+				""
+				"5. &eStart Building&r"
+				"• Apply a &credstone signal&r to the TOP of the Auto Builder"
+				"• The program executes relative to the builder’s &efacing direction&r"
+				"• A &7preview mode&r shows ghost blocks before placement"
+				"• When finished, a short &aredstone pulse&r is emitted on the sides"
+				"• &aAcceleration Cards&r greatly increase execution speed"
+				"• &eRelative Building&r — structures align to builder orientation"
+				""
+				"• &7Preview Mode&r — real-time ghost blocks"
+				"• &cUpfront Energy Cost&r — all power is consumed before execution"
+				"• &aBlock Recycling&r — removed blocks are returned to ME storage"
+				"• Full &3AE2&r power and storage integration"
+				"• &credstone-controlled&r execution"
+			]
+			id: "3456614E9D901485"
+			rewards: [{
+				id: "3EA8BE20DE1663A9"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4754856C3CB6152B"
+				item: "crazyae2addons:builder_pattern"
+				type: "item"
+			}]
+			title: "&dAuto Builder&r and &dBuilder Pattern&r"
+			x: 12.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6BED74AB906CBFE5"]
+			description: [
+				"Normally in &3Applied Energistics 2&r, when you have multiple"
+				"&eCrafting CPUs&r in your ME Network, the system automatically"
+				"decides which CPU receives items for autocrafting."
+				""
+				"By default, this choice is &7mostly random&r."
+				""
+				"This can lead to unwanted behavior when multiple crafting jobs"
+				"compete for the same resources."
+				""
+				"With &bCrazy AE2&r, each &eCrafting CPU&r can now be assigned"
+				"a &epriority value&r."
+				""
+				"• CPUs with &ahigher priority&r receive items &afirst&r"
+				"• Lower-priority CPUs must &7wait&r"
+				"• Crafting behavior becomes &apredictable&r and controllable"
+				""
+				"CPU priorities are useful if you want to:"
+				""
+				"• Keep a &amain CPU&r for critical recipes"
+				"• Prevent &cimportant crafts&r from being blocked"
+				"• Separate &eprocessing&r and &ebulk crafting&r tasks"
+				"• Avoid random item distribution"
+				""
+				"{@pagebreak}"
+				"1. Craft and hold the &eCPU Priority Tuner&r"
+				"2. &aRight-click&r any block belonging to the target"
+				"   &eCrafting CPU Cluster&r"
+				"3. A configuration screen will open"
+				"4. Set a &epriority value&r:"
+				"   • &aHigher numbers&r = higher priority"
+				"   • &7Lower or negative numbers&r = lower priority"
+				"5. Click &aSave&r"
+				""
+				"The priority is stored directly in the CPU cluster."
+				"You can repeat this process for each CPU in your network."
+				""
+				"• If all CPUs share the same priority, behavior matches"
+				"  &7vanilla AE2&r (random assignment)"
+				""
+				"• Use &ahigh positive values&r for main CPUs"
+				"• Use &clow or negative values&r for secondary CPUs"
+				""
+				"• Priorities can be changed at any time"
+				"  &awithout rebuilding&r the CPU"
+			]
+			id: "2696971504ECC26C"
+			rewards: [{
+				id: "6903C9C3D3DC9AA1"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5307B2D060A7E3BD"
+				item: "crazyae2addons:cpu_prio_tuner"
+				type: "item"
+			}]
+			title: "&eCrafting CPU Priorities&r"
+			x: 13.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6BED74AB906CBFE5"]
+			description: [
+				"The &dCrazy Pattern Provider&r is an advanced version of the standard &3AE2&r Pattern Provider."
+				""
+				"It allows you to store &aHUGE&r amounts of crafting patterns in a single block — without limits."
+				""
+				"All settings and stored patterns are &akept&r when the block is broken."
+				""
+				"• &eExpandable Pattern Capacity&r"
+				"  – Starts with &a72&r pattern slots (8×9)"
+				"  – Use a &dCrazy Upgrade&r to add &a+9&r slots per upgrade"
+				"  – &cNo hard limit&r — thousands of patterns are possible"
+				""
+				"• &eScrollable GUI&r"
+				"  – Smooth scrolling through large pattern lists"
+				"  – Current capacity is always displayed"
+				""
+				"• &eHover Information&r"
+				"  – Shows total pattern capacity"
+				"  – Shows how many patterns are currently stored"
+				""
+				"&lHow to Use&r"
+				"&ePlace the Block&r"
+				"&eInsert Encoded Patterns&r"
+				"&eUpgrade Pattern Capacity&r"
+				"• &aRight-click&r the block with a &dCrazy Upgrade&r"
+				"• Each upgrade increases capacity by &a+9&r"
+				"• The GUI updates instantly"
+				""
+				"• Ideal for &aME Mega Bases&r with hundreds of recipes "
+				"• Replace multiple standard providers with a single block"
+				"• Breaking the block is &asafe&r — nothing is lost"
+				"• Combine with &eCPU Priorities&r for clean crafting setups"
+			]
+			id: "6AC6E0B149B9F75B"
+			rewards: [{
+				id: "5ADD956281BED6DC"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "729541C23ACC8748"
+				item: {
+					Count: 1
+					id: "crazyae2addons:crazy_pattern_provider"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "&dCrazy Pattern Provider&r"
+			x: 14.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6BED74AB906CBFE5"]
+			description: [
+				"The &eEjector&r is a redstone-controlled automation block that &apushes&r items, fluids, or other resources directly into the block in front of it."
+				""
+				"Nothing happens automatically — the Ejector only activates when it receives a &credstone pulse&r."
+				""
+				"1. &ePlace the Ejector&r"
+				"• Place it facing the &6target machine&r"
+				"• Resources will be sent into the block directly in front"
+				""
+				"2. &eConfigure the Settings&r"
+				"• &aRight-click&r to open the GUI"
+				"• Choose which &eitems / fluids&r should be sent"
+				"• Settings can be &eloaded using a Processing Pattern&r"
+				"• Supports the &eCrafting Card&r upgrade"
+				""
+				"3. &eTrigger with Redstone&r"
+				"• Send a &credstone pulse&r to the Ejector"
+				"• When active, the block texture changes"
+				"• The configured resources are &apushed&r into the target"
+				""
+				"• Ideal for &aredstone-based automation&r"
+				"• Perfect for &esequential crafting&r and batch processing"
+				"• Works well with &eAuto Builder&r and &eEntity Ticker&r setups"
+				"• Gives precise control over &ewhen&r items are inserted"
+			]
+			id: "0340BEAEB169C308"
+			rewards: [{
+				id: "73810EDB0591BCF1"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2EBB4A9FD3B776FC"
+				item: "crazyae2addons:ejector"
+				type: "item"
+			}]
+			title: "&eEjector&r"
+			x: 11.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6BED74AB906CBFE5"]
+			description: [
+				"The &eEnergy Exporter&r allows your &3ME Network&r"
+				"to send energy directly into adjacent machines or storage blocks."
+				""
+				"It extracts power from the network and provides it outward"
+				"as &cForge Energy (FE)&r."
+				""
+				"1. &ePlace the Part&r"
+				"• Attach the &eEnergy Exporter&r to an &3ME Cable&r"
+				"• The exporter must face a block that accepts &cenergy&r"
+				""
+				"2. &eOpen the GUI&r"
+				"• &aRight-click&r the exporter to access its settings"
+				""
+				"3. &eInstall Upgrades&r"
+				"• &aSpeed Cards&r increase energy transfer exponentially"
+				"• Starts at &71 FE/t&r with no upgrades"
+				"• Scales up to &amax int FE/t&r with &a6 Speed Cards&r"
+				""
+				"4. &eMonitor Output&r"
+				"• The GUI shows the current &cenergy transfer rate&r"
+				""
+				"The Energy Exporter automatically adapts to:"
+				"• FE or EU output"
+				"• Target machine capabilities"
+				"• Safe power conversion rates"
+				""
+				"&cNetwork Protection:&r"
+				"If the ME network’s power drops below &e33%&r,"
+				"the exporter will &cturn off&r automatically"
+				"to prevent overdrawing."
+				""
+				"• Ideal for powering &amachines directly&r from ME"
+				"• Replace multiple generators or converters"
+				"• Combine with &eSpeed Cards&r for extreme throughput"
+				""
+				"• &eEnergy Interface&r = &7Passive&r, battery-like behavior"
+				"• &eEnergy Exporter&r = &aActive&r, pushes energy outward"
+			]
+			id: "6B173D14C7EF8E1B"
+			rewards: [{
+				id: "756A25C63315B559"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5141AF43AD6F4E63"
+				item: "crazyae2addons:energy_exporter"
+				type: "item"
+			}]
+			title: "&eEnergy Exporter&r"
+			x: 12.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6BED74AB906CBFE5"]
+			description: [
+				"The &eEnergy Interface&r is a &7passive&r ME cable part that exposes your ME network’s stored &3AE&r energy as &cForge Energy (FE)&r."
+				""
+				"From the outside, it behaves like a &ebattery&r that can both &aoutput&r and &ainput&r energy."
+				""
+				"• Acts like an &ebuffer&r for FE devices"
+				"• Available FE depends on the current &3AE&r energy stored"
+				"  in your ME network"
+				""
+				"Energy extraction is limited to:"
+				""
+				"• &e30%&r of your total AE capacity"
+				"• &e500M FE&r"
+				"• &7(whichever is lower)&r"
+				""
+				"This prevents external machines from draining"
+				"your ME network completely."
+				""
+				"• &72 FE&r = &71 AE&r when extracting energy"
+				"• &72 FE&r = &71 AE&r when injecting energy"
+				""
+				"Energy conversion is &abidirectional&r."
+				""
+				"• Provide &cFE&r to machines that expect a battery"
+				"• Convert &cFE&r into &3AE&r from generators"
+				"• Use as a &7safe bridge&r between energy systems"
+				"• Ideal when you want &apassive&r energy flow"
+				""
+				"• &eEnergy Interface&r = &7Passive&r, battery-like behavior"
+				"• &eEnergy Exporter&r = &aActive&r, pushes energy outward"
+			]
+			id: "1714F010F020306F"
+			rewards: [{
+				id: "2A9C25E10E7CECB1"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2FBE4B0B858A8093"
+				item: "crazyae2addons:energy_interface"
+				type: "item"
+			}]
+			title: "&eEnergy Interface&r"
+			x: 13.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6BED74AB906CBFE5"]
+			description: [
+				"The &eEntity Ticker&r is a powerful ME cable part that dramatically speeds up a &6block entity&r by ticking it multiple times per game tick."
+				""
+				"Machines that are normally slow can become &ainsanely fast&r — if you can afford the power cost."
+				""
+				"1. &ePlace the Part&r"
+				"• Attach the &eEntity Ticker&r to an &3ME Cable&r"
+				"• The ticker must face the &6machine&r or block entity"
+				"  you want to accelerate"
+				""
+				"2. &eOpen the GUI&r"
+				"• &aRight-click&r the ticker to view:"
+				"  – Current &cenergy usage&r"
+				"  – Installed &eupgrades&r"
+				""
+				"3. &eInstall Upgrades&r"
+				"• Insert &aSpeed Cards&r to increase tick rate"
+				"• &aEach Speed Card doubles&r the ticking speed"
+				"• Maximum of &e8 Speed Cards&r"
+				""
+				"Power Cost (&cVERY IMPORTANT&r)"
+				"Power consumption scales &cexponentially&r:"
+				""
+				"• Base usage: &c256 FE/t&r (no upgrades)"
+				"• Each Speed Card &cquadruples&r energy usage"
+				""
+				"This means extremely fast machines can consume &cABSURD&r amounts of power."
+				""
+				"• Ideal for &asmelting&r, &amachine processing&r,"
+				"  and slow block entity updates"
+				"• Perfect for &eone-machine acceleration&r"
+				"• &cNOT recommended&r for early-game power setups"
+				"• Always monitor &3ME Network&r power levels"
+				""
+				"&4⚠ WARNING:&r Excessive ticking can cause &cinstability&r, &clag&r, or &cbroken machines&r if used carelessly."
+			]
+			id: "405242D9880E42A7"
+			min_width: 300
+			rewards: [{
+				id: "2238323E060FD235"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "467D3CA279AFCBDB"
+				item: "crazyae2addons:entity_ticker"
+				type: "item"
+			}]
+			title: "&eEntity Ticker&r"
+			x: 14.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6BED74AB906CBFE5"]
+			description: [
+				"Extracting P2P Tunnels are advanced variants of standard &3AE2&r P2P tunnels."
+				""
+				"Instead of waiting for items, fluids, or energy to be inserted, they &aactively pull&r resources from the attached block"
+				"and distribute them to all linked outputs."
+				""
+				"This makes them perfect for &aautomation&r and situations where pushing is not possible or inconvenient."
+				""
+				"&eExtracting Item P2P Tunnel&r"
+				"• Automatically pulls up to &a64 items/tick&r"
+				"• Extracts directly from the attached inventory"
+				"• Sends items to all linked outputs"
+				""
+				"&bExtracting Fluid P2P Tunnel&r"
+				"• Drains up to &a64 buckets per tick&r"
+				"• Pulls from the attached fluid handler"
+				"• Distributes fluid across all linked outputs"
+				""
+				"&cExtracting FE P2P Tunnel&r"
+				"• Pulls up to &amax int&r &cForge Energy (FE)&r"
+				"• Pushes energy to all linked outputs"
+				"• Distribution is &ebased on how much each target can receive&r"
+				""
+				"&2Tips and Use Cases&r"
+				"• Ideal for machines that &cdo not push outputs&r"
+				"• Great for &aenergy distribution&r without complex cabling"
+				"• Perfect for &efluids&r with very high throughput"
+				"• Reduces the need for external pipes and exporters"
+			]
+			id: "77F0D8D9873A1478"
+			rewards: [{
+				id: "1BF4FE692E1122E5"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "23E261D3B7A52CEC"
+					item: "crazyae2addons:extracting_fe_p2p_tunnel"
+					type: "item"
+				}
+				{
+					id: "26ED82CDDB440652"
+					item: "crazyae2addons:extracting_item_p2p_tunnel"
+					type: "item"
+				}
+				{
+					id: "77043F5984208514"
+					item: "crazyae2addons:extracting_fluid_p2p_tunnel"
+					type: "item"
+				}
+			]
+			title: "&eExtracting P2P Tunnels&r"
+			x: 11.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6BED74AB906CBFE5"]
+			description: [
+				"The &eMob Cell Housing&r is a special storage component used to hold &6Mob Storage Cells&r inside your &3ME Network&r."
+				""
+				"It allows mobs to be safely stored, transported, and later processed — without spawning real entities."
+				""
+				"Mob Cells acts as the interface between stored mobs and the automated &cMob Farm&r."
+				""
+				"Mobs stored inside &6Mob Storage Cells&r can be consumed by the &cMob Farm Controller&r."
+				""
+				"The Mob Farm will:"
+				"• Simulate killing the stored mobs"
+				"• Generate &adrops&r and &bXP Shards&r"
+				"• Insert all results directly into the &3ME Network&r"
+				""
+				"• &cNBT items&r are &cNOT&r preserved"
+				"• &cunstackable items&r are discarded"
+				"• No real mobs are spawned"
+				""
+				"This means:"
+				"• &ano lag&r"
+				"• &ano danger&r"
+				"• Fully &aautomated&r mob processing"
+			]
+			id: "6F6330478054EA0B"
+			rewards: [{
+				id: "350404ED20C7F790"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "66543FB938DD0F87"
+				item: "crazyae2addons:mob_cell_housing"
+				type: "item"
+			}]
+			title: "&eMob Cell Housing&r"
+			x: 12.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6BED74AB906CBFE5"]
+			description: [
+				"The &dCrazy Pattern Modifier&r is a powerful tool"
+				"that allows you to &etweak&r and &acustomize&r"
+				"&3AE2&r &eprocessing patterns&r."
+				""
+				"It is especially useful for advanced automation"
+				"and complex mod interactions."
+				""
+				"• &eIgnore NBT&r"
+				"  Allows patterns to accept items regardless of NBT data"
+				""
+				"1. &eOpen the Modifier&r"
+				"• Hold the &dCrazy Pattern Modifier&r"
+				"• &aRight-click&r to open its interface"
+				""
+				"You can also &aRight-click&r a &ePattern Provider&r"
+				"to open the modifier directly on its inventory."
+				""
+				"2. &eInsert a Pattern&r"
+				"• Place a &eProcessing Pattern&r into the single slot"
+				""
+				"3. &eAdjust Settings&r"
+				"• Use the buttons to change how the pattern behaves"
+				""
+				"{@pagebreak}"
+				"• Toggle &eIgnore NBT&r on or off"
+				"• When enabled, patterns will accept &aANY&r matching item"
+				"• Enchantments, tags, or other NBT data are ignored"
+				""
+				"This is ideal for crafting things like:"
+				"• &eenchanted books&r"
+				"• &etools with random stats&r"
+				""
+				"The GUI always shows the current mode:"
+				"• &7Current: Ignore NBT&r"
+				""
+				"• Use &eIgnore NBT&r carefully — it can consume rare items"
+				"• Perfect for &aautomation&r with variable outputs"
+				"• Combine with &dCrazy Pattern Provider&r for large setups"
+			]
+			id: "0C71707A970A68B9"
+			rewards: [{
+				id: "5CEF0FF06A893CC7"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "13CF990FC61DE147"
+				item: "crazyae2addons:crazy_pattern_modifier"
+				type: "item"
+			}]
+			title: "&dCrazy Pattern Modifier&r"
+			x: 13.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6BED74AB906CBFE5"]
+			description: [
+				"&eInfinity 9&r is one of the &c12 Infinity Ingots&r that make up the absolute &5endgame&r progression of &bCrazy AE2&r."
+				""
+				"These ingots represent the highest tier of materials and are required to unlock the most powerful recipes."
+				""
+				"&eInfinity 9&r is &cNOT&r a final material."
+				""
+				"It is a &erequired component&r used to craft"
+				"the next tier:"
+				""
+				"➡ &5Infinity 10&r"
+				""
+				"&eInfinity 9&r cannot be crafted directly."
+				""
+				"It must be &aresearched&r through the"
+				"&bResearch Station&r and unlocked via a &eData Drive&r."
+				""
+				"Once unlocked, the recipe becomes available"
+				"in the &bRecipe Fabricator&r."
+				""
+				"Infinity Ingots are used for:"
+				""
+				"• &5Ultimate machines&r"
+				"• &5Top-tier upgrades&r"
+				"• &5Final automation challenges&r"
+				"• &5Late-game goals&r"
+			]
+			id: "74BA545B550A5376"
+			rewards: [{
+				id: "6A92A7AD9230A519"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "59A659FAC6F2DF64"
+				item: "kubejs:infinity_9"
+				type: "item"
+			}]
+			title: "&5Infinity 9&r"
+			x: 14.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2E66DFDA5014FCD7"]
+			description: [
+				"The &eSpawner Extractor&r is a powerful multiblock system that simulates mob spawning from &6real Spawner blocks&r."
+				""
+				"Instead of spawning real entities, mobs are &adirectly inserted&r into your &3ME Network&r."
+				""
+				"This allows fully automated mob capture with &ano lag&r and &ano danger&r."
+				""
+				"1. &eBuild the Multiblock&r"
+				"• Construct the structure exactly as shown"
+				"• The multiblock must be built &earound a Spawner&r"
+				""
+				"2. &ePower the Controller&r"
+				"• Connect the &eSpawner Extractor Controller&r"
+				"  to an active &3ME Network&r"
+				""
+				"3. &eInstall Upgrades (Optional)&r"
+				"• Insert up to 4 &aAcceleration Cards&r"
+				"      • 1 Acceleration Card = 2 Mobs each sec"
+				"      • 2 Acceleration Card = 3 Mobs each sec"
+				"      • 3 Acceleration Card = 4 Mobs each sec"
+				"      • 4 Acceleration Card = 5 Mobs each sec"
+				"• Higher speed = more mobs captured per cycle"
+				""
+				"{@pagebreak}"
+				"• &2All Spawners&r inside the structure are &cdisabled&r "
+				"• Every &e20 ticks&r, mobs are generated digitally"
+				"• The controller reads the &emob type&r from the spawner"
+				"• Mobs are &ainserted directly&r into ME storage"
+				""
+				"No real mobs ever spawn."
+				""
+				"To store mobs in your &3ME Network&r, you must use"
+				"special &6Mob Storage Cells&r or &5ME Super Storage Cells&r."
+				""
+				"You can use the following options:"
+				""
+				"• &6Mob Storage Cells&r &7(1k – 256k)&r"
+				"• &5ME Super Storage Cells&r &7(1k – 65M)&r"
+				""
+				"• The mobs are consumed by the &cMob Farm Controller&r"
+				""
+				"This creates a fully digital mob pipeline:"
+				"Spawner → ME Network → Mob Farm → Drops and XP"
+				""
+				"• The multiblock must remain &cintact&r"
+				"• Breaking any part will &cstop extraction&r"
+				"• &aNo real mobs&r = no AI, no combat, no lag"
+				"{@pagebreak}"
+				"{image:kubejs:block/screen/mob_inside_ae2_system width:200 height:200 align:center}"
+			]
+			icon: "crazyae2addons:spawner_extractor_controller"
+			id: "352A145082DCB3F4"
+			min_width: 300
+			rewards: [{
+				id: "32D855C98035376F"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "498BB78DFD7D92B4"
+					item: "crazyae2addons:spawner_extractor_controller"
+					type: "item"
+				}
+				{
+					count: 101L
+					id: "430FC51F9B2AFD83"
+					item: "crazyae2addons:spawner_extractor_wall"
+					type: "item"
+				}
+				{
+					count: 36L
+					id: "787EEE794D349FC1"
+					item: "ae2:quartz_vibrant_glass"
+					type: "item"
+				}
+			]
+			title: "&eSpawner Extractor&r"
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7DF3F73F9A238F51"]
+			description: [
+				"The &eMob Key Selector&r is a required tool used to &aselect&r which &6mob&r should be processed."
+				""
+				"It allows you to choose a specific mob from your &3ME Network&r and apply that selection to supported machines such as the &cMob Farm Controller&r."
+				""
+				"After selecting a &6mob&r, open the &cMob Farm Controller&r GUI and &aRight-click&r inside the GUI with the &eMob Key Selector&r to apply the selected mob."
+			]
+			id: "5C7C5653FD5840C9"
+			rewards: [{
+				id: "4DA23E13AF831985"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "078EA1468D78FD9E"
+					item: "crazyae2addons:xp_shard"
+					type: "item"
+				}
+				{
+					id: "610DA977883277C9"
+					item: "crazyae2addons:mob_key_selector"
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["352A145082DCB3F4"]
+			description: [
+				"The &cMob Farm Controller&r is the heart of a fully automated, multiblock-based &6mob processing system&r."
+				""
+				"It &esimulates killing&r mobs stored inside your &3ME Network&r and generates &adrops&r and &bXP Shards&r — without spawning real entities."
+				""
+				"To ensure stability and performance, all &cNBT&r and &cunstackable&r items are excluded."
+				""
+				"1. &eBuild the Multiblock Structure&r"
+				"• Construct the &e5×5×6&r structure exactly as shown above"
+				"• The multiblock must be fully formed to operate"
+				""
+				"2. &ePower the Controller&r"
+				"• Connect the &cMob Farm Controller&r"
+				"  to an active &3ME Network&r"
+				""
+				"3. &eConfigure the GUI&r"
+				"• Select which &6mobs&r should be processed."
+				"• Optionally choose the &eweapon&r used to kill mobs"
+				""
+				"4. &eInstall Upgrades (Optional)&r"
+				"• &aLooting Cards&r → increase drop quantity"
+				"• &bExperience Cards&r → increase XP shard output"
+				"• &aAcceleration Cards&r → increase processing speed"
+				"{@pagebreak}"
+				"• Mobs are &cconsumed&r directly from ME storage"
+				"• Drops are calculated from the mob’s loot table"
+				"• &cNBT items&r and &cunstackables&r are discarded"
+				"• &bXP Shards&r are generated automatically"
+				"• All results are inserted back into the &3ME Network&r"
+				""
+				"• More &cDamage Modules&r = faster kill speed"
+				"• Maximum throughput: &a64 mobs per second&r"
+				""
+				"The Mob Farm only processes &6stored mobs&r."
+				""
+				"You must first capture mobs using:"
+				"• &eMob Annihilation Plane&r"
+				"• or a &eSpawner Extractor&r"
+				""
+				"Stored mobs must be placed into:"
+				"• &6Mob Storage Cells&r"
+				"• or &5ME Super Storage Cells&r"
+				""
+				"• The multiblock must remain &cintact&r"
+				"• Breaking any block will &cstop processing&r"
+				"• &aNo real mobs&r are spawned"
+				"• &ano lag&r and &ano danger&r"
+				"• &aLooting is fully supported&r"
+				""
+				"The Mob Farm can process &aup to 3 mobs&r &asimultaneously&r."
+				""
+				"&bWARNING:&r The Mob Farm generates &aVERY large amounts&r of &bXP Shards&r, which can &cfill your AE2 system extremely fast&r."
+			]
+			icon: "crazyae2addons:mob_farm_controller"
+			id: "7DF3F73F9A238F51"
+			min_width: 300
+			rewards: [{
+				id: "5D962AB82E1E5A63"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "37E4AA24E37DB3FF"
+					item: "crazyae2addons:mob_farm_controller"
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "0A4E21028E6F7F97"
+					item: { Count: 9, id: "crazyae2addons:mob_farm_collector" }
+					type: "item"
+				}
+				{
+					count: 27L
+					id: "5BBF9994B950C2BF"
+					item: { Count: 27, id: "crazyae2addons:mob_farm_damage" }
+					type: "item"
+				}
+				{
+					count: 85L
+					id: "718FC5216C7BDBD9"
+					item: { Count: 64, id: "crazyae2addons:mob_farm_wall" }
+					type: "item"
+				}
+				{
+					count: 36L
+					id: "5C995DCC67A718C7"
+					item: { Count: 36, id: "crazyae2addons:mob_farm_input" }
+					type: "item"
+				}
+				{
+					count: 24L
+					id: "28A81368261A9CE7"
+					item: { Count: 24, id: "ae2:quartz_glass" }
+					type: "item"
+				}
+			]
+			title: "&cMob Farm Controller&r"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2E66DFDA5014FCD7"]
+			description: [
+				"The &5Entropy Cradle&r is a massive &cenergy accumulator&r and &etransmutation multiblock&r."
+				""
+				"It can store up to &a600,000,000 FE&r and converts entire structures into &5extremely powerful blocks&r once fully charged."
+				""
+				"• The Entropy Cradle charges using &3AE2&r energy only"
+				"• Charging stops automatically at &a600M FE&r"
+				""
+				"During charging:"
+				"• &eSix capacitor layers&r light up progressively"
+				"• Capacitors emit a &credstone comparator signal&r when the Cradle is &afully charged&r"
+				""
+				"Once the Cradle is &afully charged&r:"
+				""
+				"• Apply a &credstone pulse&r to the controller"
+				"• The Cradle &cdischarges&r completely"
+				"• If a &eknown recipe structure&r is inside, it will be &atransmuted&r into a powerful block"
+				""
+				"Examples include:"
+				"• &dPenrose Frame&r"
+				"• &eEnergy Storage Components&r"
+				""
+				"• All available transmutation recipes can be found in &eJEI&r"
+				"• The Entropy Cradle can be &afully automated&r using the &dAuto Builder&r"
+				""
+				"• Requires a valid &3AE2&r network with channels"
+				"• Can &cONLY&r be charged using &3AE2&r energy"
+				"• Full charge is required — partial charge does &cNOT&r work"
+			]
+			icon: "crazyae2addons:entropy_cradle_controller"
+			id: "553EF8386D321C37"
+			min_width: 300
+			rewards: [{
+				id: "740AD6804B47F9B7"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7C441F03A3ED06F2"
+				item: "crazyae2addons:entropy_cradle_controller"
+				type: "item"
+			}]
+			title: "&5Entropy Cradle&r"
+			x: -5.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2E66DFDA5014FCD7"]
+			description: [
+				"The &5Penrose Sphere&r is a &clate-game&r multiblock generator built around a &0contained black hole&r."
+				""
+				"By feeding it &dSingularities&r, it forms an &eaccretion disk&r and converts mass into &cForge Energy (FE)&r on an &aastronomical scale&r."
+				""
+				"This is &cNOT&r a simple generator."
+				""
+				"The Penrose Sphere must be carefully &ebalanced&r to avoid catastrophic failure."
+				""
+				"The Penrose Sphere operates by balancing four systems:"
+				""
+				"• &eInjection&r  – feeding &dSingularities&r"
+				"• &cCooling&r    – removing excess heat"
+				"• &6Evaporation&r – reducing black hole mass"
+				"• &aOutput&r     – exporting massive amounts of FE"
+				""
+				"A stable system produces insane power. An unstable system &4melts down&r."
+				""
+				"• The multiblock must be &afully formed&r"
+				"• The controller requires an &3AE2&r channel"
+				"• Idle power draw: &c2 AE/t&r"
+				""
+				"• Insert an &eAE2 4k Storage Cell&r into the controller"
+				"• The cell must contain &cONLY&r &dSuper Singularities&r"
+				"• The startup cost must be fully paid before activation"
+				""
+				"1. Insert the &e4k Storage Cell&r into the controller"
+				"2. Fill it with enough &dSuper Singularities&r"
+				"3. Click &aStart the Black Hole&r in the GUI"
+				""
+				"If the structure is invalid, the black hole &cWILL NOT&r start."
+				"{@pagebreak}"
+				"Injected &dSingularities&r do NOT convert instantly."
+				""
+				"They enter the &eAccretion Disk&r first."
+				""
+				"• Disk history: &e~120 seconds&r"
+				"• Effective delay: &e~60 seconds&r"
+				"• Power ramps up and down &asmoothly&r"
+				""
+				"The disk generates &cheat&r (unit: MK)."
+				""
+				"Heat directly affects efficiency:"
+				""
+				"• Low heat → &cAlmost no power&r"
+				"• Optimal heat → &aMaximum efficiency&r"
+				"• Too much heat → &4Meltdown&r"
+				""
+				"Default values:"
+				"• Peak heat: &a50,000 MK&r"
+				"• Max heat: &4100,000 MK&r"
+				""
+				"Power output is multiplied by a &emass factor&r."
+				""
+				"• Edge of mass window → &71.0×&r"
+				"• Sweet spot → &a2.0×&r (default)"
+				""
+				"More power ALSO means more heat."
+				"If mass reaches the maximum → &4MELTDOWN&r"
+				""
+				"• Max internal cap: &c4096 singularities/t&r"
+				"• Anything above &c~20/t&r is extremely dangerous"
+				"• Over-injection without cooling = &4death&r"
+				""
+				"• &cONLY ONE&r Heat Vent allowed"
+				"• Cooling costs &cFE&r and scales exponentially"
+				"• Partial power = partial cooling"
+				"{@pagebreak}"
+				"Cooling priority:"
+				"1. Generated FE"
+				"2. Controller buffer"
+				"3. Vent buffer"
+				""
+				"• &cONLY ONE&r Hawking Vent allowed"
+				"• Reduces black hole mass"
+				"• Extremely &cexpensive&r"
+				"• While active:"
+				"  – &cInjection is DISABLED&r"
+				""
+				"Mass cannot drop below initial mass."
+				"• Internal FE buffer is effectively &ainfinite&r"
+				"• &ePower Ports&r actively export FE"
+				"• Controller and all frames expose FE capability"
+				""
+				"GUI shows:"
+				"• Last Generated FE/t"
+				"• Last Consumed FE/t"
+				"• Stored FE"
+				"• Energy in Disk (potential)"
+				""
+				"A meltdown occurs if:"
+				""
+				"• Heat ≥ MaxHeat"
+				"• Mass ≥ MaxMass"
+				""
+				"A meltdown can cause a &4catastrophic explosion&r (if enabled in config)."
+				""
+				"&4DO NOT&r run unattended without:"
+				"• Reliable cooling"
+				"• Mass control"
+				"• Monitoring logic"
+				""
+				"Treat it like a reactor:"
+				""
+				"• Injection → more power, more heat, more mass"
+				"• Heat Vents → stabilize efficiency"
+				"• Hawking Vents → prevent mass runaway"
+				""
+				"If heat rises too fast → &cSTOP INJECTION&r"
+				"If mass keeps rising → plan evaporation cycles"
+			]
+			icon: "crazyae2addons:penrose_controller"
+			id: "50797EF7D8C92A29"
+			min_width: 300
+			rewards: [{
+				id: "0619FD83DC09EAD3"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7D70DE7C20203E64"
+				item: "crazyae2addons:penrose_controller"
+				type: "item"
+			}]
+			title: "&5Penrose Sphere&r"
+			x: -5.0d
+			y: -0.5d
+		}
+	]
+	title: "Crazy AE2 Addon"
+}

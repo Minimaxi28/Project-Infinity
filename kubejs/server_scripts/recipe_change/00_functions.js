@@ -60,6 +60,15 @@ function create3x3(event, output, input) {
   });
 }
 
+function create3x3_EV_EX(event, output, input) {
+  event.shaped(output, ['010', '232', '010'], {
+    0: 'evolvedmekanism:alloy_creative',
+    1: 'evolvedmekanism:creative_control_circuit',
+    2: 'minecraft:nether_star',
+    3: input[0]
+  });
+}
+
 function create3x3same(event, output, input) {
   event.shaped(output, ['000', '000', '000'], {
     0: input[0],

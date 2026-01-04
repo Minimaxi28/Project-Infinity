@@ -92,27 +92,20 @@
 			hide_until_deps_visible: false
 			icon_scale: 2.0d
 			id: "0C17286BEE764C15"
-			rewards: [
-				{
-					id: "50EA227263BF1D10"
-					item: {
-						Count: 1
-						id: "obtrophies:trophy"
-						tag: {
-							BlockEntityTag: {
-								VariantID: 0
-								entity: "cataclysm:the_leviathan"
-							}
+			rewards: [{
+				id: "50EA227263BF1D10"
+				item: {
+					Count: 1
+					id: "obtrophies:trophy"
+					tag: {
+						BlockEntityTag: {
+							VariantID: 0
+							entity: "cataclysm:the_leviathan"
 						}
 					}
-					type: "item"
 				}
-				{
-					id: "02BE9DE5B200735C"
-					item: "kubejs:ascended_coin"
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			shape: "rsquare"
 			size: 2.0d
 			subtitle: "Hunting Dimension"

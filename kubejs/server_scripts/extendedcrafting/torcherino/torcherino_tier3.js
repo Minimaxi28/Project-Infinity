@@ -15,7 +15,7 @@ ServerEvents.recipes((event) => {
           item: 'evolvedmekanism:alloy_exoversal',
         },
         D: {
-          item: 'allthemodium:unobtainium_vibranium_alloy_block',
+          item: 'kubejs:infinity_11',
         },
       },
       result: {

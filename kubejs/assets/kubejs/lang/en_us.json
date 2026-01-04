@@ -2,7 +2,6 @@
   "item.kubejs.zahraanite": "Zahraanite",
   "item.kubejs.ultimate_gem": "§dUltimate Gem",
   "item.kubejs.ultimate_prediction": "§dUltimate Prediction",
-  "item.kubejs.ultimate_chemlib_ingot": "§dUltimate Chemlib Ingot",
   "item.kubejs.allthemodium_mesh": "§6Allthemodium Mesh",
   "item.kubejs.vibranium_mesh": "§aVibranium Mesh",
   "item.kubejs.left_dragon_heart": "§aLeft Dragon Heart",
@@ -277,6 +276,7 @@
   "item.kubejs.quantum_hyperdense_lead_singularity": "Quantum Hyperdense Lead Singularity",
   "item.kubejs.quantum_hyperdense_extreme_ingot_singularity": "Quantum Hyperdense Extreme Ingot Singularity",
   "item.kubejs.quantum_hyperdense_brass_ingot_singularity": "Quantum Hyperdense Brass Ingot Singularity",
+  "item.kubejs.fake_mob_masher": "Please dont look at the texture. This is a fake item used to fix a crash.",
 
   "singularity.extendedcrafting.abyssal_ingot": "Abyssal Ingot",
   "singularity.extendedcrafting.allthemodium_ingot": "Allthemodium Ingot",
@@ -343,21 +343,6 @@
   "singularity.extendedcrafting.unobtainium_ingot": "Unobtainium Ingot",
   "singularity.extendedcrafting.unobtainium_vibranium_ingot": "Unobtainium Vibranium Ingot",
   "singularity.extendedcrafting.vibranium_ingot": "Vibranium Ingot",
-
-  "crop.mysticalcustomization.allthemodium": "Allthemodium",
-  "crop.mysticalcustomization.boron": "Boron",
-  "crop.mysticalcustomization.cognizant_dust": "Cognizant Dust",
-  "crop.mysticalcustomization.dark_metal_ingot": "Dark Metal",
-  "crop.mysticalcustomization.iesnium": "Iesnium",
-  "crop.mysticalcustomization.ignitium": "Ignitium",
-  "crop.mysticalcustomization.lithium": "Lithium",
-  "crop.mysticalcustomization.niter": "Niter",
-  "crop.mysticalcustomization.plastic": "Plastic",
-  "crop.mysticalcustomization.plutonium": "Plutonium",
-  "crop.mysticalcustomization.sky_steel": "Sky Steel",
-  "crop.mysticalcustomization.ultimate_infinity": "Ultimate Infinity",
-  "crop.mysticalcustomization.unobtainium": "Unobtainium",
-  "crop.mysticalcustomization.vibranium": "Vibranium",
 
   "tooltip.avaritia.infinity_tools": "You can right click me.",
   

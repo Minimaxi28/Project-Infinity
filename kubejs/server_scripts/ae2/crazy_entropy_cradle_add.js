@@ -33,8 +33,9 @@ ServerEvents.recipes((event) => {
   event
     .custom({
       type: 'crazyae2addons:fabrication',
-      input: { item: 'kubejs:infinity_9_block' },
+      input: { item: 'kubejs:infinity_9_block'},
       input_count: 1,
+      fluid_input:{ "fluid": 'ifeu:liquid_dragon_breath', "amount": 500 },
       output: { item: 'kubejs:infinity_9', count: 1 },
       required_key: 'kubejs:infinity_9_block_research',
     })
@@ -58,17 +59,17 @@ ServerEvents.recipes((event) => {
         {
           item: 'evolvedmekanism:block_better_gold',
           count: 64,
-          computation: 432,
+          computation: 594,
         },
         {
           item: 'evolvedmekanism:block_plaslitherite',
           count: 64,
           computation: 432,
         },
-        { item: 'botania:terrasteel_block', count: 64, computation: 432 },
-        { item: 'allthemodium:unobtainium_vibranium_alloy_block', count: 64, computation: 432 },
-        { item: 'ae2:dense_energy_cell', count: 64, computation: 432 },
-        { item: 'ae2:dense_energy_cell', count: 64, computation: 432 },
+        { item: 'botania:terrasteel_block', count: 64, computation: 810 },
+        { item: 'allthemodium:unobtainium_vibranium_alloy_block', count: 64, computation: 675 },
+        { item: 'ae2:dense_energy_cell', count: 64, computation: 594 },
+        { item: 'ae2:dense_energy_cell', count: 64, computation: 750 },
         { item: 'ae2:fluix_block', count: 64, computation: 432 },
       ],
       drive: true,

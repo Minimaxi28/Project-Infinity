@@ -16,12 +16,6 @@ StartupEvents.registry('item', (e) => {
     .maxStackSize(64)
     .texture('kubejs:item/ultimate_prediction');
 
-  e.create('ultimate_chemlib_ingot')
-    .tag('kubejs:ultimate_chemlib_ingot')
-    .displayName('§dUltimate Chemlib Ingot')
-    .maxStackSize(64)
-    .texture('kubejs:item/ultimate_chemlib_ingot');
-
   e.create('allthemodium_mesh')
     .tag('exdeorum:sieve_meshes')
     .displayName('§6Allthemodium Mesh')
@@ -489,6 +483,14 @@ StartupEvents.registry('block', (event) => {
     .resistance(1.5)
     .textureAll('kubejs:block/silent/auto_mechanical_sieve')
     .tag('kubejs:auto_mechanical_sieve');
+
+  event
+    .create('fake_mob_masher')
+    .displayName('Fake Mob Masher')
+    .soundType('metal')
+    .hardness(1.0)
+    .resistance(1.0)
+    .textureAll('kubejs:block/silent/fake_mob_masher')
 });
 
 StartupEvents.registry('block', (e) => {
@@ -564,182 +566,4 @@ ItemEvents.modification((event) => {
       item.maxStackSize = 1;
     }
   );
-});
-
-///////everything under this text is deactivated and will be implemented
-
-StartupEvents.registry('item', (e) => {
-  //microverse rockets
-  e.create('microminer_t1')
-    .maxStackSize(64)
-    .texture('kubejs:item/microverse/microminer_t1')
-    .glow(true);
-  e.create('microminer_t2')
-    .maxStackSize(64)
-    .texture('kubejs:item/microverse/microminer_t2')
-    .glow(true);
-  e.create('microminer_t3')
-    .maxStackSize(64)
-    .texture('kubejs:item/microverse/microminer_t3')
-    .glow(true);
-  e.create('microminer_t4')
-    .maxStackSize(64)
-    .texture('kubejs:item/microverse/microminer_t4')
-    .glow(true);
-  e.create('microminer_t4_mobkiller')
-    .maxStackSize(64)
-    .texture('kubejs:item/microverse/microminer_t4half')
-    .glow(true);
-  e.create('microminer_t5')
-    .maxStackSize(64)
-    .texture('kubejs:item/microverse/microminer_t5')
-    .glow(true);
-  e.create('microminer_t6')
-    .maxStackSize(64)
-    .texture('kubejs:item/microverse/microminer_t6')
-    .glow(true);
-  e.create('microminer_t7')
-    .maxStackSize(64)
-    .texture('kubejs:item/microverse/microminer_t7')
-    .glow(true);
-  e.create('microminer_t8')
-    .maxStackSize(64)
-    .texture('kubejs:item/microverse/microminer_t8')
-    .glow(true);
-  e.create('microminer_t8_mobdestroyer')
-    .maxStackSize(64)
-    .texture('kubejs:item/microverse/microminer_t8half')
-    .glow(true);
-  e.create('microminer_t9')
-    .maxStackSize(64)
-    .texture('kubejs:item/microverse/microminer_t9')
-    .glow(true);
-  e.create('microminer_t10')
-    .maxStackSize(64)
-    .texture('kubejs:item/microverse/microminer_t10')
-    .glow(true);
-  e.create('microminer_t11')
-    .maxStackSize(64)
-    .texture('kubejs:item/microverse/microminer_t11_base')
-    .glow(true);
-  e.create('microminer_t12')
-    .maxStackSize(64)
-    .texture('kubejs:item/microverse/microminer_t12')
-    .glow(true);
-});
-
-StartupEvents.registry('item', (e) => {
-  // Microminer Components
-  e.create('components/basic_mining_laser').displayName('§eBasic Mining Laser');
-  e.create('components/reinforced_mining_laser').displayName(
-    '§bReinforced Mining Laser'
-  );
-  e.create('components/supercharged_laser_array').displayName(
-    '§eSupercharged Laser Array'
-  );
-  e.create('components/basic_micro_miner_guidance_system').displayName(
-    '§eBasic Micro Miner Guidance System'
-  );
-  e.create('components/advanced_micro_miner_guidance_system').displayName(
-    '§eAdvanced Micro Miner Guidance System'
-  );
-  e.create('components/gem_sensor').displayName('Gemstone Sensor');
-  e.create('components/warp_engine').displayName('§dWarp Engine');
-  e.create('components/universal_navigator').displayName(
-    '§dUniversal Navigator'
-  );
-  e.create('components/extradimensional_navigator')
-    .displayName('§dExtradimensional Navigator')
-    .texture('kubejs:item/microverse_components/eternium_heavy_plating');
-  e.create('universe_resistant_neutronium_heavy_plating')
-    .displayName('§dUniverse Resistant Neutronium Heavy Plating')
-    .texture('kubejs:item/microverse_components/neutronium_heavy_plating');
-  e.create('elementally_infused_matrix_heavy_plating')
-    .displayName('§dElementally Infused Matrix Heavy Plating')
-    .texture('kubejs:item/microverse_components/matrix_heavy_plating');
-  e.create('dimensionally_stabilized_infinity_heavy_plating')
-    .displayName('§dDimensionally Stabilized Infinity Heavy Plating')
-    .texture('kubejs:item/microverse_components/infinity_heavy_plating');
-  e.create('causality_lead_heavy_plating')
-    .displayName('§1Lead Heavy Plating')
-    .texture('kubejs:item/microverse_components/lead_heavy_plating');
-  e.create('components/quantum_flux').displayName('§dQuantum Flux');
-
-  //Data
-  e.create('components/impossible_realm_data').displayName(
-    '§bImpossible Realm Data'
-  );
-  e.create('components/dragon_lair_data').displayName('§dDragon Lair Data');
-  e.create('components/wither_realm_data').displayName('§dWither Realm Data');
-  e.create('components/deep_dark_data').displayName('§dDeep Dark Data');
-  e.create('components/lair_of_the_warden_data').displayName(
-    '§dLair Of The Warden Data'
-  );
-  e.create('components/stellar_creation_data').displayName(
-    '§bStellar Creation Data'
-  );
-  e.create('components/universe_creation_data').displayName(
-    '§dUniverse Creation Data'
-  );
-  e.create('components/shattered_star_data').displayName(
-    '§dShattered Star Data'
-  );
-  e.create('components/shattered_universe_data').displayName(
-    '§dShattered Universe Data'
-  );
-  e.create('components/corrupted_universe_data').displayName(
-    '§dCorrupted Universe Data'
-  );
-
-  // End Game Data
-  e.create('creative_tank_data')
-    .displayName('Creative Quantum Tank Data')
-    .texture('kubejs:item/components/creative_tank_data');
-  e.create('creative_storage_data')
-    .displayName('Creative Storage Data')
-    .texture('kubejs:item/components/creative_storage_data');
-  e.create('creative_computation_data')
-    .displayName('Creative Computation Data')
-    .texture('kubejs:item/components/creative_computation_data');
-  e.create('creative_energy_data')
-    .displayName('Creative Energy Data')
-    .texture('kubejs:item/components/creative_energy_data');
-});
-
-StartupEvents.registry('block', (e) => {
-  e.create('warp_core')
-    .displayName('Warp Core')
-    .soundType('metal')
-    .resistance(6)
-    .hardness(5)
-    .tagBlock('mineable/pickaxe')
-    .requiresTool(true)
-    .textureAll('kubejs:block/controller_core/warp_core');
-
-  e.create('warp_controller')
-    .displayName('Warp Controller')
-    .soundType('metal')
-    .resistance(6)
-    .hardness(5)
-    .tagBlock('mineable/pickaxe')
-    .requiresTool(true)
-    .textureAll('kubejs:block/controller_core/warp_controller');
-
-  e.create('universal_warp_core')
-    .displayName('Universal Warp Core')
-    .soundType('metal')
-    .resistance(6)
-    .hardness(5)
-    .tagBlock('mineable/pickaxe')
-    .requiresTool(true)
-    .textureAll('kubejs:block/controller_core/universal_warp_core');
-
-  e.create('universal_warp_controller')
-    .displayName('Universal Warp Controller')
-    .soundType('metal')
-    .resistance(6)
-    .hardness(5)
-    .tagBlock('mineable/pickaxe')
-    .requiresTool(true)
-    .textureAll('kubejs:block/controller_core/universal_warp_controller');
 });

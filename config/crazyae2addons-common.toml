@@ -116,12 +116,17 @@
 	[general.Research]
 		#Enable research mechanic (if false: Recipe Fabricator works without data drive)
 		researchEnabled = true
+
 		#Extra blocks allowed in the Research Unit multiblock in 'Q' slots.
 		#Format: TOML map of "namespace:block" -> integer.
 		#The integer is currently used as a multiplier for computation (count * value).
 		#Keys with ':' must be quoted, e.g. { "minecraft:glass" = 1 }.
 		#Default: empty map.
-		researchUnitExtraQBlocks = {}
+		[general.Research.researchUnitExtraQBlocks]
+			"avaritia:infinity" = 30
+			"avaritia:neutron" = 25
+			"avaritia:crystal_matrix" = 22
+			"kubejs:empowered_super_block" = 18
 
 	[general.EnergyParts]
 		#Enable Energy Exporter

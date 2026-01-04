@@ -117,7 +117,7 @@
 		}
 		{
 			dependencies: ["6CD0A72A42EE5F15"]
-			description: ["A &bdiamond&r is no longer rare. A &dstar&r is no longer bright. This is the new foundation of &aimpossibility.&r Crafted at the &bSkulk Crafting Table&r."]
+			description: ["A &bdiamond&r is no longer rare. A &dstar&r is no longer bright. This is the new foundation of &aimpossibility.&r Crafted at the &bElite Crafting Table&r."]
 			id: "58134A3611BA2D30"
 			rewards: [
 				{

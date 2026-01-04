@@ -22,6 +22,6 @@
 	pause_game: false
 	progression_mode: "flexible"
 	show_lock_icons: true
-	title: "Project Infinity"
+	title: " Project Infinity"
 	version: 13
 }

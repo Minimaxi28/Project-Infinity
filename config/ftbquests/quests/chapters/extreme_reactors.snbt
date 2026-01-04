@@ -5,11 +5,10 @@
 	group: "5255C8D5C49409ED"
 	icon: "bigreactors:reinforced_reactorchargingportfe"
 	id: "1EC3E81AC4B01484"
-	order_index: 10
+	order_index: 8
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["347C16F0F7CFAACF"]
 			description: ["&aExtreme Reactors&r is a mod focused on &epower generation&r though &bturbines&r and &creactors.&r This quest-line will act as your &aguide&r through this world of &eelectricity,&r once you have &agenerated power&r you can use it for other mods like &cMekanism&r"]
 			icon: {
 				Count: 1

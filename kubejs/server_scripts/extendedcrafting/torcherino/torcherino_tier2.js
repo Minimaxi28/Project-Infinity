@@ -12,7 +12,7 @@ ServerEvents.recipes((event) => {
           item: 'igleelib:lavium_ingot',
         },
         C: {
-          item: 'evolvedmekanism:alloy_subatomic',
+          item: 'kubejs:infinity_9',
         },
         D: {
           item: 'allthemodium:unobtainium_block',

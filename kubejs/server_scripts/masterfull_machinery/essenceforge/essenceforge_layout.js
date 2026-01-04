@@ -135,8 +135,7 @@ MMEvents.createStructures((event) => {
           input: true,
         })
         .key('G', {
-          portType: 'mm:item',
-          input: false,
+          block: 'mm:compressed_titanic_item_port_output'
         })
         .key('H', {
           block: 'chisel_chipped_integration:factory_blue_framed_circuit',

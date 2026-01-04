@@ -198,18 +198,6 @@ ServerEvents.recipes((event) => {
 ServerEvents.recipes((event) => {
   event.smelting('actuallyadditions:black_quartz', 'botania:quartz_dark');
 
-  create3x3(event, 'constructionwand:infinity_wand', [
-    'minecraft:air',
-    'minecraft:air',
-    'botania:terrasteel_ingot',
-    'minecraft:air',
-    'minecraft:stick',
-    'minecraft:air',
-    'minecraft:stick',
-    'minecraft:air',
-    'minecraft:air',
-  ]);
-
   create3x3(event, 'botania:blacker_lotus', [
     'actuallyadditions:empowered_enori_crystal',
     Item.of(
@@ -224,6 +212,8 @@ ServerEvents.recipes((event) => {
     'botanicalextramachinery:crystal_dragonstone',
     'actuallyadditions:empowered_void_crystal',
   ]);
+
+  create2x2same(event, 'minecraft:cobblestone', ['botania:pebble']);
 });
 
 // Category: gateways
@@ -258,7 +248,6 @@ ServerEvents.recipes((event) => {
 // Category: nuclearcraft_bigreactors
 ServerEvents.recipes((event) => {
   event.smelting('bigreactors:benitoite_crystal', 'bigreactors:benitoite_ore');
-  event.smelting('4x dimdoors:world_thread', 'nuclearcraft:neutronium_ingot');
 });
 
 // Category: advanced_ae
@@ -361,6 +350,9 @@ ServerEvents.recipes((event) => {
     'minecraft:gold_nugget',
     'minecraft:gold_nugget',
   ]);
+
+  shapeless(event, 'mob_grinding_utils:saw', ['kubejs:fake_mob_masher']);
+  shapeless(event, 'kubejs:fake_mob_masher', ['mob_grinding_utils:saw']);
 
   create3x3(event, Item.of('rftoolsutility:computer_module', '{Damage:0}'), [
     'minecraft:air',
@@ -530,6 +522,73 @@ ServerEvents.recipes((event) => {
   shapeless(event, 'chemlib:potassium_ingot', ['nuclearcraft:potassium_ingot']);
   shapeless(event, 'chemlib:zirconium_ingot', ['nuclearcraft:zirconium_ingot']);
   shapeless(event, 'chemlib:niobium_ingot', ['nuclearcraft:niobium_ingot']);
+  shapeless(event, 'chemlib:thorium_ingot', ['nuclearcraft:thorium_ingot']);
+  shapeless(event, 'chemlib:palladium_ingot', ['nuclearcraft:palladium_ingot']);
+
+  create3x3same(event, 'minecraft:iron_nugget', ['voidminers:rubetine_block']);
+  create3x3same(event, 'common_ore_library:brass_nugget', [
+    'voidminers:aurantium_block',
+  ]);
+  create3x3same(event, 'extendedcrafting:redstone_nugget', [
+    'voidminers:citrinetine_block',
+  ]);
+  create3x3same(event, 'minecraft:gold_nugget', ['voidminers:verdium_block']);
+  create3x3same(event, 'thermal:steel_nugget', ['voidminers:azurine_block']);
+  create3x3same(event, 'common_ore_library:manyullyn_nugget', [
+    'voidminers:caerium_block',
+  ]);
+  create3x3same(event, 'botania:manasteel_nugget', [
+    'voidminers:amethystine_block',
+  ]);
+  create3x3same(event, 'thermal:rose_gold_nugget', [
+    'voidminers:rosarium_block',
+  ]);
+  create3x3same(event, 'thermal:netherite_nugget', [
+    'voidminers:ultimate_block',
+  ]);
+
+  create3x3_EV_EX(event, 'evolvedmekanism:creative_alloying_factory', [
+    '#em_ev:alloying_factory',
+  ]);
+  create3x3_EV_EX(event, 'evolvedmekanism:creative_injecting_factory', [
+    '#em_ev:injecting_factory',
+  ]);
+  create3x3_EV_EX(event, 'evolvedmekanism:creative_purifying_factory', [
+    '#em_ev:purifying_factory',
+  ]);
+  create3x3_EV_EX(event, 'evolvedmekanism:creative_combining_factory', [
+    '#em_ev:combining_factory',
+  ]);
+  create3x3_EV_EX(event, 'evolvedmekanism:creative_compressing_factory', [
+    '#em_ev:compressing_factory',
+  ]);
+  create3x3_EV_EX(event, 'evolvedmekanism:creative_crushing_factory', [
+    '#em_ev:crushing_factory',
+  ]);
+  create3x3_EV_EX(event, 'evolvedmekanism:creative_enriching_factory', [
+    '#em_ev:enriching_factory',
+  ]);
+  create3x3_EV_EX(event, 'evolvedmekanism:creative_sawing_factory', [
+    '#em_ev:sawing_factory',
+  ]);
+  create3x3_EV_EX(event, 'evolvedmekanism:creative_smelting_factory', [
+    '#em_ev:smelting_factory',
+  ]);
+  create3x3_EV_EX(event, 'evolvedmekanism:creative_infusing_factory', [
+    '#em_ev:infusing_factory',
+  ]);
+
+  create3x3(event, 'evolvedmekanism:creative_induction_cell', [
+    'mekanism:energy_tablet',
+    '#em_ev:induction_cell',
+    'mekanism:energy_tablet',
+    '#em_ev:induction_cell',
+    'mekanism:creative_energy_cube',
+    '#em_ev:induction_cell',
+    'mekanism:energy_tablet',
+    '#em_ev:induction_cell',
+    'mekanism:energy_tablet',
+  ]);
 
   shapeless(event, '9x extendedcrafting:crystaltine_ingot', [
     'extendedcrafting:crystaltine_block',

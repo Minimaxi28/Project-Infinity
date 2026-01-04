@@ -52,6 +52,8 @@
     "mm:gigantic_energy_port_input",
     "mm:gigantic_energy_port_output",
     "mm:colossal_gas_port_input",
-    "mm:colossal_gas_port_output"
+    "mm:colossal_gas_port_output",
+    "mm:compressed_titanic_item_port_input",
+    "mm:compressed_titanic_item_port_output"
   ]
 }

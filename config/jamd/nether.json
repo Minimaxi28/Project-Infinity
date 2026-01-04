@@ -328,7 +328,7 @@
       ]
     },
     {
-      "ore_size": 30,
+      "ore_size": 5,
       "discard_on_air_chance": 0.0,
       "modifiers": [
         {

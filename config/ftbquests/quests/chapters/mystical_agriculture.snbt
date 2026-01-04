@@ -888,7 +888,6 @@
 			y: -4.5d
 		}
 		{
-			dependencies: ["52CF60CDA1E5D3F2"]
 			description: ["&dMystical Agriculture&r is a mod based around the concept of growing your resources with crops. Use crops to grow essences used to make materials, mob drops, tools, armor and possibly even more!"]
 			disable_toast: true
 			icon: {
@@ -2687,6 +2686,7 @@
 			description: [
 				"You cant see this Item in JEI. "
 				"You can look at it while pressing U on a basalt block from enviromental materials"
+				"{image:kubejs:block/screen/basalt_seed width:175 height:100 align:center fit:true}"
 			]
 			id: "0E3B02CFA566ADDE"
 			rewards: [{
@@ -2803,6 +2803,7 @@
 			description: [
 				"You cant see this Item in JEI. "
 				"You can look at it while pressing U on a marble block from enviromental materials"
+				"{image:kubejs:block/screen/marble_seed width:175 height:100 align:center fit:true}"
 			]
 			id: "3C67C766F4225C72"
 			rewards: [{

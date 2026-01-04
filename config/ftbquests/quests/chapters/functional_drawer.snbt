@@ -6,7 +6,7 @@
 	group: "5255C8D5C49409ED"
 	icon: "functionalstorage:max_storage_upgrade"
 	id: "3C5C1B52B3913E8B"
-	order_index: 0
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{

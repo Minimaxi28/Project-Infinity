@@ -84,9 +84,15 @@ ItemEvents.tooltip((event) => {
     Text.translate('tooltip.mm.item_port', ['6x8', '48'])
   );
   event.add(
-    ['mm:titanic_item_port_input', 'mm:titanic_item_port_output'],
+    ['mm:titanic_item_port_input', 'mm:titanic_item_port_output', 'mm:compressed_titanic_item_port_input', 'mm:compressed_titanic_item_port_output'],
     Text.translate('tooltip.mm.item_port', ['8x12', '96'])
   );
+
+    event.add(
+    ['kubejs:fake_mob_masher'],
+    Text.translate('item.kubejs.fake_mob_masher')
+  );
+  
 
   // Fluid Ports
   const fluidPorts = [

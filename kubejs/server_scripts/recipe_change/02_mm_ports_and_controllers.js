@@ -96,6 +96,18 @@ ServerEvents.recipes((event) => {
     '#forge:ingots/cobalt',
   ]);
 
+    create3x3(event, 'mm:compressed_titanic_item_port_input', [
+    '#forge:ingots/cobalt',
+    'minecraft:chest',
+    '#forge:ingots/cobalt',
+    'minecraft:redstone',
+    'mm:titanic_item_port_input',
+    'minecraft:redstone',
+    '#forge:ingots/cobalt',
+    'minecraft:hopper',
+    '#forge:ingots/cobalt',
+  ]);
+
   create3x3(event, 'mm:tiny_item_port_output', [
     '#forge:ingots/cobalt',
     'minecraft:hopper',
@@ -186,6 +198,18 @@ ServerEvents.recipes((event) => {
     '#forge:ingots/cobalt',
     'minecraft:redstone',
     'mm:colossal_item_port_output',
+    'minecraft:redstone',
+    '#forge:ingots/cobalt',
+    'minecraft:chest',
+    '#forge:ingots/cobalt',
+  ]);
+
+    create3x3(event, 'mm:compressed_titanic_item_port_output', [
+    '#forge:ingots/cobalt',
+    'minecraft:hopper',
+    '#forge:ingots/cobalt',
+    'minecraft:redstone',
+    'mm:titanic_item_port_output',
     'minecraft:redstone',
     '#forge:ingots/cobalt',
     'minecraft:chest',

@@ -23,14 +23,11 @@
 			y: 2.0d
 		}
 	]
-	order_index: 2
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: [
-				"25D1363D8890E7C3"
-				"2B001C76CB519664"
-			]
+			dependencies: ["2B001C76CB519664"]
 			icon: "solarflux:sp_1"
 			id: "6BD137192ED3263D"
 			rewards: [
@@ -451,10 +448,7 @@
 			y: 1.5d
 		}
 		{
-			dependencies: [
-				"2B001C76CB519664"
-				"25D1363D8890E7C3"
-			]
+			dependencies: ["2B001C76CB519664"]
 			icon: "mekanismgenerators:solar_generator"
 			id: "24A85A14341AC7CD"
 			rewards: [

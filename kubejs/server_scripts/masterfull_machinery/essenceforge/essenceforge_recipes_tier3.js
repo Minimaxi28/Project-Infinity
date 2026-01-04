@@ -48,7 +48,7 @@ MMEvents.createProcesses((event) => {
   generateTier3Recipes(event, tier2Seeds, 4);
 
   // --- Tier 3 ---
-    const tier3MobSeeds = [
+  const tier3MobSeeds = [
     'mysticalagriculture:creeper_seeds',
     'mysticalagriculture:skeleton_seeds',
     'mysticalagriculture:spider_seeds',
@@ -183,13 +183,11 @@ MMEvents.createProcesses((event) => {
 // --- Funktionen ---
 
 function generateTier3Recipes (event, seeds, maxSeedsPerRecipe) {
-  for (var i = 0; i < seeds.length; i += maxSeedsPerRecipe) {
-    var chunk = seeds.slice(i, i + maxSeedsPerRecipe);
+  seeds.forEach((seed) => {
+    var name = seed.replace('mysticalagriculture:', '').replace('_seeds', '');
+    var recipeId = `mm:essenceforge_tier3_${name}`;
 
-    var recipeId = `mm:essenceforge_tier3_${chunk
-      .map((s) => s.replace('mysticalagriculture:', '').replace('_seeds', ''))
-      .join('_')}`;
-    var recipe = event
+    event
       .create(recipeId)
       .structureId('mm:essenceforge_tier3_structure')
       .ticks(100)
@@ -204,21 +202,21 @@ function generateTier3Recipes (event, seeds, maxSeedsPerRecipe) {
           fluid: 'industrialforegoing:ether_gas',
           amount: 300,
         },
-      });
-
-    chunk.forEach((seed) => {
-      recipe.input({
+      })
+      .input({
         type: 'mm:input/consume',
         chance: 0.0,
         ingredient: { type: 'mm:item', item: seed, count: 1 },
-      });
-      var essence = seed.replace('_seeds', '_essence');
-      recipe.output({
+      })
+      .output({
         type: 'mm:output/simple',
-        ingredient: { type: 'mm:item', item: essence, count: 1024 },
+        ingredient: {
+          type: 'mm:item',
+          item: seed.replace('_seeds', '_essence'),
+          count: 1024,
+        },
       });
-    });
-  }
+  });
 }
 
 function createTier6SeedRecipes (event, seeds) {
@@ -252,12 +250,24 @@ function createTier6SeedRecipes (event, seeds) {
     }
 
     event
-      .create(`mm:essenceforge_tier3_${seed.replace('mysticalagriculture:', '').replace('_seeds', '')}`)
+      .create(
+        `mm:essenceforge_tier3_${seed
+          .replace('mysticalagriculture:', '')
+          .replace('_seeds', '')}`
+      )
       .structureId('mm:essenceforge_tier3_structure')
       .ticks(100)
       .input({
         type: 'mm:input/consume',
         ingredient: { type: 'mm:energy', amount: 1000000000 },
+      })
+      .input({
+        type: 'mm:input/consume',
+        ingredient: {
+          type: 'mm:fluid',
+          fluid: 'industrialforegoing:ether_gas',
+          amount: 400,
+        },
       })
       .input({
         type: 'mm:input/consume',
@@ -269,14 +279,7 @@ function createTier6SeedRecipes (event, seeds) {
         chance: 0.0,
         ingredient: { type: 'mm:item', item: crux, count: 1 },
       })
-      .input({
-        type: 'mm:input/consume',
-        ingredient: {
-          type: 'mm:fluid',
-          fluid: 'industrialforegoing:ether_gas',
-          amount: 400,
-        },
-      })
+
       .output({
         type: 'mm:output/simple',
         ingredient: { type: 'mm:item', item: essence, count: 1024 },

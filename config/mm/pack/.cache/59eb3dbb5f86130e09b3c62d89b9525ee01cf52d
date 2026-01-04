@@ -1,4 +1,4 @@
-// 1.20.1	2025-12-11T13:54:02.1161163	Loot Tables
+// 1.20.1	2025-12-30T15:43:52.9152962	Loot Tables
 9fdf7151e82498699c3950ae185e9dbb659b4078 data/mm/loot_tables/blocks/advanced_awakening_altar_controller.json
 ccf1aa2ca4c6307c261df07dee94e2c12475dbae data/mm/loot_tables/blocks/auto_crusher_controller.json
 f68253f0235bfc5d0979ebdd642ea96b410ece4f data/mm/loot_tables/blocks/auto_sieve_controller.json
@@ -12,6 +12,8 @@ a6f74f23bfa50a08e99b795a158f83fa6e1eeca0 data/mm/loot_tables/blocks/big_item_por
 da9435947a00a4c450ad7a373736868b6096477a data/mm/loot_tables/blocks/colossal_gas_port_output.json
 b59191c6512d6aff3f6850b708ecae404c5f86d4 data/mm/loot_tables/blocks/colossal_item_port_input.json
 b669d94a68145a563d223a15c6fafbd9ceef6fa4 data/mm/loot_tables/blocks/colossal_item_port_output.json
+37e20be6db6c07e054de5bc26d75fd94818ce728 data/mm/loot_tables/blocks/compressed_titanic_item_port_input.json
+745d5953610bcc1cd5455d1f3d6d178f229cd585 data/mm/loot_tables/blocks/compressed_titanic_item_port_output.json
 d92a2ed443eeb5b0626cf7aa9f7639d777a37003 data/mm/loot_tables/blocks/enormous_energy_port_input.json
 0360aead80b360654940eb463223deef4c99cc53 data/mm/loot_tables/blocks/enormous_energy_port_output.json
 ab442f2798fc4a86404f4ed158b7e1cd1f1920ff data/mm/loot_tables/blocks/enormous_fluid_port_input.json

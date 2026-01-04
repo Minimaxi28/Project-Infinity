@@ -1,5 +1,7 @@
 priority: 0;
 ServerEvents.tags('item', (event) => {
+  event.remove('forge:ingots/neutronium', 'avaritia:neutron_ingot');
+
   event.add('forge:plastic', 'pneumaticcraft:plastic');
   event.add('mysticalagriculture:essences', [
     'mysticalagriculture:boron_essence',
@@ -30,40 +32,76 @@ ServerEvents.tags('item', (event) => {
     'mysticalagriculture:lithium_seeds',
   ]);
 
-  event.add('pipe_connector:placeable_items', [
-    'evolvedmekanism:overclocked_universal_cable',
-    'evolvedmekanism:quantum_universal_cable',
-    'evolvedmekanism:dense_universal_cable',
-    'evolvedmekanism:multiversal_universal_cable',
-    'evolvedmekanism:creative_universal_cable',
-    'evolvedmekanism:overclocked_mechanical_pipe',
-    'evolvedmekanism:quantum_mechanical_pipe',
-    'evolvedmekanism:dense_mechanical_pipe',
-    'evolvedmekanism:multiversal_mechanical_pipe',
-    'evolvedmekanism:creative_mechanical_pipe',
-    'evolvedmekanism:overclocked_pressurized_tube',
-    'evolvedmekanism:quantum_pressurized_tube',
-    'evolvedmekanism:dense_pressurized_tube',
-    'evolvedmekanism:multiversal_pressurized_tube',
-    'evolvedmekanism:creative_pressurized_tube',
-    'evolvedmekanism:overclocked_logistical_transporter',
-    'evolvedmekanism:quantum_logistical_transporter',
-    'evolvedmekanism:dense_logistical_transporter',
-    'evolvedmekanism:multiversal_logistical_transporter',
-    'evolvedmekanism:creative_logistical_transporter',
-    'evolvedmekanism:overclocked_thermodynamic_conductor',
-    'evolvedmekanism:quantum_thermodynamic_conductor',
-    'evolvedmekanism:dense_thermodynamic_conductor',
-    'evolvedmekanism:multiversal_thermodynamic_conductor',
-    'evolvedmekanism:creative_thermodynamic_conductor',
-    'powah:energy_cable_starter',
-    'powah:energy_cable_basic',
-    'powah:energy_cable_hardened',
-    'powah:energy_cable_blazing',
-    'powah:energy_cable_niotic',
-    'powah:energy_cable_spirited',
-    'powah:energy_cable_nitro',
+  //Adding tags to the EV and EX machines
+  event.add('em_ev:alloying_factory', [
+    'emextras:infinite_alloying_factory',
+    'evolvedmekanism:multiversal_alloying_factory',
   ]);
+  event.add('em_ev:injecting_factory', [
+    'mekanism_extras:infinite_injecting_factory',
+    'evolvedmekanism:multiversal_injecting_factory',
+  ]);
+  event.add('em_ev:purifying_factory', [
+    'mekanism_extras:infinite_purifying_factory',
+    'evolvedmekanism:multiversal_purifying_factory',
+  ]);
+  event.add('em_ev:combining_factory', [
+    'mekanism_extras:infinite_combining_factory',
+    'evolvedmekanism:multiversal_combining_factory',
+  ]);
+  event.add('em_ev:compressing_factory', [
+    'mekanism_extras:infinite_compressing_factory',
+    'evolvedmekanism:multiversal_compressing_factory',
+  ]);
+  event.add('em_ev:crushing_factory', [
+    'mekanism_extras:infinite_crushing_factory',
+    'evolvedmekanism:multiversal_crushing_factory',
+  ]);
+  event.add('em_ev:enriching_factory', [
+    'mekanism_extras:infinite_enriching_factory',
+    'evolvedmekanism:multiversal_enriching_factory',
+  ]);
+  event.add('em_ev:sawing_factory', [
+    'mekanism_extras:infinite_sawing_factory',
+    'evolvedmekanism:multiversal_sawing_factory',
+  ]);
+  event.add('em_ev:smelting_factory', [
+    'mekanism_extras:infinite_smelting_factory',
+    'evolvedmekanism:multiversal_smelting_factory',
+  ]);
+  event.add('em_ev:infusing_factory', [
+    'mekanism_extras:infinite_infusing_factory',
+    'evolvedmekanism:multiversal_infusing_factory',
+  ]);
+  event.add('em_ev:pressurized_tube', [
+    'mekanism_extras:infinite_pressurized_tube',
+    'evolvedmekanism:multiversal_pressurized_tube',
+  ]);
+  event.add('em_ev:thermodynamic_conductor', [
+    'mekanism_extras:infinite_thermodynamic_conductor',
+    'evolvedmekanism:multiversal_thermodynamic_conductor',
+  ]);
+  event.add('em_ev:universal_cable', [
+    'mekanism_extras:infinite_universal_cable',
+    'evolvedmekanism:multiversal_universal_cable',
+  ]);
+  event.add('em_ev:mechanical_pipe', [
+    'mekanism_extras:infinite_mechanical_pipe',
+    'evolvedmekanism:multiversal_mechanical_pipe',
+  ]);
+  event.add('em_ev:logistical_transporter', [
+    'mekanism_extras:infinite_logistical_transporter',
+    'evolvedmekanism:multiversal_logistical_transporter',
+  ]);
+  event.add('em_ev:induction_cell', [
+    'mekanism_extras:infinite_induction_cell',
+    'evolvedmekanism:multiversal_induction_cell',
+  ]);
+  event.add('em_ev:induction_provider', [
+    'mekanism_extras:infinite_induction_provider',
+    'evolvedmekanism:multiversal_induction_provider',
+  ]);
+
 
   event.add('forge:clay_balls', 'minecraft:clay_ball');
   event.add('forge:fruits/chorus', 'minecraft:chorus_fruit');
@@ -76,46 +114,6 @@ ServerEvents.tags('block', (event) => {
     'allthemodium:vibranium_allthemodium_alloy_block',
     'allthemodium:unobtainium_allthemodium_alloy_block',
     'allthemodium:unobtainium_vibranium_alloy_block',
-  ]);
-
-  event.add('pipe_connector:pipe_block', [
-    'evolvedmekanism:overclocked_universal_cable',
-    'evolvedmekanism:quantum_universal_cable',
-    'evolvedmekanism:dense_universal_cable',
-    'evolvedmekanism:multiversal_universal_cable',
-    'evolvedmekanism:creative_universal_cable',
-    'evolvedmekanism:overclocked_mechanical_pipe',
-    'evolvedmekanism:quantum_mechanical_pipe',
-    'evolvedmekanism:dense_mechanical_pipe',
-    'evolvedmekanism:multiversal_mechanical_pipe',
-    'evolvedmekanism:creative_mechanical_pipe',
-    'evolvedmekanism:overclocked_pressurized_tube',
-    'evolvedmekanism:quantum_pressurized_tube',
-    'evolvedmekanism:dense_pressurized_tube',
-    'evolvedmekanism:multiversal_pressurized_tube',
-    'evolvedmekanism:creative_pressurized_tube',
-    'evolvedmekanism:overclocked_logistical_transporter',
-    'evolvedmekanism:quantum_logistical_transporter',
-    'evolvedmekanism:dense_logistical_transporter',
-    'evolvedmekanism:multiversal_logistical_transporter',
-    'evolvedmekanism:creative_logistical_transporter',
-    'evolvedmekanism:overclocked_thermodynamic_conductor',
-    'evolvedmekanism:quantum_thermodynamic_conductor',
-    'evolvedmekanism:dense_thermodynamic_conductor',
-    'evolvedmekanism:multiversal_thermodynamic_conductor',
-    'evolvedmekanism:creative_thermodynamic_conductor',
-    'powah:energy_cable_starter',
-    'powah:energy_cable_basic',
-    'powah:energy_cable_hardened',
-    'powah:energy_cable_blazing',
-    'powah:energy_cable_niotic',
-    'powah:energy_cable_spirited',
-    'powah:energy_cable_nitro',
-  ]);
-
-  event.add('draconicevolution:core_stabilizer', [
-    'draconicevolution:energy_core_stabilizer',
-    'draconicevolution:structure_block',
   ]);
 });
 
@@ -175,17 +173,6 @@ ServerEvents.tags('fluid', (event) => {
   event.add('forge:steam', ['bigreactors:steam', 'bigreactors:steam_vapor']);
 });
 
-ServerEvents.tags('block', (event) => {
-  event.removeAll('mm:auto_sieve_item_input');
-  event.removeAll('mm:auto_sieve_energy_input');
-  event.removeAll('mm:auto_sieve_item_output');
-  event.removeAll('mm:auto_crusher_item_input');
-  event.removeAll('mm:auto_crusher_item_output');
-  event.removeAll('mm:auto_crusher_energy_input');
-  event.removeAll('mm:all_energy_output');
-  event.removeAll('mm:fluid_port_input');
-  event.removeAll('mm:fluid_port_output');
-  event.removeAll('mm:auto_inscriber_item_input');
-  event.removeAll('mm:auto_inscriber_item_output');
-  event.removeAll('mm:auto_inscriber_energy_input');
-});
+// ServerEvents.tags('block', (event) => {
+//
+// });
