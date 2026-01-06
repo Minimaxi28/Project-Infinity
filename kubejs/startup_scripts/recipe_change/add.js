@@ -7,7 +7,7 @@ StartupEvents.registry('item', (e) => {
     .tag('forge:gems')
     .displayName('§dUltimate Gem')
     .maxStackSize(64)
-    .texture('kubejs:item/components/ultimate_gem')
+    .texture('kubejs:item/ultimate_gem')
     .glow(true);
 
   e.create('ultimate_prediction')

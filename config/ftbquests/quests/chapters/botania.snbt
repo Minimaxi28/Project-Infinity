@@ -13,12 +13,12 @@
 	id: "12C89D2DB422D593"
 	images: [
 		{
-			height: 4.5d
+			height: 8.0d
 			image: "kubejs:block/screen/botania_mana_pattern2"
 			rotation: 0.0d
-			width: 12.0d
-			x: 14.0d
-			y: 5.5d
+			width: 10.0d
+			x: 13.976190476190474d
+			y: 4.750000000000007d
 		}
 		{
 			height: 0.5d
@@ -311,7 +311,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["08B3905C53BC441D"]
+			dependencies: ["68F417391B189AF5"]
 			description: [
 				"To start &aBotania&r, you will need to gather all the colors of &9Mystical Flowers&r."
 				""

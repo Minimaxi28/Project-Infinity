@@ -1103,12 +1103,12 @@
 							]
 							tic_modifiers: [
 								{
-									level: 3
-									name: "tconstruct:stonebound"
-								}
-								{
 									level: 1
 									name: "tconstruct:pierce"
+								}
+								{
+									level: 3
+									name: "tconstruct:stonebound"
 								}
 							]
 							tic_persistent: { }
@@ -1151,12 +1151,12 @@
 							]
 							tic_modifiers: [
 								{
-									level: 3
-									name: "tconstruct:stonebound"
-								}
-								{
 									level: 1
 									name: "tconstruct:stripping"
+								}
+								{
+									level: 3
+									name: "tconstruct:stonebound"
 								}
 							]
 							tic_persistent: { }
@@ -2177,6 +2177,7 @@
 						}
 						tic_stats: {
 							"tconstruct:attack_damage": 7.5f
+							"tconstruct:block_amount": 10.0f
 							"tconstruct:durability": 962.5f
 							"tconstruct:harvest_tier": "minecraft:iron"
 							"tconstruct:mining_speed": 1.5f
@@ -2650,12 +2651,12 @@
 					]
 					tic_modifiers: [
 						{
-							level: 2
-							name: "tconstruct:stonebound"
-						}
-						{
 							level: 1
 							name: "tconstruct:pierce"
+						}
+						{
+							level: 2
+							name: "tconstruct:stonebound"
 						}
 						{
 							level: 1
@@ -3794,11 +3795,11 @@
 						tic_modifiers: [
 							{
 								level: 1
-								name: "tconstruct:stonebound"
+								name: "tconstruct:melee_protection"
 							}
 							{
 								level: 1
-								name: "tconstruct:melee_protection"
+								name: "tconstruct:stonebound"
 							}
 							{
 								level: 1

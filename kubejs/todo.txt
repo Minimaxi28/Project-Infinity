@@ -1,0 +1,70 @@
+/---------------------------------------------------------------------------------------------------------------/
+//main
+finish quests high prio
+fix shop prices high prio
+woot config
+Extra and EM combine (Extra --> EM --> Extra --> EM .....)
+rf tools recipes
+add tooltips for the multiblocks. what they do and how to use them. maybe in the book?
+multibuilder tool tooltip
+gateway change. players need to kill not masher
+tier 4 essenceforge, super endgame, 4 times the output. 
+HNN multiblock
+/--------------------------------------------------------------------------------------------------------------/
+//recipes
+creative items recipes!
+
+/---------------------------------------------------------------------------------------------------------------/
+//projectE
+EMC
+
+/---------------------------------------------------------------------------------------------------------------/
+changelog v. 0.0.46.1
+-updated some mods
+----------------------------------------------------------------------------------------
+Mod added:
+-
+----------------------------------------------------------------------------------------
+Mod removed:
+-NONE
+----------------------------------------------------------------------------------------
+Mod INFO:
+-mods that are getting removed next update:
+    -Pickle Tweaks
+    -Occultism
+    -Bigger AE2
+    -AE Additions
+    -Undead Revamp
+    -Dimensional Doors
+    -Torcherino
+    -Chemlib and Alchemistry
+
+-mods maybe getting removed:
+    -The Aether
+    -Undergarden
+
+----------------------------------------------------------------------------------------
+Recipe changes and fixes:
+-removed old creative ME Item and Fluid cell recipes
+-fixed quest things
+----------------------------------------------------------------------------------------
+Mod changes and fixes:
+
+-fixed Masterful Machinery Dupe
+/---------------------------
+known bugs:
+-polymorph (changing the output for mod conflicts) is not possible with tinkers crafting station
+-there are some tier 6 seed that dont have a texture inside the hydroponic bed from industrial foregoing
+-Its not possible to see the marble and basalt seeds from mystical agriculture. they are hidden by code because there is not the correct chisel mod installed
+
+
+
+//-added Spawn Balance Utility mod
+
+//-changed spawns!
+    //-there are no modded mobs spawning in the overworld anymore
+    //-there are no spawners working in the overworld anymore
+
+
+-Botanical Machinery Machines are now working with AE2 and are no longer voiding mana
+-Same for Botanical Machionery Extra Machines
