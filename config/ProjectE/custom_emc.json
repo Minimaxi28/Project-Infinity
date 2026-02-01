@@ -167,6 +167,14 @@
     {
       "item": "avaritia:neutron",
       "emc": 0
+    },
+    {
+      "item": "projecte:tome",
+      "emc": 1
+    },
+    {
+      "item": "mysticalagriculture:prosperity_shard",
+      "emc": 5120
     }
   ]
 }

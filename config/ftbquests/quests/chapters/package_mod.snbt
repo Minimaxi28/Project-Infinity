@@ -1,0 +1,1145 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 350
+	default_quest_shape: ""
+	filename: "package_mod"
+	group: "29543B666C58207C"
+	icon: "packagedauto:recipe_holder"
+	id: "0D9E32CFA14CC182"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0AFFE685B5B34A56"]
+			id: "43F28CD6CB3D6523"
+			rewards: [{
+				id: "05ED1ED604513B75"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "50890D24621C32C3"
+				item: "packagedexcrafting:advanced_crafter"
+				type: "item"
+			}]
+			title: "&eAdvanced Crafting&r"
+			x: 0.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["0AFFE685B5B34A56"]
+			description: [
+				"&eWhat Is Basic Crafting?&r"
+				""
+				"&eBasic Crafting&r is a simple crafting recipe type used to automate recipes craftable in a &eBasic Crafting Table&r."
+				""
+				"It is designed as a lightweight alternative to standard crafting systems."
+				""
+				"&eHow It Works&r"
+				""
+				"• Uses the &eBasic Package Crafter&r"
+				"• Supports recipes from the &eBasic Crafting Table&r"
+				"• Crafted items are &eejected&r into adjacent inventories"
+				""
+				"The Basic Package Crafter &crequires power&r to operate."
+				""
+				"&eUse Cases&r"
+				""
+				"• Automating simple crafting recipes"
+				"• Early- to mid-game automation"
+				"• Lightweight PackagedAuto setups"
+				"• Compact crafting systems"
+				""
+				"&eWhy Use Basic Crafting?&r"
+				""
+				"• Simple and easy to set up"
+				"• Lower complexity than full crafting systems"
+				"• Works seamlessly with &ePackagedAuto&r"
+				"• Integrates cleanly with &3AE2&r"
+			]
+			id: "76E0FA2416CF0B39"
+			rewards: [{
+				id: "567C7632CE1A95C0"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2CAF5AB3081CBC3D"
+				item: "packagedexcrafting:basic_crafter"
+				type: "item"
+			}]
+			title: "&eBasic Crafting&r"
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["0AFFE685B5B34A56"]
+			description: [
+				"&eWhat Is Combination Crafting?&r"
+				""
+				"&eCombination Crafting&r is a high-tier crafting recipe type used to automate recipes from a &eCrafting Core&r."
+				""
+				"It is designed for &avery complex&r and &elate-game&r crafting recipes that require multiple inputs placed externally."
+				""
+				"&eHow It Works&r"
+				""
+				"• Uses the &eCombination Package Crafter&r"
+				"• Supports recipes from the &eCrafting Core&r"
+				"• Crafted items are &eejected&r into adjacent inventories"
+				""
+				"The Combination Package Crafter &crequires power&r to operate."
+				""
+				"&eMarked Pedestals&r"
+				""
+				"Combination Crafting requires &eMarked Pedestals&r."
+				""
+				"• Pedestals must be placed within a &a7×7&r area around the crafter"
+				"• Each recipe requires a specific number of pedestals"
+				""
+				"You can &aSneak + Right-click&r with an empty hand on an &eidling&r Combination Package Crafter to view the required and usable pedestal count."
+				""
+				"&eWhy Use Combination Crafting?&r"
+				""
+				"• Fully automates extremely complex recipes"
+				"• Handles many external inputs cleanly"
+				"• Removes manual Crafting Core usage"
+				"• Scales well for endgame automation"
+			]
+			icon: "packagedexcrafting:combination_crafter"
+			id: "2E64A1B7D993EFF8"
+			rewards: [{
+				id: "2DA60EDD58A93F06"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "01EB08CEFD18ABA5"
+					item: "packagedexcrafting:combination_crafter"
+					type: "item"
+				}
+				{
+					id: "13B9C6B6856E7D30"
+					item: "packagedexcrafting:marked_pedestal"
+					type: "item"
+				}
+			]
+			title: "&eCombination Crafting&r"
+			x: 3.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["71222E3AF49A8143"]
+			description: [
+				"&eWhat Is Extreme Crafting?&r"
+				""
+				"&eExtreme Crafting&r is an &cextreme endgame&r crafting recipe type used to automate recipes from the &eExtreme Crafting Table&r."
+				""
+				"It is intended for the &cmost expensive&r and &cmost complex&r recipes available."
+				""
+				"&eWhy Use Extreme Crafting?&r"
+				""
+				"• Automates the most demanding recipes"
+				"• Removes manual Extreme Crafting"
+				"• Handles massive ingredient counts cleanly"
+				"• Essential for true endgame automation"
+			]
+			id: "740AD1C00684D5CD"
+			rewards: [{
+				id: "3BF1519962387A24"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0538EA4F8A8BA749"
+				item: "packagedavaritia:extreme_crafter"
+				type: "item"
+			}]
+			title: "&eExtreme Crafting&r"
+			x: 8.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["01EFE05083181909"]
+			description: [
+				"&eWhat Is the Fluid Package Filler?&r"
+				""
+				"The &eFluid Package Filler&r is a machine used to create &6Volume Packages&r filled with &bfluids&r."
+				""
+				"These fluid packages can then be used in &ePackagedAuto&r workflows just like item-based packages."
+				""
+				"The Fluid Package Filler &crequires power&r to operate."
+				""
+				"&eHow It Works&r"
+				""
+				"• Place the Fluid Package Filler next to a &bfluid container&r"
+				"• Insert a &etemplate fluid container&r into the machine"
+				""
+				"• Configure how much fluid the &6Volume Package&r should contain"
+				""
+				"&eCreating Fluid Packages&r"
+				""
+				"• Apply a &credstone signal&r to the machine"
+				"• The configured amount of fluid is packaged"
+				"• The created Volume Package is &eejected&r into adjacent inventories"
+				""
+				"&eImportant Notes&r"
+				""
+				"• The machine does &cNOT&r run automatically"
+				"• A redstone signal is &erequired&r"
+				"• Output is always ejected to adjacent inventories"
+				""
+				"&eWhy Use the Fluid Package Filler?&r"
+				""
+				"• Convert fluids into portable packages"
+				"• Integrate fluids into PackagedAuto systems"
+				"• Enable precise fluid amounts"
+				"• Useful for advanced processing chains"
+			]
+			id: "18FBAD6FAA74B08D"
+			rewards: [{
+				id: "777B328B4D224AF8"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4227F91557D5089A"
+				item: "packagedauto:fluid_package_filler"
+				type: "item"
+			}]
+			title: "&eFluid Package Filler&r"
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0AFFE685B5B34A56"]
+			description: [
+				"&eFusion Crafting&r is an &eextreme endgame&r crafting recipe type used to automate recipes from a &eFusion Crafting Core&r."
+				""
+				"It is based on the powerful fusion system and is intended for the most complex recipes."
+				""
+				"&eHow It Works&r"
+				""
+				"• Uses the &eFusion Package Crafter&r"
+				"• Supports recipes from the &eFusion Crafting Core&r"
+				"• Crafted items are &eejected&r into adjacent inventories"
+				""
+				"The Fusion Package Crafter &crequires power&r to operate."
+				""
+				"&eMarked Injectors&r"
+				""
+				"Fusion Crafting requires &eMarked Injectors&r of sufficient tier."
+				""
+				"• Injectors must be placed at least &a3 blocks&r away"
+				"• Injectors must face the crafter"
+				"• No blocks may obstruct the connection"
+				"• All injectors must be &apowered&r"
+				""
+				"Different recipes require different &etiers&r of injectors (Draconium, Wyvern, Draconic, Chaotic)."
+				""
+				"&eChecking Injector Requirements&r"
+				""
+				"You can &aSneak + Right-click&r with an empty hand on an &eidling&r Fusion Package Crafter to view the required number and tier of Marked Injectors."
+				""
+				"&eWhy Use Fusion Crafting?&r"
+				""
+				"• Fully automates the most powerful recipes"
+				"• Removes manual Fusion Crafting"
+				"• Handles injector tiers automatically"
+				"• Essential for late- and endgame progression"
+			]
+			id: "2E4361DA4E4F0874"
+			rewards: [{
+				id: "465D1AEC7C636FB8"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "438F912314858E93"
+				item: "packageddraconic:fusion_crafter"
+				type: "item"
+			}]
+			title: "&eFusion Crafting&r"
+			x: 5.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["0AFFE685B5B34A56"]
+			description: [
+				"&eWhat Is Flux Crafting?&r"
+				""
+				"&eFlux Crafting&r is a high-end crafting recipe type used to automate recipes from the &eEnder Crafting Table&r."
+				""
+				"It is designed for &elate-game&r and &eendgame&r crafting."
+				""
+				"&eHow It Works&r"
+				""
+				"• Uses the &eFlux Package Crafter&r"
+				"• Supports recipes from the &eEnder Crafting Table&r"
+				"• Crafted items are &eejected&r into adjacent inventories"
+				""
+				"The Flux Package Crafter &crequires power&r to operate."
+				""
+				"&eFlux Alternators&r"
+				""
+				"Flux Crafting requires powered &eFlux Alternators&r."
+				""
+				"• Alternators must be placed within a &a7×7×7&r area"
+				"• All alternators must be &apowered&r"
+				"• Missing power will prevent crafting"
+				""
+				"&eUse Cases&r"
+				""
+				"• Automating Ender Crafting Table recipes"
+				"• Late-game item production"
+				"• High-tier PackagedAuto setups"
+				"• Integration with &3AE2&r factories"
+				""
+				"&eWhy Use Flux Crafting?&r"
+				""
+				"• Enables fully automated endgame crafting"
+				"• Handles extremely complex recipes"
+				"• Removes manual Ender Crafting"
+				"• Perfect for large-scale automation"
+			]
+			id: "453B1A596BE686ED"
+			rewards: [{
+				id: "7F995F3BB89B6D1A"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1B18032A38E5C609"
+				item: "packagedexcrafting:flux_crafter"
+				type: "item"
+			}]
+			title: "&eFlux Crafting&r"
+			x: 5.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["54832AACF9BC8B54"]
+			description: [
+				"&eWhat Is the Package Recipe Encoder?&r"
+				""
+				"The &ePackage Recipe Encoder&r is the tool used to &aencode recipes&r into &ePackage Recipe Holders&r."
+				""
+				"These encoded holders provide recipe data to all &ePackagedAuto&r machines."
+				""
+				"&eEncoding Recipes&r"
+				""
+				"To encode a recipe:"
+				""
+				"• Select a &erecipe type&r"
+				"• Configure &einputs&r and &eoutputs&r"
+				"• Set the required &eitem counts&r"
+				""
+				"Once configured, insert one or more &ePackage Recipe Holders&r and press the &aSave&r button."
+				""
+				"You can preview which &6Recipe Packages&r will be created on the right side of the interface."
+				""
+				"&eLoading Existing Recipes&r"
+				""
+				"• Insert an encoded &ePackage Recipe Holder&r"
+				"• Press the &eLoad&r button"
+				"• Existing recipes will be loaded"
+				"  into the encoder interface"
+			]
+			id: "6EE0CF1C19D181CF"
+			rewards: [{
+				id: "6160C7DDCF1FF752"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "342BED154D155C55"
+				item: "packagedauto:encoder"
+				type: "item"
+			}]
+			title: "&ePackage Recipe Encoder&r"
+			x: -0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0AFFE685B5B34A56"]
+			id: "1070E5EB5869C5DB"
+			rewards: [{
+				id: "3EA479DC5387CF99"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5A10BD230B311824"
+				item: "packagedexcrafting:elite_crafter"
+				type: "item"
+			}]
+			title: "&eElite Crafting&r"
+			x: 1.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["7167023C7FD28CF0"]
+			description: [
+				"&eWhat Is End Crafting?&r"
+				""
+				"&eEnd Crafting&r is a specialized crafting recipe type used to automate recipes from the &eEnd Crafting Table&r."
+				""
+				"It focuses on &5End-themed&r and &elate-game&r crafting recipes."
+				""
+				"&eWhy Use End Crafting?&r"
+				""
+				"• Automates End-specific crafting mechanics"
+				"• Removes manual End Crafting"
+				"• Fits naturally into late-game automation"
+				"• Clean integration with &ePackagedAuto&r"
+			]
+			id: "71222E3AF49A8143"
+			rewards: [{
+				id: "7AE9A87D7A868B0B"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "621D74FCA4066810"
+				item: "packagedavaritia:end_crafter"
+				type: "item"
+			}]
+			title: "&eEnd Crafting&r"
+			x: 7.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2E4361DA4E4F0874"]
+			id: "1DA71A2A36736336"
+			rewards: [{
+				id: "0F1E0D718B557564"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "39ED3465F9C75F2E"
+				item: "packageddraconic:marked_draconium_injector"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 6.5d
+		}
+		{
+			description: [
+				"&ePackagedAuto&r simplifies complex crafting by using &6packages&r instead of handling large numbers of individual items."
+				""
+				"Instead of moving hundreds or thousands of items, recipes are &epackaged&r, processed, and then &aunpackaged&r when needed."
+				""
+				"This makes large-scale automation &a cleaner&r, &afaster&r, and &amore reliable&r."
+				""
+				"To begin using PackagedAuto, you will need:"
+				""
+				"• A &ePackage Recipe Encoder&r"
+				"• One or more &6Recipe Pattern Holders&r"
+				"• A &ePackager&r"
+				"• An &eUnpackager&r"
+				""
+				"Encoded Recipe Pattern Holders tell Packagers which &6packages&r they are allowed to create."
+				""
+				"PackagedAuto is designed with &3Applied Energistics 2&r integration in mind."
+				""
+				"When connected to an &3ME Network&r:"
+				""
+				"• Items can be pulled directly from AE storage"
+				"• Packages can be handled automatically"
+				"• Large crafting operations scale extremely well"
+				""
+				"Always check individual machines for additional &3AE2&r-specific features."
+				""
+				"• Reduces item transport complexity"
+				"• Prevents item overflow and bottlenecks"
+				"• Ideal for &alarge batch crafting&r"
+				"• Excellent for &eendgame automation&r"
+			]
+			id: "54832AACF9BC8B54"
+			rewards: [{
+				id: "09965A0FB4074712"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "6E7FF062FE34C62C"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "packagedauto:guide"
+					}
+				}
+				type: "item"
+			}]
+			title: "&ePackagedAuto – Introduction&r"
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6EE0CF1C19D181CF"]
+			description: [
+				"&6Crafting&r in &ePackagedAuto&r is handled using"
+				"the &ePackage Crafter&r."
+				""
+				"Instead of crafting items directly in a crafting table, recipes are processed using &6packages&r, making automation easier and more reliable."
+				""
+				"• Crafting recipes are executed by the &ePackage Crafter&r"
+				"• It supports all recipes normally craftable"
+				"  in a &6Crafting Table&r"
+				"• The Package Crafter &crequires power&r to operate"
+				""
+				"By default, crafted items are &ejected&r into adjacent inventories."
+				""
+				"The &ePackage Crafter&r does &cNOT&r work without power."
+				""
+				"Make sure it is supplied with energy either directly or via the &3ME Network&r."
+			]
+			id: "01EFE05083181909"
+			rewards: [{
+				id: "295988CC5E390D40"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0556B404D9C540FC"
+				item: "packagedauto:crafter"
+				type: "item"
+			}]
+			title: "&eCrafting&r"
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6EE0CF1C19D181CF"]
+			description: [
+				"The &ePackage Crafting Machine Proxy&r allows &6Unpackagers&r to send items to &aspecialized package crafting machines&r"
+				"&aremotely&r."
+				""
+				"This means crafting machines do &cNOT&r need to be placed directly next to an Unpackager."
+				""
+				"&eHow the Crafting Proxy Works&r"
+				""
+				"• The proxy acts as a &eremote endpoint&r"
+				"• Unpackagers send packages to the proxy"
+				"• The proxy forwards them to the bound machine"
+				""
+				"This enables clean layouts and long-distance automation."
+				""
+				"&eBinding a Crafting Machine&r"
+				""
+				"• Bind a &eProxy Marker&r to a package crafting machine"
+				"• Insert the bound marker into the &eCrafting Proxy&r"
+				"• The proxy now knows where to send packages"
+				""
+				"&eManaging Proxy Markers&r"
+				""
+				"• &aSneak + Right-click&r with a bound marker to unbind it"
+				"• You can copy a bound marker by crafting it"
+				"  together with empty markers"
+				""
+				"&eAdvanced Setup&r"
+				""
+				"• Use the &ePackaging Settings Cloner&r"
+				"  to copy proxy targets"
+				"• Paste settings into another proxy"
+				"  using an empty Proxy Marker"
+				""
+				"&eWhy Use the Crafting Proxy?&r"
+				""
+				"• Keep crafting machines far away from Unpackagers"
+				"• Build clean, modular factories"
+				"• Reduce cable and pipe clutter"
+				"• Ideal for large &ePackagedAuto&r setups"
+			]
+			icon: "packagedauto:crafting_proxy"
+			id: "1CC35C01F13AE8EF"
+			rewards: [{
+				id: "53FB5156DEB19BAA"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "799892DFE0528BEB"
+					item: "packagedauto:crafting_proxy"
+					type: "item"
+				}
+				{
+					id: "5410BDFE0EB2829F"
+					item: "packagedauto:proxy_marker"
+					type: "item"
+				}
+			]
+			title: "&bWhat Is the Crafting Proxy?&r"
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5AD13B93F716568B"]
+			description: [
+				"&eNether Crafting&r"
+				""
+				"&eNether Crafting&r is a specialized crafting recipe type used to automate recipes from the &eNether Crafting Table&r."
+				""
+				"It focuses on &cNether-themed&r and &elate-game&r crafting recipes."
+				""
+				"The Nether Package Crafter &crequires power&r to operate."
+				""
+				"&eWhy Use Nether Crafting?&r"
+				""
+				"• Automates Nether-specific crafting mechanics"
+				"• Removes manual Nether Crafting"
+				"• Fits naturally into late-game automation"
+				"• Clean integration with &ePackagedAuto&r"
+			]
+			id: "7167023C7FD28CF0"
+			rewards: [{
+				id: "0EB5528049A18051"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0E24DA16E41A3C32"
+				item: "packagedavaritia:nether_crafter"
+				type: "item"
+			}]
+			title: "&eNether Crafting&r"
+			x: 6.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0AFFE685B5B34A56"]
+			description: [
+				"&eWhat Is Sculk Crafting?&r"
+				""
+				"&eSculk Crafting&r is a special crafting recipe type used to automate recipes from the &eSculk Crafting Table&r."
+				""
+				"It focuses on &dsculk-based&r and &elate-game&r crafting mechanics."
+				""
+				"The Sculk Package Crafter &crequires power&r to operate."
+				""
+				"&eWhy Use Sculk Crafting?&r"
+				""
+				"• Automates unique sculk crafting mechanics"
+				"• Removes manual sculk crafting steps"
+				"• Fits naturally into late-game automation"
+				"• Clean integration with &ePackagedAuto&r"
+			]
+			id: "5AD13B93F716568B"
+			rewards: [{
+				id: "4AE8FFD4A8DAB114"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "728993AC179F362B"
+				item: "packagedavaritia:sculk_crafter"
+				type: "item"
+			}]
+			title: "&eSculk Crafting&r"
+			x: 5.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0AFFE685B5B34A56"]
+			id: "3878C5C2024F29A8"
+			rewards: [{
+				id: "181F18A141E99106"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1C498E772590AA9B"
+				item: "packagedexcrafting:ultimate_crafter"
+				type: "item"
+			}]
+			title: "&eUltimate Crafting&r"
+			x: 1.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["1FD6976F1F2761E5"]
+			id: "4088A25F5BF0EE73"
+			rewards: [{
+				id: "581A069265D5B4CA"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "35A01329887C460A"
+				item: "packageddraconic:marked_chaotic_injector"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["553D95BD59C50C68"]
+			id: "1FD6976F1F2761E5"
+			rewards: [{
+				id: "312E18DDE01A6F09"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "50BF8069B72C9855"
+				item: "packageddraconic:marked_draconic_injector"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["0AFFE685B5B34A56"]
+			description: [
+				"&eWhat Is Ender Crafting?&r"
+				""
+				"&eEnder Crafting&r is a high-tier crafting recipe type used to automate recipes from the &eEnder Crafting Table&r."
+				""
+				"It is designed for &elate-game&r and complex crafting recipes."
+				""
+				"&eHow It Works&r"
+				""
+				"• Uses the &eEnder Package Crafter&r"
+				"• Supports recipes from the &eEnder Crafting Table&r"
+				"• Crafted items are &eejected&r into adjacent inventories"
+				""
+				"The Ender Package Crafter &crequires power&r to operate."
+				""
+				"&eEnder Alternators&r"
+				""
+				"Ender Crafting requires &eEnder Alternators&r to function."
+				""
+				"• Alternators must be placed within a &a7×7×7&r area"
+				"• Alternators do &cNOT&r need items, but must be &apresent&r"
+				"• Missing alternators will prevent crafting"
+				""
+				"&eUse Cases&r"
+				""
+				"• Automating Ender Crafting Table recipes"
+				"• Late-game crafting chains"
+				"• Advanced PackagedAuto setups"
+				"• Integration with &3AE2&r factories"
+				""
+				"&eWhy Use Ender Crafting?&r"
+				""
+				"• Enables automated Ender Crafting"
+				"• Handles very complex recipes"
+				"• Removes manual crafting steps"
+				"• Scales well into late-game automation"
+			]
+			id: "24422A6ACA45CC63"
+			rewards: [{
+				id: "602E8E68F867056A"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "44E0D14F999323A2"
+				item: "packagedexcrafting:ender_crafter"
+				type: "item"
+			}]
+			title: "&eEnder Crafting&r"
+			x: 4.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["0AFFE685B5B34A56"]
+			id: "176CD1F9AEB2D23F"
+			rewards: [{
+				id: "0A0686FD74022512"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "61B6740E4BDACD04"
+				item: "packagedexexcrafting:epic_crafter"
+				type: "item"
+			}]
+			title: "&eEpic Crafting&r"
+			x: 2.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["1DA71A2A36736336"]
+			id: "553D95BD59C50C68"
+			rewards: [{
+				id: "58EABF1F57FFA139"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6C5FE695D94AB644"
+				item: "packageddraconic:marked_wyvern_injector"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["01EFE05083181909"]
+			description: [
+				"The &ePackager&r is the machine responsible for turning real items into &6Recipe Packages&r."
+				""
+				"These packages are later processed by an &eUnpackager&r to complete crafting or processing."
+				""
+				"The Packager &crequires power&r to operate."
+				""
+				"&eHow the Packager Works&r"
+				""
+				"• Insert an encoded &ePackage Recipe Holder&r"
+				"• The Packager reads the available recipes"
+				"• Items are taken from inventories or networks"
+				"• Matching items are bundled into &6Recipe Packages&r"
+				"• Requires an &3AE2&r channel"
+				""
+				"Created packages are &eejected&r into adjacent inventories by default."
+				""
+				"Inputs can be extracted from the &etop side&r."
+				""
+				"&ePackaging Modes&r"
+				""
+				"The Packager supports different matching modes:"
+				""
+				"• &eRequire Exact&r"
+				"  – Only creates a package if the inventory exactly matches the recipe"
+				""
+				"• &eRequire Disjoint&r"
+				"  – Creates a package only if items do not overlap"
+				"  – Falls back to &eRequire Exact&r if needed"
+				""
+				"• &eFirst Match&r"
+				"  – Creates the first package that can be made from the available items"
+				""
+				"&eWhy Use the Packager?&r"
+				""
+				"• Converts complex recipes into simple packages"
+				"• Reduces item transport overhead"
+				"• Essential for all &ePackagedAuto&r systems"
+				"• Scales extremely well with &3AE2&r automation"
+			]
+			id: "3CED53CE6C425AD2"
+			rewards: [{
+				id: "74710C287AB09D51"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "003DB7239DE0C923"
+				item: "packagedauto:packager"
+				type: "item"
+			}]
+			title: "&ePackager&r"
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3CED53CE6C425AD2"]
+			description: [
+				"&eWhat Is the Packager Extension?&r"
+				""
+				"The &ePackager Extension&r is an auxiliary machine that &acopies the functionality&r of a nearby &ePackager&r."
+				""
+				"It allows you to &aparallelize packaging&r without needing additional &ePackage Recipe Holders&r."
+				""
+				"The Packager Extension &crequires power&r to operate."
+				""
+				"&eHow It Works&r"
+				""
+				"• Place the Packager Extension within a &a3×3×3&r area around a &ePackager&r"
+				"• The extension automatically copies the Packager’s recipe data and behavior"
+				""
+				"If multiple Packagers are detected, the extension copies the &enorth-west-bottommost&r one."
+				""
+				"Inputs can be extracted from the &etop side&r."
+				""
+				"&ePackaging Modes&r"
+				""
+				"The Packager Extension supports the same modes as the Packager:"
+				""
+				"• &eRequire Exact&r"
+				"• &eRequire Disjoint&r"
+				"• &eFirst Match&r"
+				""
+				"These modes control how inventory contents are matched to available recipes."
+				""
+				"&eWhy Use the Packager Extension?&r"
+				""
+				"• Scale packaging throughput efficiently"
+				"• Reduce Recipe Holder usage"
+				"• Simplify large PackagedAuto setups"
+				"• Ideal for high-volume automation"
+			]
+			id: "6A1B3509AB70FA8C"
+			rewards: [{
+				id: "384501F6EE63A890"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "10AA78F3355692A5"
+				item: "packagedauto:packager_extension"
+				type: "item"
+			}]
+			title: "&ePackager Extension&r"
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"3CED53CE6C425AD2"
+				"6DE7A57143B0C88E"
+			]
+			description: [
+				"&eWhat Is the ME Packaging Provider?&r"
+				""
+				"The &eME Packaging Provider&r is a powerful all-in-one machine that combines the functionality of a &ePackager&r and an &eUnpackager&r."
+				""
+				"It is designed to work &aexclusively&r with an &3ME Network&r and requires an AE2 channel."
+				""
+				"&eHow It Works&r"
+				""
+				"• Insert an encoded &ePackage Recipe Holder&r"
+				"• The provider reads all stored recipes"
+				"• Recipes are exposed directly to the ME Network"
+				"• Requires an &3AE2&r channel"
+				""
+				"Depending on its configuration, the provider can handle packaging, unpackaging, or both automatically."
+				""
+				"&eProviding Modes&r"
+				""
+				"The ME Packaging Provider supports three different providing modes:"
+				""
+				"• &eDirect&r"
+				"  – Provides a single large processing recipe"
+				"  – Skips both packaging and unpackaging steps"
+				""
+				"• &ePackaging&r"
+				"  – Provides packaging recipes"
+				"  – Works like a normal &ePackager&r"
+				""
+				"• &eUnpackaging&r"
+				"  – Provides unpackaging recipes"
+				"  – Works like a normal &eUnpackager&r"
+				""
+				"&eWhy Use the ME Packaging Provider?&r"
+				""
+				"• Combines Packager and Unpackager in one block"
+				"• Reduces machine count and wiring"
+				"• Fully integrated into &3AE2&r autocrafting"
+				"• Ideal for compact, high-performance setups"
+			]
+			hide_dependent_lines: true
+			id: "0AFFE685B5B34A56"
+			rewards: [{
+				id: "152E6CFFB5133B87"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4451AB66474ABD77"
+				item: "packagedauto:packaging_provider"
+				type: "item"
+			}]
+			title: "&eME Packaging Provider&r"
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["01EFE05083181909"]
+			description: [
+				"The &eUnpackager&r is the machine responsible for turning &6Recipe Packages&r back into real items."
+				""
+				"It distributes packaged inputs into &eadjacent inventories&r or &epackage crafting machines&r, depending on the recipe type."
+				""
+				"The Unpackager &crequires power&r to operate."
+				""
+				"&eHow the Unpackager Works&r"
+				""
+				"• Insert &6Recipe Packages&r into the Unpackager"
+				"• Packages are placed into internal &etrackers&r"
+				"• Once a tracker is filled, the package is unpackaged"
+				"• Items are sent to adjacent inventories or machines"
+				"• Requires an &3AE2&r channel"
+				""
+				"The number of trackers can be adjusted to control parallel processing."
+				""
+				"&eProcessing and Blocking Mode&r"
+				""
+				"For processing recipes, you can enable &eBlocking Mode&r."
+				""
+				"• Prevents unpackaging into occupied inventories"
+				"• Ensures correct machine synchronization"
+				""
+				"Inputs can be extracted from the &etop side&r."
+				""
+				"&eWhy Use the Unpackager?&r"
+				""
+				"• Converts packages back into usable items"
+				"• Essential for all &ePackagedAuto&r workflows"
+				"• Supports complex multi-machine recipes"
+				"• Scales cleanly with &3AE2&r automation"
+			]
+			id: "6DE7A57143B0C88E"
+			rewards: [{
+				id: "56BA47F7F95469A9"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1A84B563303F53B8"
+				item: "packagedauto:unpackager"
+				type: "item"
+			}]
+			title: "&eUnpackager&r"
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["54832AACF9BC8B54"]
+			description: [
+				"&eWhat Is the Settings Cloner?&r"
+				""
+				"The &ePackaging Settings Cloner&r is a utility tool that allows you to &acopy&r and &apaste&r configuration settings between supported &ePackagedAuto&r machines."
+				""
+				"&eHow to Use&r"
+				""
+				"• Hold the &eSettings Cloner&r in your hand"
+				"• &aSneak + Right-click&r a supported machine to &acopy&r its settings"
+				""
+				"• &aRight-click&r another machine of the &esame type&r to &apaste&r the copied settings"
+				""
+				"• &aSneak + Right-click&r on &eair&r or on an &eunsupported block&r to clear the stored configuration"
+				""
+				"&eWhy Use the Settings Cloner?&r"
+				""
+				"• Quickly replicate complex setups"
+				"• Avoid manual reconfiguration"
+				"• Maintain consistent automation behavior"
+				"• Essential for large &ePackagedAuto&r factories"
+			]
+			id: "30BEE6FCFFC78A63"
+			rewards: [{
+				id: "60C48299360BB4EC"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "43DB30977FA3E252"
+				item: "packagedauto:settings_cloner"
+				type: "item"
+			}]
+			title: "&eSettings Cloner&r"
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["54832AACF9BC8B54"]
+			description: [
+				"&eWhat Is the Package Recipe Holder?&r"
+				""
+				"The &ePackage Recipe Holder&r is the item that stores &erecipe data&r for &ePackagedAuto&r machines."
+				""
+				"Recipes are encoded into it using the &ePackage Recipe Encoder&r."
+				""
+				"&eHow It Is Used&r"
+				""
+				"• Insert encoded Recipe Holders into PackagedAuto machines"
+				"• Machines read the stored recipes directly from the holder"
+				""
+				"Without a Recipe Holder, most PackagedAuto machines cannot function."
+				""
+				"&eManaging Recipe Holders&r"
+				""
+				"• &aSneak + Right-click&r an encoded holder to &cclear&r all stored recipes"
+				""
+				"• Place an encoded holder in a crafting grid to clear it as well"
+				""
+				"• Combine an encoded holder with empty holders in a crafting grid to &acopy&r all recipes"
+				""
+				"&eWhy It Matters&r"
+				""
+				"• Central storage for PackagedAuto recipes"
+				"• Makes recipe reuse and duplication easy"
+				"• Essential for scalable automation"
+			]
+			id: "4AD6B31B2ACFD56E"
+			rewards: [{
+				id: "55984D46A23BF3B0"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0878599000D033FE"
+				item: "packagedauto:recipe_holder"
+				type: "item"
+			}]
+			title: "&ePackage Recipe Holder&r"
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6EE0CF1C19D181CF"]
+			description: [
+				"&ePositioned Processing&r is a special processing and crafting method that allows items to be &asent to specific inventories&r in a &efixed order&r."
+				""
+				"It is designed for recipes where &aprecise item placement&r matters."
+				""
+				"&eHow It Works&r"
+				""
+				"• Uses a &ePositioned Package Distributor&r"
+				"• Each input slot is linked to a specific target inventory"
+				"• Outputs are &asorted and stacked&r when encoded"
+				"• Items are inserted &ein exact order&r when unpackaged"
+				""
+				"&eDistributor Markers&r"
+				""
+				"• &eDistributor Markers&r are bound to inventories"
+				"• Each marker represents one target location"
+				"• Markers are inserted into the distributor slots"
+				"  matching the encoded input order"
+				""
+				"This ensures items always go to the correct machine or inventory."
+				""
+				"&eSettings and Automation&r"
+				""
+				"• Target setups can be copied using the"
+				"  &ePackaging Settings Cloner&r"
+				"• Requires enough empty &eDistributor Markers&r"
+				"  when pasting settings"
+				""
+				"&eWhy Use Positioned Processing?&r"
+				""
+				"• Perfect for multi-machine recipes"
+				"• Guarantees correct item routing"
+				"• Prevents mix-ups in complex automation"
+				"• Ideal for advanced &ePackagedAuto&r setups"
+			]
+			icon: "packagedauto:distributor"
+			id: "5E8B7801E15425D7"
+			rewards: [{
+				id: "6F8257FDC745218F"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "5102550A02CC700E"
+					item: "packagedauto:distributor"
+					type: "item"
+				}
+				{
+					id: "6452C4F71CC870C5"
+					item: "packagedauto:distributor_marker"
+					type: "item"
+				}
+			]
+			title: "&ePositioned Processing&r"
+			x: -0.5d
+			y: 3.5d
+		}
+	]
+	title: "Packaged"
+}

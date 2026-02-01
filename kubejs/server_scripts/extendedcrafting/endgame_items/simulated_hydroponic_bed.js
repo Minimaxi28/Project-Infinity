@@ -92,7 +92,7 @@ ServerEvents.recipes((event) => {
         },
         U: {
           type: 'forge:nbt',
-          item: 'undergarden:forgotten_hoe',
+          item: 'ender_dragon_loot:dragon_hoe',
           count: 1,
           nbt: '{Damage:0}',
         },

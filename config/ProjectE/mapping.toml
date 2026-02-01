@@ -15,7 +15,7 @@
 	#Loads json files within datapacks (data/<domain>/pe_custom_conversions/*.json) to add values and conversions
 	CustomConversionMapper = true
 	#Add Conversions for all weathered copper variants
-	WeatheredCopperMapper = true
+	WeatheredCopperMapper = false
 	#Add Conversions for all lingering potions to arrow recipes
 	TippedArrowMapper = true
 	#Set EMC=0 for everything in the forge:raw_materials tag
@@ -31,11 +31,11 @@
 	#Adds back and forth conversions of objects and their Tag variant. (EMC values assigned to tags will not behave properly if this mapper is disabled)
 	TagMapper = true
 	#(AppliedE) Maps Applied Energistics 2 P2P tunnels.
-	AE2P2PTunnels = true
+	AE2P2PTunnels = false
 	#(AppliedE) Maps Applied Energistics 2 cable facades.
-	AE2FacadeMapper = true
+	AE2FacadeMapper = false
 	#(AppliedE) Maps Applied Energistics 2 matter condenser results.
-	AE2MatterCondenser = true
+	AE2MatterCondenser = false
 
 [CraftingMapper]
 
@@ -49,7 +49,7 @@
 
 	[CraftingMapper.MekSawmill]
 		#Maps Mekanism sawmill recipes. (Disabled by default, due to causing various EMC values to be removed pertaining to charcoal/wood)
-		enabled = false
+		enabled = true
 
 	[CraftingMapper.MekRotary]
 		#Maps Mekanism rotary condensentrator recipes.
@@ -57,15 +57,15 @@
 
 	[CraftingMapper.MekPressurizedReaction]
 		#Maps Mekanism pressurized reaction recipes.
-		enabled = false
+		enabled = true
 
 	[CraftingMapper.MekPigmentMixer]
 		#Maps Mekanism pigment mixer recipes.
-		enabled = true
+		enabled = false
 
 	[CraftingMapper.MekPaintingMachine]
 		#Maps Mekanism painting machine recipes.
-		enabled = true
+		enabled = false
 
 	[CraftingMapper.MekMetallurgicInfuser]
 		#Maps Mekanism metallurgic infuser recipes.
@@ -73,7 +73,7 @@
 
 	[CraftingMapper.MekItemStackToPigment]
 		#Maps Mekanism item stack to pigment recipes. (Pigment Extracting)
-		enabled = true
+		enabled = false
 
 	[CraftingMapper.MekItemStackToItemStack]
 		#Maps Mekanism Machine recipes that go from item to item. (Crushing, Enriching, Smelting)

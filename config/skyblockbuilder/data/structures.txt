@@ -57,13 +57,6 @@ cataclysm:frosted_prison
 cataclysm:ruined_citadel
 cataclysm:soul_black_smith
 cataclysm:sunken_city
-dimdoors:enclosed_endstone_gateway
-dimdoors:enclosed_gateway
-dimdoors:enclosed_mud_gateway
-dimdoors:enclosed_prismarine_gateway
-dimdoors:enclosed_quartz_gateway
-dimdoors:enclosed_red_sandstone_gateway
-dimdoors:enclosed_sandstone_gateway
 ender_dragon_loot:dragon_kin_altar
 endlessbiomes:arkan_bulwark
 endlessbiomes:resitive_bulwark
@@ -216,8 +209,3 @@ twilightforest:quest_grove
 twilightforest:small_hollow_hill
 twilightforest:troll_cave
 twilightforest:yeti_cave
-undead_revamp2:terraindrip_1
-undead_revamp2:terraindrip_2
-undead_revamp2:terraindrip_3
-undergarden:catacombs
-undergarden:forgotten_vestige

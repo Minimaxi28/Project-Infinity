@@ -166,28 +166,30 @@ MMEvents.createProcesses((event) => {
     'enderio:double_layer_capacitor'
   );
 
-  createEmpowered(
+  createRecipe2(
     event,
     [
-      'redstone_arsenal:flux_gem',
-      'minecraft:redstone',
-      'enderio:redstone_alloy_ingot',
-      'extendedcrafting:redstone_ingot',
-      'minecraft:lava_bucket',
+      { item: 'redstone_arsenal:flux_gem', count: 64 },
+      { item: 'minecraft:redstone', count: 64 },
+      { item: 'enderio:redstone_alloy_ingot', count: 64 },
+      { item: 'extendedcrafting:redstone_ingot', count: 64 },
+      { item: 'mysticalagriculture:fire_essence', count: 256 },
     ],
-    'armorplus:lava_crystal'
+    'armorplus:lava_crystal',
+    64
   );
 
-  createEmpowered(
+  createRecipe2(
     event,
     [
-      'armorplus:en_diamond',
-      'minecraft:lapis_lazuli',
-      'bigreactors:cyanite_ingot',
-      'common_ore_library:platinum_ingot',
-      'minecraft:water_bucket',
+      { item: 'armorplus:en_diamond', count: 64 },
+      { item: 'minecraft:lapis_lazuli', count: 64 },
+      { item: 'bigreactors:cyanite_ingot', count: 64 },
+      { item: 'common_ore_library:platinum_ingot', count: 64 },
+      { item: 'mysticalagriculture:water_essence', count: 256 },
     ],
-    'armorplus:frost_crystal'
+    'armorplus:frost_crystal',
+    64
   );
 
   // Black Lotus Botania
@@ -204,7 +206,7 @@ MMEvents.createProcesses((event) => {
   );
 });
 
-function createSimple1(event, input, output) {
+function createSimple1 (event, input, output) {
   const sanitizedOutput = output.replace(':', '_');
   event
     .create(`mm:mechanical_empowerer_${sanitizedOutput}`)
@@ -235,7 +237,7 @@ function createSimple1(event, input, output) {
     });
 }
 
-function createSimple2(event, input1, input2, output) {
+function createSimple2 (event, input1, input2, output) {
   const sanitizedOutput = output.replace(':', '_');
   event
     .create(`mm:mechanical_empowerer_${sanitizedOutput}`)
@@ -274,7 +276,7 @@ function createSimple2(event, input1, input2, output) {
     });
 }
 
-function createEmpowered(event, inputs, output) {
+function createEmpowered (event, inputs, output) {
   const sanitizedOutput = output.replace(':', '_');
   const recipe = event
     .create(`mm:mechanical_empowerer_empowered_${sanitizedOutput}`)
@@ -310,7 +312,7 @@ function createEmpowered(event, inputs, output) {
   });
 }
 
-function createRecipe(event, inputs, output, outputCount) {
+function createRecipe (event, inputs, output, outputCount) {
   const sanitizedOutput = output.replace(':', '_');
   const recipe = event
     .create(`mm:mechanical_empowerer_empowered_${sanitizedOutput}`)
@@ -333,6 +335,42 @@ function createRecipe(event, inputs, output, outputCount) {
     ingredient: {
       type: 'mm:energy',
       amount: SIMPLE_ENERGY,
+    },
+  });
+
+  recipe.output({
+    type: 'mm:output/simple',
+    ingredient: {
+      type: 'mm:item',
+      item: output,
+      count: outputCount,
+    },
+  });
+}
+
+function createRecipe2(event, inputs, output, outputCount) {
+  const sanitizedOutput = output.replace(':', '_');
+  const recipe = event
+    .create(`mm:mechanical_empowerer_empowered_${sanitizedOutput}`)
+    .structureId('mm:mechanical_empowerer_structure')
+    .ticks(TICKS);
+
+  inputs.forEach((input) => {
+    recipe.input({
+      type: 'mm:input/consume',
+      ingredient: {
+        type: 'mm:item',
+        item: input.item,
+        count: input.count,
+      },
+    });
+  });
+
+  recipe.input({
+    type: 'mm:input/consume',
+    ingredient: {
+      type: 'mm:energy',
+      amount: EMPOWERED_ENERGY,
     },
   });
 

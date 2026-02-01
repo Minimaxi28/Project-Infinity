@@ -1,0 +1,1213 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "blood_magic"
+	group: "29543B666C58207C"
+	icon: "bloodmagic:altar"
+	id: "73B863613E3F7DB3"
+	images: [
+		{
+			height: 2.0d
+			image: "kubejs:block/screen/bloodmagic_altar_2"
+			rotation: 0.0d
+			width: 2.626865671641791d
+			x: -1.0d
+			y: -8.0d
+		}
+		{
+			height: 4.0d
+			image: "kubejs:block/screen/bloodmagic_altar_3"
+			rotation: 0.0d
+			width: 5.192250372578242d
+			x: 0.0d
+			y: -5.5d
+		}
+		{
+			height: 5.0d
+			image: "kubejs:block/screen/bloodmagic_altar_4"
+			rotation: 0.0d
+			width: 6.379310344827587d
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			height: 7.0d
+			image: "kubejs:block/screen/bloodmagic_altar_5"
+			rotation: 0.0d
+			width: 7.397450753186558d
+			x: 5.0d
+			y: -4.0d
+		}
+	]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&4Blood Magic&r is a powerful and dangerous magic mod centered around the use of life force — your own blood — to fuel powerful rituals, alchemy, tools, and effects."
+				""
+				"It is an arcane art practiced by mages seeking forbidden power, but every action has a cost. Be warned: blood magic can be deadly if used carelessly."
+				""
+				"Blood Magic revolves around collecting &cLife Essence&r (by harming yourself or mobs) and using it to power:"
+				""
+				"• Blood Altars  "
+				"• Rituals  "
+				"• Magical tools and sigils  "
+				"• Powerful armor and effects  "
+				""
+				"• You generate Life Essence (LP) by sacrificing health"
+				"  or killing mobs with special tools."
+				"• LP powers your rituals and creations via the Blood Altar."
+				"• More advanced altars unlock greater magical power."
+				"{@pagebreak}"
+				"Blood Magic adds:"
+				"• Daggers and sacrificial tools"
+				"• Magical sigils with special abilities"
+				"• Alchemical items"
+				"• Unique progression items like Tartaric Gems"
+				""
+				"• Blood Magic offers &apowerful&r effects unavailable"
+				"  through normal means."
+				"• Many systems are driven by &cLife Essence&r, which"
+				"  can cost your health if mismanaged."
+				"• Using Rituals and altars incorrectly can be &cdeadly&r."
+				""
+				"Blood Magic includes an in-game guidebook (Sanguine Scientum) that explains progression, rituals, altars, and tools."
+				"Craft it with a &abook&r and &aglass&r to get started."
+				""
+				"Blood Magic works great with tech and automation mods. You can automate your Life Essence production or use it with machinery and other magical mods to deepen your gameplay."
+			]
+			id: "7738BD62E1D27997"
+			min_width: 350
+			rewards: [{
+				id: "21DA73FB7E95E465"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "643DFC061B12BE38"
+				title: "Welcome to Bloodmagic"
+				type: "checkmark"
+			}]
+			title: "Welcome to &4Blood Magic&r"
+			x: -3.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["7738BD62E1D27997"]
+			description: [
+				"The very first thing we'll be needing to craft to start is the &4Blood Altar&r."
+				""
+				"In order to use this for now we'll be using a &4Sacrificial Knife&r to gather blood from ourselfs."
+				""
+				"Later on we'll have options to improve the amount of blood gained from this, or the ability to gather blood in other ways."
+			]
+			id: "2C9DCF44DF0C695C"
+			rewards: [{
+				id: "7C8699255A8F208D"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			subtitle: "This is where it all begins"
+			tasks: [
+				{
+					id: "2BA58E45564991C8"
+					item: "bloodmagic:altar"
+					type: "item"
+				}
+				{
+					id: "7CE1000305659DC3"
+					item: {
+						Count: 1
+						id: "bloodmagic:sacrificialdagger"
+						tag: {
+							sacrifice: 0b
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["2C9DCF44DF0C695C"]
+			description: [
+				"Every tier of the altar allows you to create a new tier of &8Slate&r"
+				""
+				"These slates are used to create runes that improve the altar, and many more things in blood magic"
+			]
+			id: "26ED1375B742CE73"
+			rewards: [{
+				id: "01C4BA28B968C8A2"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2842A3391EDCAFBE"
+				item: "bloodmagic:blankslate"
+				type: "item"
+			}]
+			title: "Slates"
+			x: -5.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["2C9DCF44DF0C695C"]
+			description: [
+				"The &3Hellfire Forge&r is another one of the different crafting methods available within blood magic."
+				""
+				"This uses souls instead of blood to craft."
+			]
+			id: "60A0B82B80FF9831"
+			rewards: [{
+				id: "351DBC325EA14587"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "596D330210B88154"
+				item: "bloodmagic:soulforge"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["2C9DCF44DF0C695C"]
+			description: [
+				"The &3Soul Snare&r allows you to gather souls from mobs you killed."
+				""
+				"Simply throw it at a mob, once you see white particles surrounding the mob you'll know it worked."
+			]
+			id: "15AB701D6D324B29"
+			rewards: [{
+				id: "0D5F9B36B2F39669"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "68F4BF3B31F61711"
+				item: "bloodmagic:soulsnare"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -9.5d
+		}
+		{
+			dependencies: [
+				"60A0B82B80FF9831"
+				"15AB701D6D324B29"
+			]
+			description: [
+				"These &3Tartaric Gems&r allow you to store souls in them, thereby allowing you to craft with more souls."
+				""
+				"You're going to want to craft atleast 2 of these, as you'll want 2 for upgrading, since you need 1 to craft the other."
+				""
+				"The third will be used to craft the &3Sentient Sword&r, which will allow you to obtain souls without needing soul snares."
+			]
+			id: "1CD1610FD2C009CD"
+			rewards: [{
+				id: "1A1A70E2CFE2C831"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				count: 3L
+				id: "0FD12D96678D1A02"
+				item: {
+					Count: 1
+					id: "bloodmagic:soulgempetty"
+					tag: {
+						souls: 0.0d
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			x: 5.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["1CD1610FD2C009CD"]
+			description: ["As mentioned in the previous chapter, mobs killed by the &3Sentient Sword&r drops souls without the need of soul snares"]
+			id: "2E12E30CA07F180A"
+			rewards: [{
+				id: "452578E72D9C16A5"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "54B24BFDD76BA64A"
+				item: {
+					Count: 1
+					id: "bloodmagic:soulsword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["1CD1610FD2C009CD"]
+			id: "53369AEB33A93395"
+			rewards: [{
+				id: "41ADF66D5A2E8287"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "774A6452FABB54D2"
+				item: {
+					Count: 1
+					id: "bloodmagic:soulgemlesser"
+					tag: {
+						souls: 0.0d
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			x: 7.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["53369AEB33A93395"]
+			id: "1F99D0735F103CAF"
+			rewards: [{
+				id: "6D153E5D76546596"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6218EDB9C7D0297B"
+				item: {
+					Count: 1
+					id: "bloodmagic:soulgemcommon"
+					tag: {
+						souls: 0.0d
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			x: 7.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["1F99D0735F103CAF"]
+			id: "099E6AB398DDE1CF"
+			rewards: [{
+				id: "6D003F17245F922E"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "019D48CF2425A35A"
+				item: {
+					Count: 1
+					id: "bloodmagic:soulgemgreater"
+					tag: {
+						souls: 0.0d
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			x: 8.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["2C9DCF44DF0C695C"]
+			icon: "bloodmagic:blankrune"
+			id: "143A7BF0B54CED1B"
+			rewards: [{
+				id: "06744E51100053C7"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "6C48D0A86F0EB236"
+				item: {
+					Count: 8
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "bloodmagic:blankrune"
+							}
+							{
+								Count: 1b
+								id: "bloodmagic:speedrune"
+							}
+							{
+								Count: 1b
+								id: "bloodmagic:sacrificerune"
+							}
+							{
+								Count: 1b
+								id: "bloodmagic:selfsacrificerune"
+							}
+							{
+								Count: 1b
+								id: "bloodmagic:dislocationrune"
+							}
+							{
+								Count: 1b
+								id: "bloodmagic:altarcapacityrune"
+							}
+							{
+								Count: 1b
+								id: "bloodmagic:bettercapacityrune"
+							}
+							{
+								Count: 1b
+								id: "bloodmagic:orbcapacityrune"
+							}
+							{
+								Count: 1b
+								id: "bloodmagic:accelerationrune"
+							}
+							{
+								Count: 1b
+								id: "bloodmagic:chargingrune"
+							}
+						]
+					}
+				}
+				title: "Runes"
+				type: "item"
+			}]
+			title: "Blood Altar II"
+			x: -3.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["26ED1375B742CE73"]
+			id: "19619678523C2D0C"
+			rewards: [{
+				id: "1B5B9CD7F59EF515"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "78C25EF4A36821F7"
+				item: "bloodmagic:reinforcedslate"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["143A7BF0B54CED1B"]
+			icon: "minecraft:glowstone"
+			id: "22899D5B9A1D407E"
+			rewards: [{
+				id: "573D92029833E148"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 4L
+					id: "13D9D209F3A33186"
+					item: "minecraft:glowstone"
+					type: "item"
+				}
+				{
+					count: 20L
+					id: "5F9F4BE09F483A3D"
+					item: {
+						Count: 20
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "bloodmagic:blankrune"
+								}
+								{
+									Count: 1b
+									id: "bloodmagic:speedrune"
+								}
+								{
+									Count: 1b
+									id: "bloodmagic:sacrificerune"
+								}
+								{
+									Count: 1b
+									id: "bloodmagic:selfsacrificerune"
+								}
+								{
+									Count: 1b
+									id: "bloodmagic:dislocationrune"
+								}
+								{
+									Count: 1b
+									id: "bloodmagic:altarcapacityrune"
+								}
+								{
+									Count: 1b
+									id: "bloodmagic:bettercapacityrune"
+								}
+								{
+									Count: 1b
+									id: "bloodmagic:orbcapacityrune"
+								}
+								{
+									Count: 1b
+									id: "bloodmagic:accelerationrune"
+								}
+								{
+									Count: 1b
+									id: "bloodmagic:chargingrune"
+								}
+							]
+						}
+					}
+					title: "Runes"
+					type: "item"
+				}
+			]
+			title: "Blood Altar III"
+			x: -3.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"22899D5B9A1D407E"
+				"46ABB6AD85644E7C"
+			]
+			icon: "bloodmagic:largebloodstonebrick"
+			id: "22657461D5EC7233"
+			rewards: [{
+				id: "213B426B5717F733"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 4L
+					id: "7890FC8E4D16B1FB"
+					item: "bloodmagic:largebloodstonebrick"
+					type: "item"
+				}
+				{
+					count: 28L
+					id: "5CDD4EA377E812B4"
+					item: {
+						Count: 28
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "bloodmagic:blankrune"
+								}
+								{
+									Count: 1b
+									id: "bloodmagic:speedrune"
+								}
+								{
+									Count: 1b
+									id: "bloodmagic:sacrificerune"
+								}
+								{
+									Count: 1b
+									id: "bloodmagic:selfsacrificerune"
+								}
+								{
+									Count: 1b
+									id: "bloodmagic:dislocationrune"
+								}
+								{
+									Count: 1b
+									id: "bloodmagic:altarcapacityrune"
+								}
+								{
+									Count: 1b
+									id: "bloodmagic:bettercapacityrune"
+								}
+								{
+									Count: 1b
+									id: "bloodmagic:orbcapacityrune"
+								}
+								{
+									Count: 1b
+									id: "bloodmagic:accelerationrune"
+								}
+								{
+									Count: 1b
+									id: "bloodmagic:chargingrune"
+								}
+							]
+						}
+					}
+					title: "Runes"
+					type: "item"
+				}
+			]
+			title: "Blood Altar IV"
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2C9DCF44DF0C695C"]
+			description: [
+				"The &4Blood Orb&r Allows you to use blood in rituals, and is used in certain crafts"
+				""
+				"Each higher tier of blood orb will require a new material, and a higher tier of blood altar"
+				""
+				"Each orb also allows you to absorb a certain amount of blood in your own personal blood store. This store can be filled by placing the blood orb in a filled blood altar."
+				""
+				"While your own store has a high limit, every blood orb can only fill it to a certain level (higher tiers allowing more to be stored)"
+			]
+			id: "7C9BBAD8BFEAB152"
+			rewards: [{
+				id: "202ADE54AFEDF7F4"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "10BC8046F4F47183"
+				item: "bloodmagic:weakbloodorb"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["7C9BBAD8BFEAB152"]
+			id: "07DFEADA7FE3418D"
+			rewards: [{
+				id: "6C0996713F54E64B"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4A6630B100AADCF8"
+				item: "bloodmagic:apprenticebloodorb"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["07DFEADA7FE3418D"]
+			id: "71D2951CAB1F3AC0"
+			rewards: [{
+				id: "689B608DA45EC93F"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "59429BB41FDEB698"
+				item: "bloodmagic:magicianbloodorb"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["71D2951CAB1F3AC0"]
+			id: "5828B521365A3019"
+			rewards: [{
+				id: "7299E8C5E246087D"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7ABE5F2BA5ED73EA"
+				item: "bloodmagic:masterbloodorb"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["5828B521365A3019"]
+			id: "77189829F3CBF1AD"
+			rewards: [{
+				id: "36ABF0111B75FDA8"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2B4570E766513873"
+				item: "bloodmagic:archmagebloodorb"
+				type: "item"
+			}]
+			x: -13.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["19619678523C2D0C"]
+			id: "1785541DB16F5C7B"
+			rewards: [{
+				id: "757E1F7009F0E023"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4C2795830D008814"
+				item: "bloodmagic:infusedslate"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["1785541DB16F5C7B"]
+			id: "21DB0B71C9DBF976"
+			rewards: [{
+				id: "0034D061D535C281"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "30AE9065EA9CB777"
+				item: "bloodmagic:demonslate"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["21DB0B71C9DBF976"]
+			id: "61E53DE74FB6B617"
+			rewards: [{
+				id: "43A57770176FDE64"
+				item: "kubejs:infused_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "34B2C465A08876F3"
+				item: "bloodmagic:etherealslate"
+				type: "item"
+			}]
+			x: -13.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["22899D5B9A1D407E"]
+			description: [
+				"Blood magic contains numerous rituals that can do many different things."
+				""
+				"The questbook will only explain the rituals that are needed for progression, if you want to know more, the blood magic book contains information on all these rituals"
+			]
+			id: "363464DDE5932DDA"
+			rewards: [{
+				id: "31F40426FF6E2DA9"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "013F21490A4DA1F7"
+				title: "Rituals and You"
+				type: "checkmark"
+			}]
+			x: -13.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["363464DDE5932DDA"]
+			description: [
+				"In order to easily make the most rituals, you'll need a ritual diviner."
+				""
+				"Technically this is not a required tool, as you can color the runes yourself, but the diviner also allows you to autobuild the ritual and color them."
+				""
+				"Theres really no reason not to make it."
+			]
+			id: "6478D601B3D62C97"
+			rewards: [{
+				id: "0937E8B61698880E"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "212CDDF644BEFE5B"
+					item: {
+						Count: 1
+						id: "bloodmagic:waterscribetool"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2C007A8C17A0052A"
+					item: {
+						Count: 1
+						id: "bloodmagic:earthscribetool"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "437715D145C29162"
+					item: {
+						Count: 1
+						id: "bloodmagic:airscribetool"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "302F27C0C76040E3"
+					item: {
+						Count: 1
+						id: "bloodmagic:firescribetool"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "250017A67A4F9481"
+					item: {
+						Count: 1
+						id: "bloodmagic:ritualdiviner"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "Ritual Diviner"
+			x: -15.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["363464DDE5932DDA"]
+			description: [
+				"The &8Master Ritual Stone&r is the center of every ritual"
+				""
+				"The &4Weak Activation Crystals&r is what we'll use after we've assembled the multiblock to actually start the ritual."
+				""
+				"In order for the ritual to activate, you'll need a certain amount of blood in your own network. (obtained by placing your blood orb in the altar)"
+			]
+			id: "150B13435CABB864"
+			rewards: [{
+				id: "0E3BAEBEBB63B8C0"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "673966AA46A307BC"
+					item: "bloodmagic:masterritualstone"
+					type: "item"
+				}
+				{
+					id: "44655473674A485F"
+					item: "bloodmagic:activationcrystalweak"
+					type: "item"
+				}
+			]
+			x: -11.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["150B13435CABB864"]
+			description: [
+				"The &5Edge of the Forbidden Realm&r ritual takes you to a dungeon consisting of 4 doors that you can open."
+				""
+				"In this dungeon you can find &6Saturated Tau&r which is what we'll be using to make the blood stones for the next tier of the blood altar"
+			]
+			id: "7D5EBD274B282AF8"
+			rewards: [{
+				id: "3D1B269D1C2BDCF8"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "794DC2DD352C5C3A"
+				item: "bloodmagic:strong_tau"
+				type: "item"
+			}]
+			title: "Edge of the Forbidden Realm"
+			x: -11.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7D5EBD274B282AF8"]
+			description: ["Next we'll be turning the &6Saturated Tau&r into &4Blood Shards&r"]
+			id: "46ABB6AD85644E7C"
+			rewards: [{
+				id: "6D35CB9B27A45FE5"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4ACF2F8776CB8107"
+					item: "bloodmagic:weakbloodshard"
+					type: "item"
+				}
+				{
+					id: "79A42C9336A257A5"
+					item: {
+						Count: 1
+						id: "bloodmagic:sanguinereverter"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -9.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6478D601B3D62C97"]
+			description: [
+				"Once we have done our first rituals, and upgraded our blood altar to tier 4, we get access to the next tier of &5Ritual Diviner&r"
+				""
+				"This tier gives us access to all rituals that bloodmagic has to offer"
+			]
+			id: "12ECEAB582BC3CAF"
+			rewards: [{
+				id: "65919418F1F03430"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "6949378C7051593D"
+					item: {
+						Count: 1
+						id: "bloodmagic:ritualdivinerdusk"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "2F9394DF7AD83DF2"
+					item: {
+						Count: 1
+						id: "bloodmagic:duskscribetool"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -15.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"7D5EBD274B282AF8"
+				"12ECEAB582BC3CAF"
+			]
+			description: [
+				"The next ritual in the line of dungeons. "
+				""
+				"The Gateway allows us full access to the forbidden realm. "
+				""
+				"Instead of only 4 rooms, we now have access to an infinite generating dungeon."
+				""
+				"This dungeon can contain 2 important things for us."
+				""
+				"&b- The Foremans Key&r"
+				"This will give us access to the mines when used on a door with a special (blue colored instead of red) lock."
+				""
+				"&b- Demonite (ore)"
+				"This has a rare chance to spawn in a few rooms in the regular forbidden realm, and is found more consistenly in the mines."
+			]
+			id: "16A6411529017F31"
+			rewards: [{
+				id: "3B423D17BB26F4A0"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "020A43A3BCB23058"
+				title: "Gateway to the Forbidden Realm"
+				type: "checkmark"
+			}]
+			x: -11.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["16A6411529017F31"]
+			description: [
+				"Congratulations, You found the Key."
+				""
+				"Now find a special door, and get access to the mines."
+			]
+			id: "0221CABE0279BF12"
+			rewards: [{
+				id: "6D50FCB1F7CAD4C6"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "111BE728824D7736"
+				item: "bloodmagic:mineentrancekey"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0221CABE0279BF12"]
+			description: [
+				"These keys are dropped by some mobs in the mines, and allow you to explore it further."
+				""
+				"They can also be crafted, however they require something called crystalized will."
+				""
+				"The blood magic book has more information on how to obtain this."
+			]
+			id: "4F2B18FF16680E08"
+			rewards: [{
+				id: "7204AC12A3E25B4E"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "26652878E0C57E42"
+				item: "bloodmagic:minekey"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["16A6411529017F31"]
+			description: [
+				"Demonite is the last thing we'll need to upgrade our blood altar to tier 5."
+				""
+				"You'll need a total of 36 ingots"
+			]
+			id: "4DCC1687AE0B6815"
+			rewards: [{
+				id: "6965B183F59B8A57"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				count: 36L
+				id: "6F6D56DBEFDF87BC"
+				item: "bloodmagic:ingot_hellforged"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"4DCC1687AE0B6815"
+				"22657461D5EC7233"
+			]
+			icon: "bloodmagic:dungeon_metal"
+			id: "53E7A09F3F3B6272"
+			rewards: [{
+				id: "29A5CDAC99E24376"
+				item: "kubejs:ascended_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 4L
+					id: "4978AA695D9C7083"
+					item: "bloodmagic:dungeon_metal"
+					type: "item"
+				}
+				{
+					count: 52L
+					id: "15FDF67AC1991857"
+					item: {
+						Count: 52
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "bloodmagic:blankrune"
+								}
+								{
+									Count: 1b
+									id: "bloodmagic:speedrune"
+								}
+								{
+									Count: 1b
+									id: "bloodmagic:sacrificerune"
+								}
+								{
+									Count: 1b
+									id: "bloodmagic:selfsacrificerune"
+								}
+								{
+									Count: 1b
+									id: "bloodmagic:dislocationrune"
+								}
+								{
+									Count: 1b
+									id: "bloodmagic:altarcapacityrune"
+								}
+								{
+									Count: 1b
+									id: "bloodmagic:bettercapacityrune"
+								}
+								{
+									Count: 1b
+									id: "bloodmagic:orbcapacityrune"
+								}
+								{
+									Count: 1b
+									id: "bloodmagic:accelerationrune"
+								}
+								{
+									Count: 1b
+									id: "bloodmagic:chargingrune"
+								}
+							]
+						}
+					}
+					title: "Runes"
+					type: "item"
+				}
+			]
+			title: "Blood Altar V"
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["143A7BF0B54CED1B"]
+			description: [
+				"At the start, self sacrifice is going to be your main way of obtaining blood."
+				""
+				"There is 2 ways to improve this."
+				""
+				"&6- Rune of self sacrifice&r"
+				"You can replace the blank runes in your altar with runes of self sacrifice, these increase the amount of blood gained from self sacrifise"
+				""
+				"&6- Incense Altar&r"
+				"This makes it so that the dagger does not take half a heart, but all the health it can take from you without killing you."
+				"Just place it close to the blood altar"
+			]
+			id: "0740D7627902669E"
+			rewards: [{
+				id: "357FDD0655E36903"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "0BCCE63799B41F74"
+					item: "bloodmagic:selfsacrificerune"
+					type: "item"
+				}
+				{
+					id: "039F4F5288706E4D"
+					item: "bloodmagic:incensealtar"
+					type: "item"
+				}
+			]
+			title: "Improving Self Sacrifice"
+			x: -5.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["0740D7627902669E"]
+			description: [
+				"This is only the start of the blood magic quest line."
+				""
+				"At the moment, this book only contains the self sacrifice way of getting blood. While this is fine to start with, its not going to last you long into the pack"
+				""
+				"Without going into details (Future versions will have this explained more) your main 2 options for blood are"
+				""
+				"&4- Sanguine Neural Networks"
+				"Combining Hostile Neural Networks with bloodmagic to automate blood gathering."
+				""
+				"&4- Well of Suffering"
+				"A ritual that damages mobs in a range, and adds blood to the altar based on that."
+			]
+			id: "20F9EDA876F35FC1"
+			rewards: [{
+				id: "53EBFCFE6DCE5FED"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "6CE189907E825929"
+				title: "Other ways of blood"
+				type: "checkmark"
+			}]
+			x: -7.0d
+			y: -8.0d
+		}
+		{
+			description: [
+				"&2This quest was made by MiniMaxi!&r"
+				"&1Thank you a lot!&r"
+			]
+			id: "6C16349EFFD65587"
+			invisible: true
+			optional: true
+			rewards: [{
+				id: "4E1CA25A43D7DE4D"
+				item: "botania:terrasteel_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "486161E7DDCDD476"
+				title: "&2This quest was made by MiniMaxi!&r&1 Thank you a lot!&r"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: -13.5d
+		}
+		{
+			dependencies: ["16A6411529017F31"]
+			description: [
+				"There are &b2 custom Meteor Rituals&r available:"
+				""
+				"&6Ritual 1&r"
+				"• &eUsed Item&r: &cDemonite Ore&r"
+				"• &6Blood Required&r: &41,000,000 LP&r"
+				""
+				"&7Rewards:&r"
+				"• &aDemonite Ore&r"
+				"• &aRaw Demonite Block&r"
+				"• &eSpeed Runes&r"
+				"• &eCapacity Runes&r"
+				""
+				"&6Ritual 2&r"
+				"• &eUsed Item&r: &cCompressed Hellforged Parts&r"
+				"• &6Blood Required&r: &410,000,000 LP&r"
+				""
+				"&7Rewards:&r"
+				"• &aDemonite Ore&r"
+				"• &aRaw Demonite Block&r"
+				"• &9Reinforced Speed Runes&r"
+				"• &9Reinforced Capacity Runes&r"
+			]
+			id: "0DAFD6CCA0F30DE1"
+			min_width: 300
+			tasks: [{
+				id: "2F8A4467B09FE08E"
+				title: "&eCustom Meteor Rituals&r"
+				type: "checkmark"
+			}]
+			title: "&eCustom Meteor Rituals&r"
+			x: -11.5d
+			y: 0.5d
+		}
+	]
+	title: "Blood Magic"
+}

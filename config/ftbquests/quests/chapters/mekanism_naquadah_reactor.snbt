@@ -5,7 +5,7 @@
 	group: "29543B666C58207C"
 	icon: "mekanism_extras:ingot_naquadah"
 	id: "1C56534AF0B1FECE"
-	order_index: 6
+	order_index: 8
 	quest_links: [ ]
 	quests: [
 		{
@@ -155,7 +155,9 @@
 			dependencies: ["2BD5A053D512F22C"]
 			description: [
 				"You need the Naqadah Hohlraum."
-				"Put it into the reactor"
+				"Put it into the reactor."
+				""
+				"Put the Hohlraum inside a Chemical Tank containing Naquadah Uranium Fuel and let it be filled."
 			]
 			id: "4720028D12723450"
 			rewards: [{

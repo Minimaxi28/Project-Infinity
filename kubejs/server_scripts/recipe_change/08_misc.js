@@ -331,7 +331,10 @@ ServerEvents.recipes((event) => {
       'born_in_chaos_v1:pumpkinhandgun',
       'born_in_chaos_v1:soulbane',
       'born_in_chaos_v1:magical_holiday_candy',
-      'born_in_chaos_v1:magical_holiday_candy',
+      Item.of(
+        'hostilenetworks:data_model',
+        '{data_model:{id:"hostilenetworks:born_in_chaos/lord_pumpkinhead"}}'
+      ),
       'born_in_chaos_v1:magical_holiday_candy',
     ]
   );
@@ -440,6 +443,54 @@ ServerEvents.recipes((event) => {
     'minecraft:crying_obsidian',
   ]);
 
+  create3x3(event, 'custom_capacitors:ender_capacitor', [
+    'extendedcrafting:ender_ingot',
+    'enderio:sentient_ender',
+    'extendedcrafting:enhanced_ender_ingot',
+    'enderio:octadic_capacitor',
+    'thermal:enderium_ingot',
+    'enderio:octadic_capacitor',
+    'extendedcrafting:enhanced_ender_ingot',
+    'enderio:ender_crystal',
+    'extendedcrafting:ender_ingot',
+  ]);
+
+  create3x3(event, 'custom_capacitors:cobalt_capacitor', [
+    'common_ore_library:manyullyn_ingot',
+    'tconstruct:hepatizon_ingot',
+    'tconstruct:manyullyn_ingot',
+    'tconstruct:queens_slime_ingot',
+    'custom_capacitors:ender_capacitor',
+    'tconstruct:queens_slime_ingot',
+    'common_ore_library:manyullyn_ingot',
+    'tconstruct:hepatizon_ingot',
+    'tconstruct:manyullyn_ingot',
+  ]);
+
+  create3x3(event, 'custom_capacitors:precision_capacitor', [
+    'mekanism_extras:alloy_shining',
+    'bigreactors:ludicrite_ingot',
+    'evolvedmekanism:alloy_singular',
+    'bigreactors:ludicrite_ingot',
+    'nuclearcraft:tough_alloy_ingot',
+    'bigreactors:ludicrite_ingot',
+    'custom_capacitors:cobalt_capacitor',
+    'bigreactors:ludicrite_ingot',
+    'custom_capacitors:cobalt_capacitor',
+  ]);
+
+  create3x3(event, 'custom_capacitors:fast_capacitor', [
+    'custom_capacitors:precision_capacitor',
+    'igleelib:iglium_upgrade_smithing_template',
+    'cataclysm:cursium_upgrade_smithing_template',
+    'dimensionalpocketsii:dimensional_upgrade_template',
+    'custom_capacitors:precision_capacitor',
+    'ender_dragon_loot:dragon_upgrade_template',
+    'allthemodium:unobtainium_upgrade_smithing_template',
+    'cataclysm:ignitium_upgrade_smithing_template',
+    'custom_capacitors:precision_capacitor',
+  ]);
+
   create3x3(event, 'sophisticatedstorage:xp_pump_upgrade', [
     'minecraft:redstone',
     'minecraft:ender_eye',
@@ -525,6 +576,28 @@ ServerEvents.recipes((event) => {
   shapeless(event, 'chemlib:thorium_ingot', ['nuclearcraft:thorium_ingot']);
   shapeless(event, 'chemlib:palladium_ingot', ['nuclearcraft:palladium_ingot']);
 
+  shapeless(event, '2x voidminers:solar_ultimate_panel', [
+    'kubejs:infinity_7',
+    'kubejs:infinity_7',
+    'kubejs:infinity_7',
+    'kubejs:infinity_7',
+    'voidminers:solar_ultimate_panel',
+    'voidminers:ultimate_stellar_core',
+    'voidminers:ultimate_stellar_core',
+    'voidminers:ultimate_stellar_core',
+    'voidminers:ultimate_stellar_core',
+  ]);
+  shapeless(event, '2x voidminers:ultimate_miner', [
+    'kubejs:infinity_7',
+    'kubejs:infinity_7',
+    'kubejs:infinity_7',
+    'kubejs:infinity_7',
+    'voidminers:ultimate_miner',
+    'voidminers:ultimate_stellar_core',
+    'voidminers:ultimate_stellar_core',
+    'voidminers:ultimate_stellar_core',
+    'voidminers:ultimate_stellar_core',
+  ]);
   create3x3same(event, 'minecraft:iron_nugget', ['voidminers:rubetine_block']);
   create3x3same(event, 'common_ore_library:brass_nugget', [
     'voidminers:aurantium_block',
@@ -594,6 +667,7 @@ ServerEvents.recipes((event) => {
     'extendedcrafting:crystaltine_block',
   ]);
 
+  // Draconic Evolution misc recipes
   create3x3(event, 'draconicevolution:grinder', [
     'draconicevolution:draconium_ingot',
     'draconicevolution:draconic_sword',
@@ -605,6 +679,37 @@ ServerEvents.recipes((event) => {
     'minecraft:dragon_head',
     'draconicevolution:draconium_ingot',
   ]);
+
+  const draconicItemsArray = [
+  'creative_capacitor',
+  'chaotic_axe',
+  'chaotic_bow',
+  'chaotic_capacitor',
+  'chaotic_hoe',
+  'chaotic_pickaxe',
+  'chaotic_shovel',
+  'chaotic_staff',
+  'chaotic_sword',
+  'draconic_axe',
+  'draconic_bow',
+  'draconic_capacitor',
+  'draconic_hoe',
+  'draconic_pickaxe',
+  'draconic_shovel',
+  'draconic_staff',
+  'draconic_sword',
+  'wyvern_axe',
+  'wyvern_bow',
+  'wyvern_capacitor',
+  'wyvern_hoe',
+  'wyvern_pickaxe',
+  'wyvern_shovel',
+  'wyvern_sword'
+  ];
+
+  draconicItemsArray.forEach((item) => {
+    shapelessdraconic(event, item);
+  });
 
   create3x3(
     event,
@@ -979,18 +1084,6 @@ ServerEvents.recipes((event) => {
     'minecraft:air',
     'minecraft:air',
   ]);
-
-  create3x3(event, 'extendedcrafting:basic_table', [
-    'extendedcrafting:basic_component',
-    'extendedcrafting:basic_catalyst',
-    'extendedcrafting:basic_component',
-    'avaritia:double_compressed_crafting_table',
-    'minecraft:iron_block',
-    'avaritia:double_compressed_crafting_table',
-    'extendedcrafting:basic_component',
-    'extendedcrafting:black_iron_slate',
-    'extendedcrafting:basic_component',
-  ]);
 });
 
 // Category: refinedstorage
@@ -1027,24 +1120,6 @@ ServerEvents.recipes((event) => {
   shapeless(event, 'refinedstorage:creative_fluid_storage_block', [
     'refinedstorage:creative_fluid_storage_disk',
     'refinedstorage:machine_casing',
-  ]);
-
-  // Category: torcherino
-  shapeless(event, 'torcherino:torcherino', ['torcherino:lanterino']);
-  shapeless(event, 'torcherino:torcherino', ['torcherino:lantern']);
-
-  shapeless(event, 'torcherino:compressed_torcherino', [
-    'torcherino:compressed_lanterino',
-  ]);
-  shapeless(event, 'torcherino:compressed_torcherino', [
-    'torcherino:compressed_lantern',
-  ]);
-
-  shapeless(event, 'torcherino:double_compressed_torcherino', [
-    'torcherino:double_compressed_lanterino',
-  ]);
-  shapeless(event, 'torcherino:double_compressed_torcherino', [
-    'torcherino:double_compressed_lantern',
   ]);
   create3x3(
     event,
@@ -1149,6 +1224,479 @@ ServerEvents.recipes((event) => {
       'minecraft:air',
       'minecraft:air',
       'minecraft:air',
+    ]
+  );
+  //Category: IronJetpacks
+  //Tier 0
+  create3x3jetpack(
+    event,
+    Item.of('ironjetpacks:jetpack', '{Id:"ironjetpacks:wood",Throttle:1.0d}'),
+    [
+      '#minecraft:planks',
+      Item.of('ironjetpacks:capacitor', '{Id:"ironjetpacks:wood"}'),
+      'ironjetpacks:strap',
+      Item.of('ironjetpacks:thruster', '{Id:"ironjetpacks:wood"}'),
+    ]
+  );
+  //Tier 1
+  create3x3jetpack(
+    event,
+    Item.of('ironjetpacks:jetpack', '{Id:"ironjetpacks:stone",Throttle:1.0d}'),
+    [
+      '#forge:stone',
+      Item.of('ironjetpacks:capacitor', '{Id:"ironjetpacks:stone"}'),
+      Item.of(
+        'ironjetpacks:jetpack',
+        '{Id:"ironjetpacks:wood",Throttle:1.0d}'
+      ).weakNBT(),
+      Item.of('ironjetpacks:thruster', '{Id:"ironjetpacks:stone"}'),
+    ]
+  );
+  create3x3jetpack(
+    event,
+    Item.of('ironjetpacks:jetpack', '{Id:"ironjetpacks:copper",Throttle:1.0d}'),
+    [
+      '#forge:ingots/copper',
+      Item.of('ironjetpacks:capacitor', '{Id:"ironjetpacks:copper"}'),
+      Item.of(
+        'ironjetpacks:jetpack',
+        '{Id:"ironjetpacks:wood",Throttle:1.0d}'
+      ).weakNBT(),
+      Item.of('ironjetpacks:thruster', '{Id:"ironjetpacks:copper"}'),
+    ]
+  );
+  //Tier 2
+  //Copper to Iron/Bronze/Silver
+  create3x3jetpack(
+    event,
+    Item.of('ironjetpacks:jetpack', '{Id:"ironjetpacks:iron",Throttle:1.0d}'),
+    [
+      '#forge:ingots/iron',
+      Item.of('ironjetpacks:capacitor', '{Id:"ironjetpacks:iron"}'),
+      Item.of(
+        'ironjetpacks:jetpack',
+        '{Id:"ironjetpacks:copper",Throttle:1.0d}'
+      ).weakNBT(),
+      Item.of('ironjetpacks:thruster', '{Id:"ironjetpacks:iron"}'),
+    ]
+  );
+  create3x3jetpack(
+    event,
+    Item.of('ironjetpacks:jetpack', '{Id:"ironjetpacks:bronze",Throttle:1.0d}'),
+    [
+      '#forge:ingots/bronze',
+      Item.of('ironjetpacks:capacitor', '{Id:"ironjetpacks:bronze"}'),
+      Item.of(
+        'ironjetpacks:jetpack',
+        '{Id:"ironjetpacks:copper",Throttle:1.0d}'
+      ).weakNBT(),
+      Item.of('ironjetpacks:thruster', '{Id:"ironjetpacks:bronze"}'),
+    ]
+  );
+  create3x3jetpack(
+    event,
+    Item.of('ironjetpacks:jetpack', '{Id:"ironjetpacks:silver",Throttle:1.0d}'),
+    [
+      '#forge:ingots/silver',
+      Item.of('ironjetpacks:capacitor', '{Id:"ironjetpacks:silver"}'),
+      Item.of(
+        'ironjetpacks:jetpack',
+        '{Id:"ironjetpacks:copper",Throttle:1.0d}'
+      ).weakNBT(),
+      Item.of('ironjetpacks:thruster', '{Id:"ironjetpacks:silver"}'),
+    ]
+  );
+  //Stone to Iron/Bronze/Silver
+  create3x3jetpack(
+    event,
+    Item.of('ironjetpacks:jetpack', '{Id:"ironjetpacks:iron",Throttle:1.0d}'),
+    [
+      '#forge:ingots/iron',
+      Item.of('ironjetpacks:capacitor', '{Id:"ironjetpacks:iron"}'),
+      Item.of(
+        'ironjetpacks:jetpack',
+        '{Id:"ironjetpacks:stone",Throttle:1.0d}'
+      ).weakNBT(),
+      Item.of('ironjetpacks:thruster', '{Id:"ironjetpacks:iron"}'),
+    ]
+  );
+  create3x3jetpack(
+    event,
+    Item.of('ironjetpacks:jetpack', '{Id:"ironjetpacks:bronze",Throttle:1.0d}'),
+    [
+      '#forge:ingots/bronze',
+      Item.of('ironjetpacks:capacitor', '{Id:"ironjetpacks:bronze"}'),
+      Item.of(
+        'ironjetpacks:jetpack',
+        '{Id:"ironjetpacks:stone",Throttle:1.0d}'
+      ).weakNBT(),
+      Item.of('ironjetpacks:thruster', '{Id:"ironjetpacks:bronze"}'),
+    ]
+  );
+  create3x3jetpack(
+    event,
+    Item.of('ironjetpacks:jetpack', '{Id:"ironjetpacks:silver",Throttle:1.0d}'),
+    [
+      '#forge:ingots/silver',
+      Item.of('ironjetpacks:capacitor', '{Id:"ironjetpacks:silver"}'),
+      Item.of(
+        'ironjetpacks:jetpack',
+        '{Id:"ironjetpacks:stone",Throttle:1.0d}'
+      ).weakNBT(),
+      Item.of('ironjetpacks:thruster', '{Id:"ironjetpacks:silver"}'),
+    ]
+  );
+  //Tier 3
+  //Iron to Gold/Steel/Electrum/Invar
+  create3x3jetpack(
+    event,
+    Item.of('ironjetpacks:jetpack', '{Id:"ironjetpacks:gold",Throttle:1.0d}'),
+    [
+      '#forge:ingots/gold',
+      Item.of('ironjetpacks:capacitor', '{Id:"ironjetpacks:gold"}'),
+      Item.of(
+        'ironjetpacks:jetpack',
+        '{Id:"ironjetpacks:iron",Throttle:1.0d}'
+      ).weakNBT(),
+      Item.of('ironjetpacks:thruster', '{Id:"ironjetpacks:gold"}'),
+    ]
+  );
+  create3x3jetpack(
+    event,
+    Item.of('ironjetpacks:jetpack', '{Id:"ironjetpacks:steel",Throttle:1.0d}'),
+    [
+      '#forge:ingots/steel',
+      Item.of('ironjetpacks:capacitor', '{Id:"ironjetpacks:steel"}'),
+      Item.of(
+        'ironjetpacks:jetpack',
+        '{Id:"ironjetpacks:iron",Throttle:1.0d}'
+      ).weakNBT(),
+      Item.of('ironjetpacks:thruster', '{Id:"ironjetpacks:steel"}'),
+    ]
+  );
+  create3x3jetpack(
+    event,
+    Item.of(
+      'ironjetpacks:jetpack',
+      '{Id:"ironjetpacks:electrum",Throttle:1.0d}'
+    ),
+    [
+      '#forge:ingots/electrum',
+      Item.of('ironjetpacks:capacitor', '{Id:"ironjetpacks:electrum"}'),
+      Item.of(
+        'ironjetpacks:jetpack',
+        '{Id:"ironjetpacks:iron",Throttle:1.0d}'
+      ).weakNBT(),
+      Item.of('ironjetpacks:thruster', '{Id:"ironjetpacks:electrum"}'),
+    ]
+  );
+  create3x3jetpack(
+    event,
+    Item.of('ironjetpacks:jetpack', '{Id:"ironjetpacks:invar",Throttle:1.0d}'),
+    [
+      '#forge:ingots/invar',
+      Item.of('ironjetpacks:capacitor', '{Id:"ironjetpacks:invar"}'),
+      Item.of(
+        'ironjetpacks:jetpack',
+        '{Id:"ironjetpacks:iron",Throttle:1.0d}'
+      ).weakNBT(),
+      Item.of('ironjetpacks:thruster', '{Id:"ironjetpacks:invar"}'),
+    ]
+  );
+  //Bronze to Gold/Steel/Electrum/Invar
+  create3x3jetpack(
+    event,
+    Item.of('ironjetpacks:jetpack', '{Id:"ironjetpacks:gold",Throttle:1.0d}'),
+    [
+      '#forge:ingots/gold',
+      Item.of('ironjetpacks:capacitor', '{Id:"ironjetpacks:gold"}'),
+      Item.of(
+        'ironjetpacks:jetpack',
+        '{Id:"ironjetpacks:bronze",Throttle:1.0d}'
+      ).weakNBT(),
+      Item.of('ironjetpacks:thruster', '{Id:"ironjetpacks:gold"}'),
+    ]
+  );
+  create3x3jetpack(
+    event,
+    Item.of('ironjetpacks:jetpack', '{Id:"ironjetpacks:steel",Throttle:1.0d}'),
+    [
+      '#forge:ingots/steel',
+      Item.of('ironjetpacks:capacitor', '{Id:"ironjetpacks:steel"}'),
+      Item.of(
+        'ironjetpacks:jetpack',
+        '{Id:"ironjetpacks:bronze",Throttle:1.0d}'
+      ).weakNBT(),
+      Item.of('ironjetpacks:thruster', '{Id:"ironjetpacks:steel"}'),
+    ]
+  );
+  create3x3jetpack(
+    event,
+    Item.of(
+      'ironjetpacks:jetpack',
+      '{Id:"ironjetpacks:electrum",Throttle:1.0d}'
+    ),
+    [
+      '#forge:ingots/electrum',
+      Item.of('ironjetpacks:capacitor', '{Id:"ironjetpacks:electrum"}'),
+      Item.of(
+        'ironjetpacks:jetpack',
+        '{Id:"ironjetpacks:bronze",Throttle:1.0d}'
+      ).weakNBT(),
+      Item.of('ironjetpacks:thruster', '{Id:"ironjetpacks:electrum"}'),
+    ]
+  );
+  create3x3jetpack(
+    event,
+    Item.of('ironjetpacks:jetpack', '{Id:"ironjetpacks:invar",Throttle:1.0d}'),
+    [
+      '#forge:ingots/invar',
+      Item.of('ironjetpacks:capacitor', '{Id:"ironjetpacks:invar"}'),
+      Item.of(
+        'ironjetpacks:jetpack',
+        '{Id:"ironjetpacks:bronze",Throttle:1.0d}'
+      ).weakNBT(),
+      Item.of('ironjetpacks:thruster', '{Id:"ironjetpacks:invar"}'),
+    ]
+  );
+  //Silver to Gold/Steel/Electrum/Invar
+  create3x3jetpack(
+    event,
+    Item.of('ironjetpacks:jetpack', '{Id:"ironjetpacks:gold",Throttle:1.0d}'),
+    [
+      '#forge:ingots/gold',
+      Item.of('ironjetpacks:capacitor', '{Id:"ironjetpacks:gold"}'),
+      Item.of(
+        'ironjetpacks:jetpack',
+        '{Id:"ironjetpacks:silver",Throttle:1.0d}'
+      ).weakNBT(),
+      Item.of('ironjetpacks:thruster', '{Id:"ironjetpacks:gold"}'),
+    ]
+  );
+  create3x3jetpack(
+    event,
+    Item.of('ironjetpacks:jetpack', '{Id:"ironjetpacks:steel",Throttle:1.0d}'),
+    [
+      '#forge:ingots/steel',
+      Item.of('ironjetpacks:capacitor', '{Id:"ironjetpacks:steel"}'),
+      Item.of(
+        'ironjetpacks:jetpack',
+        '{Id:"ironjetpacks:silver",Throttle:1.0d}'
+      ).weakNBT(),
+      Item.of('ironjetpacks:thruster', '{Id:"ironjetpacks:steel"}'),
+    ]
+  );
+  create3x3jetpack(
+    event,
+    Item.of(
+      'ironjetpacks:jetpack',
+      '{Id:"ironjetpacks:electrum",Throttle:1.0d}'
+    ),
+    [
+      '#forge:ingots/electrum',
+      Item.of('ironjetpacks:capacitor', '{Id:"ironjetpacks:electrum"}'),
+      Item.of(
+        'ironjetpacks:jetpack',
+        '{Id:"ironjetpacks:silver",Throttle:1.0d}'
+      ).weakNBT(),
+      Item.of('ironjetpacks:thruster', '{Id:"ironjetpacks:electrum"}'),
+    ]
+  );
+  create3x3jetpack(
+    event,
+    Item.of('ironjetpacks:jetpack', '{Id:"ironjetpacks:invar",Throttle:1.0d}'),
+    [
+      '#forge:ingots/invar',
+      Item.of('ironjetpacks:capacitor', '{Id:"ironjetpacks:invar"}'),
+      Item.of(
+        'ironjetpacks:jetpack',
+        '{Id:"ironjetpacks:silver",Throttle:1.0d}'
+      ).weakNBT(),
+      Item.of('ironjetpacks:thruster', '{Id:"ironjetpacks:invar"}'),
+    ]
+  );
+  //Tier 4
+  //Gold to Diamond/Platinum
+  create3x3jetpack(
+    event,
+    Item.of(
+      'ironjetpacks:jetpack',
+      '{Id:"ironjetpacks:diamond",Throttle:1.0d}'
+    ),
+    [
+      '#forge:gems/diamond',
+      Item.of('ironjetpacks:capacitor', '{Id:"ironjetpacks:diamond"}'),
+      Item.of(
+        'ironjetpacks:jetpack',
+        '{Id:"ironjetpacks:gold",Throttle:1.0d}'
+      ).weakNBT(),
+      Item.of('ironjetpacks:thruster', '{Id:"ironjetpacks:diamond"}'),
+    ]
+  );
+  create3x3jetpack(
+    event,
+    Item.of(
+      'ironjetpacks:jetpack',
+      '{Id:"ironjetpacks:platinum",Throttle:1.0d}'
+    ),
+    [
+      '#forge:ingots/platinum',
+      Item.of('ironjetpacks:capacitor', '{Id:"ironjetpacks:platinum"}'),
+      Item.of(
+        'ironjetpacks:jetpack',
+        '{Id:"ironjetpacks:gold",Throttle:1.0d}'
+      ).weakNBT(),
+      Item.of('ironjetpacks:thruster', '{Id:"ironjetpacks:platinum"}'),
+    ]
+  );
+  //Steel to Diamond/Platinum
+  create3x3jetpack(
+    event,
+    Item.of(
+      'ironjetpacks:jetpack',
+      '{Id:"ironjetpacks:diamond",Throttle:1.0d}'
+    ),
+    [
+      '#forge:gems/diamond',
+      Item.of('ironjetpacks:capacitor', '{Id:"ironjetpacks:diamond"}'),
+      Item.of(
+        'ironjetpacks:jetpack',
+        '{Id:"ironjetpacks:steel",Throttle:1.0d}'
+      ).weakNBT(),
+      Item.of('ironjetpacks:thruster', '{Id:"ironjetpacks:diamond"}'),
+    ]
+  );
+  create3x3jetpack(
+    event,
+    Item.of(
+      'ironjetpacks:jetpack',
+      '{Id:"ironjetpacks:platinum",Throttle:1.0d}'
+    ),
+    [
+      '#forge:ingots/platinum',
+      Item.of('ironjetpacks:capacitor', '{Id:"ironjetpacks:platinum"}'),
+      Item.of(
+        'ironjetpacks:jetpack',
+        '{Id:"ironjetpacks:steel",Throttle:1.0d}'
+      ).weakNBT(),
+      Item.of('ironjetpacks:thruster', '{Id:"ironjetpacks:platinum"}'),
+    ]
+  );
+  //Electrum to Diamond/Platinum
+  create3x3jetpack(
+    event,
+    Item.of(
+      'ironjetpacks:jetpack',
+      '{Id:"ironjetpacks:diamond",Throttle:1.0d}'
+    ),
+    [
+      '#forge:gems/diamond',
+      Item.of('ironjetpacks:capacitor', '{Id:"ironjetpacks:diamond"}'),
+      Item.of(
+        'ironjetpacks:jetpack',
+        '{Id:"ironjetpacks:electrum",Throttle:1.0d}'
+      ).weakNBT(),
+      Item.of('ironjetpacks:thruster', '{Id:"ironjetpacks:diamond"}'),
+    ]
+  );
+  create3x3jetpack(
+    event,
+    Item.of(
+      'ironjetpacks:jetpack',
+      '{Id:"ironjetpacks:platinum",Throttle:1.0d}'
+    ),
+    [
+      '#forge:ingots/platinum',
+      Item.of('ironjetpacks:capacitor', '{Id:"ironjetpacks:platinum"}'),
+      Item.of(
+        'ironjetpacks:jetpack',
+        '{Id:"ironjetpacks:electrum",Throttle:1.0d}'
+      ).weakNBT(),
+      Item.of('ironjetpacks:thruster', '{Id:"ironjetpacks:platinum"}'),
+    ]
+  );
+  //Invar to Diamond/Platinum
+  create3x3jetpack(
+    event,
+    Item.of(
+      'ironjetpacks:jetpack',
+      '{Id:"ironjetpacks:diamond",Throttle:1.0d}'
+    ),
+    [
+      '#forge:gems/diamond',
+      Item.of('ironjetpacks:capacitor', '{Id:"ironjetpacks:diamond"}'),
+      Item.of(
+        'ironjetpacks:jetpack',
+        '{Id:"ironjetpacks:invar",Throttle:1.0d}'
+      ).weakNBT(),
+      Item.of('ironjetpacks:thruster', '{Id:"ironjetpacks:diamond"}'),
+    ]
+  );
+  create3x3jetpack(
+    event,
+    Item.of(
+      'ironjetpacks:jetpack',
+      '{Id:"ironjetpacks:platinum",Throttle:1.0d}'
+    ),
+    [
+      '#forge:ingots/platinum',
+      Item.of('ironjetpacks:capacitor', '{Id:"ironjetpacks:platinum"}'),
+      Item.of(
+        'ironjetpacks:jetpack',
+        '{Id:"ironjetpacks:invar",Throttle:1.0d}'
+      ).weakNBT(),
+      Item.of('ironjetpacks:thruster', '{Id:"ironjetpacks:platinum"}'),
+    ]
+  );
+  //Tier 5
+  //Diamond to Emerald
+  create3x3(
+    event,
+    Item.of(
+      'ironjetpacks:jetpack',
+      '{Id:"ironjetpacks:emerald",Throttle:1.0d}'
+    ),
+    [
+      'minecraft:emerald',
+      Item.of(
+        'ironjetpacks:capacitor',
+        '{Id:"ironjetpacks:emerald"}'
+      ).weakNBT(),
+      'minecraft:emerald',
+      'minecraft:emerald',
+      Item.of(
+        'ironjetpacks:jetpack',
+        '{Id:"ironjetpacks:diamond",Throttle:1.0d}'
+      ).weakNBT(),
+      'minecraft:emerald',
+      Item.of('ironjetpacks:thruster', '{Id:"ironjetpacks:emerald"}').weakNBT(),
+      'kubejs:infinity_1',
+      Item.of('ironjetpacks:thruster', '{Id:"ironjetpacks:emerald"}').weakNBT(),
+    ]
+  );
+  //Platinum to Emerald
+  create3x3(
+    event,
+    Item.of(
+      'ironjetpacks:jetpack',
+      '{Id:"ironjetpacks:emerald",Throttle:1.0d}'
+    ),
+    [
+      'minecraft:emerald',
+      Item.of(
+        'ironjetpacks:capacitor',
+        '{Id:"ironjetpacks:emerald"}'
+      ).weakNBT(),
+      'minecraft:emerald',
+      'minecraft:emerald',
+      Item.of(
+        'ironjetpacks:jetpack',
+        '{Id:"ironjetpacks:platinum",Throttle:1.0d}'
+      ).weakNBT(),
+      'minecraft:emerald',
+      Item.of('ironjetpacks:thruster', '{Id:"ironjetpacks:emerald"}').weakNBT(),
+      'kubejs:infinity_1',
+      Item.of('ironjetpacks:thruster', '{Id:"ironjetpacks:emerald"}').weakNBT(),
     ]
   );
 });

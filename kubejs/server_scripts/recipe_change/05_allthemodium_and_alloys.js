@@ -23,6 +23,42 @@ ServerEvents.recipes((event) => {
     'cyclic:netherite_pressure_plate',
   ]);
 
+  create3x3(event, 'allthemodium:allthemodium_gear', [
+    'allthemodium:allthemodium_ingot',
+    'allthemodium:allthemodium_ingot',
+    'allthemodium:allthemodium_ingot',
+    'allthemodium:allthemodium_ingot',
+    'minecraft:netherite_ingot',
+    'allthemodium:allthemodium_ingot',
+    'allthemodium:allthemodium_ingot',
+    'allthemodium:allthemodium_ingot',
+    'allthemodium:allthemodium_ingot'
+  ])
+
+  create3x3(event, 'allthemodium:vibranium_gear', [
+    'allthemodium:vibranium_ingot',
+    'allthemodium:vibranium_ingot',
+    'allthemodium:vibranium_ingot',
+    'allthemodium:vibranium_ingot',
+    'allthemodium:allthemodium_gear',
+    'allthemodium:vibranium_ingot',
+    'allthemodium:vibranium_ingot',
+    'allthemodium:vibranium_ingot',
+    'allthemodium:vibranium_ingot'
+  ])
+
+  create3x3(event, 'allthemodium:unobtainium_gear', [
+    'allthemodium:unobtainium_ingot',
+    'allthemodium:unobtainium_ingot',
+    'allthemodium:unobtainium_ingot',
+    'allthemodium:unobtainium_ingot',
+    'allthemodium:vibranium_gear',
+    'allthemodium:unobtainium_ingot',
+    'allthemodium:unobtainium_ingot',
+    'allthemodium:unobtainium_ingot',
+    'allthemodium:unobtainium_ingot'
+  ])
+
   create3x3same(event, 'allthemodium:unobtainium_ingot', [
     'allthemodium:unobtainium_nugget',
   ]);

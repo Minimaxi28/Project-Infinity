@@ -1283,8 +1283,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -2.5d
-			y: 20.5d
+			x: -3.0d
+			y: 19.5d
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
@@ -2337,8 +2337,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -6.5d
-			y: 8.5d
+			x: -3.0d
+			y: 17.5d
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
@@ -2433,8 +2433,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: 1.5d
-			y: 8.5d
+			x: -2.0d
+			y: 17.5d
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
@@ -2593,7 +2593,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -2.0d
+			x: -1.0d
 			y: 17.5d
 		}
 		{
@@ -2711,38 +2711,6 @@
 			}]
 			x: 0.0d
 			y: 16.5d
-		}
-		{
-			dependencies: ["14B3542ECB59869C"]
-			id: "62438351EC4CA667"
-			rewards: [
-				{
-					id: "017906655B1CD22C"
-					type: "xp"
-					xp: 50
-				}
-				{
-					id: "236FE309884FD0B8"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "5E88E7F5871D4424"
-				item: {
-					Count: 1
-					id: "hostilenetworks:prediction"
-					tag: {
-						data_model: {
-							id: "hostilenetworks:undergarden/forgotten_guardian"
-						}
-					}
-				}
-				match_nbt: true
-				type: "item"
-			}]
-			x: -3.0d
-			y: 17.5d
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
@@ -2985,7 +2953,6 @@
 				"0E91D8CF933586DF"
 				"7FBAA705B4DD4657"
 				"6BB718370BDA86EC"
-				"62438351EC4CA667"
 				"201466DF9FBB2FCB"
 				"2004789A3762FAC0"
 				"2C7EF914F747B810"
@@ -3026,14 +2993,12 @@
 				"4FDE0E4C6413EC7D"
 				"5DF8A07DED732B8B"
 				"2F6F888610373E21"
-				"4CA42D0832070C40"
 				"32085D990E7C65F9"
 				"13C844310B488184"
 				"29E65CF364702B30"
 				"3E946E88F364454E"
 				"60DF1E309C61BAF8"
 				"77E99195D495A01F"
-				"3194BDFA7EAC7D24"
 				"1D35AF8EB12AC817"
 				"288336487A6E909C"
 				"14B643094C08155A"
@@ -3046,7 +3011,6 @@
 				"557A735F03952B37"
 				"2397D034AEB9F013"
 				"11F89517B10284E7"
-				"78F030161B8914E5"
 				"0A3CD5FC93519E9A"
 				"445F38A1ACF68D05"
 				"6707FEF3D2EA068E"
@@ -3074,7 +3038,6 @@
 				"598A35419AE4D203"
 				"2216290BC5D27663"
 				"70960FD26474069C"
-				"522E5F51680CA243"
 				"4BD42180CDAEF949"
 				"07D5CD2D4F6A1827"
 				"298DC28266064CBC"
@@ -3104,7 +3067,6 @@
 				"34E39E69025F970E"
 				"19ED940BDF40F4FD"
 				"0E080336B6332051"
-				"5DF3BA455FBC3856"
 				"6A27EC4293888E30"
 				"1E34F64F1835C611"
 				"65CA41CF21E4CA80"
@@ -3150,38 +3112,6 @@
 			}]
 			x: -9.357142857142861d
 			y: 21.398809523809526d
-		}
-		{
-			dependencies: ["14B3542ECB59869C"]
-			id: "4CA42D0832070C40"
-			rewards: [
-				{
-					id: "11CE0330B8CEF3A8"
-					type: "xp"
-					xp: 50
-				}
-				{
-					id: "2B482920D7528825"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "1004BAADD0E232C9"
-				item: {
-					Count: 1
-					id: "hostilenetworks:prediction"
-					tag: {
-						data_model: {
-							id: "hostilenetworks:undergarden/gloomper"
-						}
-					}
-				}
-				match_nbt: true
-				type: "item"
-			}]
-			x: -1.0d
-			y: 17.5d
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
@@ -3491,40 +3421,6 @@
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
-			hide_until_deps_visible: false
-			id: "3194BDFA7EAC7D24"
-			optional: true
-			rewards: [
-				{
-					id: "4AF775E31A2E306A"
-					type: "xp"
-					xp: 50
-				}
-				{
-					id: "46C9F03BEA1FA90A"
-					item: "kubejs:apotheotic_coin"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "5B03C649DCFF4F1C"
-				item: {
-					Count: 1
-					id: "hostilenetworks:prediction"
-					tag: {
-						data_model: {
-							id: "hostilenetworks:undergarden/dweller"
-						}
-					}
-				}
-				match_nbt: true
-				type: "item"
-			}]
-			x: -3.0d
-			y: 19.5d
-		}
-		{
-			dependencies: ["14B3542ECB59869C"]
 			id: "594619EB772D66D6"
 			rewards: [
 				{
@@ -3811,8 +3707,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -20.0d
-			y: 8.5d
+			x: -16.5d
+			y: 17.5d
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
@@ -4011,8 +3907,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -12.0d
-			y: 8.5d
+			x: -15.5d
+			y: 17.5d
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
@@ -5551,31 +5447,6 @@
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
-			id: "78F030161B8914E5"
-			rewards: [{
-				id: "49B24CF1D14AA0D8"
-				type: "xp"
-				xp: 50
-			}]
-			tasks: [{
-				id: "68B6274D5595F5B4"
-				item: {
-					Count: 1
-					id: "hostilenetworks:data_model"
-					tag: {
-						data_model: {
-							id: "hostilenetworks:undergarden/forgotten_guardian"
-						}
-					}
-				}
-				match_nbt: true
-				type: "item"
-			}]
-			x: -16.5d
-			y: 17.5d
-		}
-		{
-			dependencies: ["14B3542ECB59869C"]
 			id: "7A4CF0E488CD6BBD"
 			rewards: [{
 				id: "020E4323A4EBC3BF"
@@ -5590,31 +5461,6 @@
 					tag: {
 						data_model: {
 							id: "hostilenetworks:cataclysm/maledictus"
-						}
-					}
-				}
-				match_nbt: true
-				type: "item"
-			}]
-			x: -15.5d
-			y: 17.5d
-		}
-		{
-			dependencies: ["14B3542ECB59869C"]
-			id: "522E5F51680CA243"
-			rewards: [{
-				id: "025F2B1A9ADD3077"
-				type: "xp"
-				xp: 50
-			}]
-			tasks: [{
-				id: "65ED7D50CCA55CF6"
-				item: {
-					Count: 1
-					id: "hostilenetworks:data_model"
-					tag: {
-						data_model: {
-							id: "hostilenetworks:undergarden/gloomper"
 						}
 					}
 				}
@@ -5876,31 +5722,6 @@
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
-			id: "5DF3BA455FBC3856"
-			rewards: [{
-				id: "58C93611DD0A06BA"
-				type: "xp"
-				xp: 50
-			}]
-			tasks: [{
-				id: "6029ED973B259D18"
-				item: {
-					Count: 1
-					id: "hostilenetworks:data_model"
-					tag: {
-						data_model: {
-							id: "hostilenetworks:undergarden/dweller"
-						}
-					}
-				}
-				match_nbt: true
-				type: "item"
-			}]
-			x: -16.5d
-			y: 19.5d
-		}
-		{
-			dependencies: ["14B3542ECB59869C"]
 			id: "3C0810989A5FFAEE"
 			rewards: [{
 				id: "56D85562CCD8C9CA"
@@ -5996,8 +5817,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -16.0d
-			y: 20.5d
+			x: -16.5d
+			y: 19.5d
 		}
 	]
 	title: "&aHostile Neural Networks"

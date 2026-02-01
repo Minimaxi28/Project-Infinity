@@ -110,17 +110,17 @@ ServerEvents.recipes((event) => {
   for (let tier = 7; tier <= 8; tier++) {
     voidminerBatch2(3, tier, endOres, 2.5);
   }
-  voidminerBatch2(1, 6, ['allthemodium:allthemodium_ore'], 0.005);
-  voidminerBatch2(1, 7, ['allthemodium:allthemodium_ore'], 0.01);
-  voidminerBatch2(1, 8, ['allthemodium:allthemodium_ore'], 0.03);
-  voidminerBatch2(2, 7, ['allthemodium:vibranium_ore'], 0.005);
-  voidminerBatch2(2, 8, ['allthemodium:vibranium_ore'], 0.01);
-  voidminerBatch2(3, 8, ['allthemodium:unobtainium_ore'], 0.005);
-  voidminerBatch2(3, 9, ['allthemodium:unobtainium_ore'], 0.1);
+  // voidminerBatch2(1, 6, ['allthemodium:allthemodium_ore'], 0.005);
+  // voidminerBatch2(1, 7, ['allthemodium:allthemodium_ore'], 0.01);
+  // voidminerBatch2(1, 8, ['allthemodium:allthemodium_ore'], 0.03);
+  // voidminerBatch2(2, 7, ['allthemodium:vibranium_ore'], 0.005);
+  // voidminerBatch2(2, 8, ['allthemodium:vibranium_ore'], 0.01);
+  // voidminerBatch2(3, 8, ['allthemodium:unobtainium_ore'], 0.005);
+  // voidminerBatch2(3, 9, ['allthemodium:unobtainium_ore'], 0.1);
   voidminerBatch2(3, 9, ['minecraft:coal'], 999.0);
   voidminerBatch2(3, 8, ['voidminers:ultimate_stellar_core'], 0.5);
   endgame.forEach((item) => {
     voidminerBatch2(3, 9, [item], 0.00000001);
   });
-  voidminerBatch2(3, 9, ['mekanism_extras:end_naquadah_ore'], 1.0);
+  voidminerBatch(3, 7, ['mekanism_extras:end_naquadah_ore'], 1.0);
 });

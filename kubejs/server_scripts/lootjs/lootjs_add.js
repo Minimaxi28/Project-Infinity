@@ -14,6 +14,7 @@ LootJS.modifiers((event) => {
     .matchEntity((entity) => {
       entity.isMonster(true);
     })
+    .killedByPlayer() 
     .addLoot([bronze_coin, silver_coin, gold_coin]);
 });
 

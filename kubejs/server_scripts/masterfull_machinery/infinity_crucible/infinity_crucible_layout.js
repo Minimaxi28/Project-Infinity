@@ -32,7 +32,7 @@ MMEvents.createStructures((event) => {
           block: 'igleelib:derium_block',
         })
         .key('H', {
-          block: 'dimdoors:black_fabric',
+          block: 'minecraft:black_concrete',
         })
         .key('J', {
           block: 'mm:colossal_gas_port_input',

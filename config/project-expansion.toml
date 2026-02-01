@@ -17,7 +17,7 @@ limitEmcLinkVendor = true
 enableFluidEfficiency = true
 #The amount of items that the transmutation interface will report to have. Depending on your usage, you may want this to be a high value.
 #Range: > 1
-transmutationInterfaceItemCount = 2147483647
+transmutationInterfaceItemCount = 53647
 #Multiplies the output of Collectors.
 #Range: 0.1 ~ 50.0
 collectorMultiplier = 1.0

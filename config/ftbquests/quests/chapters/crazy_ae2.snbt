@@ -28,8 +28,8 @@
 			image: "kubejs:block/screen/spawner_extractor"
 			rotation: 0.0d
 			width: 7.0d
-			x: -1.5d
-			y: 6.5d
+			x: -2.0d
+			y: 4.5d
 		}
 		{
 			click: "https://www.youtube.com/playlist?list=PLB8Rr5Xojkr5T1qoPr_4JdETiBkF4qF6r"
@@ -41,8 +41,80 @@
 			x: -3.0d
 			y: -0.5d
 		}
+		{
+			height: 5.0d
+			image: "kubejs:block/screen/mob_farm1"
+			rotation: 0.0d
+			width: 2.9d
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			height: 5.0d
+			image: "kubejs:block/screen/mob_farm2"
+			rotation: 0.0d
+			width: 3.6d
+			x: 6.0d
+			y: 5.0d
+		}
+		{
+			height: 5.0d
+			image: "kubejs:block/screen/penrose1"
+			rotation: 0.0d
+			width: 5.5d
+			x: -14.0d
+			y: 1.5d
+		}
+		{
+			height: 5.0d
+			image: "kubejs:block/screen/penrose2"
+			rotation: 0.0d
+			width: 6.7d
+			x: -10.0d
+			y: 5.0d
+		}
+		{
+			height: 5.0d
+			image: "kubejs:block/screen/entopy_cradle"
+			rotation: 0.0d
+			width: 5.5d
+			x: -10.5d
+			y: -7.0d
+		}
+		{
+			height: 1.0d
+			image: "tconstruct:item/tool/ammo/arrow_head_tconstruct_enderslime"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.732142857142861d
+			y: 0.2142857142857082d
+		}
+		{
+			height: 1.0d
+			image: "tconstruct:item/tool/ammo/arrow_head_tconstruct_enderslime"
+			rotation: 90.0d
+			width: 1.0d
+			x: -3.6964285714285765d
+			y: -1.142857142857153d
+		}
+		{
+			height: 1.0d
+			image: "tconstruct:item/tool/ammo/arrow_head_tconstruct_enderslime"
+			rotation: -90.0d
+			width: 1.0d
+			x: -2.3035714285714377d
+			y: 0.2142857142857082d
+		}
+		{
+			height: 1.0d
+			image: "tconstruct:item/tool/ammo/arrow_head_tconstruct_enderslime"
+			rotation: 180.0d
+			width: 1.0d
+			x: -2.3035714285714377d
+			y: -1.1071428571428612d
+		}
 	]
-	order_index: 1
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
@@ -156,10 +228,10 @@
 				""
 				"In addition to standard &dAE2 Crafting Storage&r blocks, there are also &9custom blocks&r that can be inserted into &dResearch Units&r:"
 				""
-				"• &9Empowered Super Block&r &7(18 CP)&r"
+				"• &9Empowered Super Block&r &7(20 CP)&r"
 				"• &9Crystal Matrix Block&r &7(22 CP)&r"
 				"• &9Neutronium Block&r &7(25 CP)&r"
-				"• &9Infinity Block&r &7(30 CP)&r"
+				"• &9Infinity Block&r &7(35 CP)&r"
 				""
 				"&cIMPORTANT:&r  "
 				"Each &6Research Pedestal Bottom&r must be connected to its &2OWN&r &dResearch Unit&r multiblock."
@@ -537,6 +609,8 @@
 				"• Nearby shelves are scanned for &dEterna&r, &dQuanta&r, &dArcana&r, and &dClues&r"
 				"• &6Treasure Enchantments&r are supported"
 				"• Enchanting behaves exactly like an Apotheosis setup"
+				""
+				"{image:kubejs:block/screen/auto_enchanter_layout width:200 height:200 align:center}"
 			]
 			hide_dependency_lines: true
 			id: "26CDA9B2273B550A"
@@ -1116,6 +1190,8 @@
 				"• &5Top-tier upgrades&r"
 				"• &5Final automation challenges&r"
 				"• &5Late-game goals&r"
+				""
+				"For the research you need at least 14 Infinity Blocks"
 			]
 			id: "74BA545B550A5376"
 			rewards: [{

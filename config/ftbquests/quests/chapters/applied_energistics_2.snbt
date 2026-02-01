@@ -6,6 +6,40 @@
 	group: "5255C8D5C49409ED"
 	icon: "chisel_chipped_integration:futura_me_controller"
 	id: "6E88892132CCED84"
+	images: [
+		{
+			height: 2.0d
+			image: "ae2:block/mysterious_cube_bottom"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			height: 2.0d
+			image: "ae2:block/quantum_ring_light"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			height: 2.0d
+			image: "ae2:block/quantum_ring_light_corner"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			height: 2.0d
+			image: "ae2:block/mysterious_cube_side"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: 0.0d
+		}
+	]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
@@ -18,6 +52,9 @@
 				"The quests in this quest line should be enough but you can always consult the GuideMe mod. Just put your mouse over an &3AE2&r item and press G to open a comphrensive guide. The default keybind is G but you can change it in the settings."
 				""
 				"First you'll need the &7Meteor Compass&r to find the meteors. Craft a charger, plug it to your energy generation solution and put a normal compas in it !"
+				""
+				"&2This quest was made by MiniMaxi!&r"
+				"&1Thank you a lot!&r"
 			]
 			icon: "ae2:meteorite_compass"
 			id: "08B3905C53BC441D"
@@ -1199,6 +1236,11 @@
 				"It can be used to craft the &31k ME Item Storage Cell&r but also better Storage Componants."
 			]
 			id: "794E40A7B810D043"
+			rewards: [{
+				id: "1C271D728D983991"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "283D74892AAE6670"
 				item: "ae2:cell_component_1k"
@@ -1211,11 +1253,18 @@
 			dependencies: ["794E40A7B810D043"]
 			description: ["Each &3Storage Component&r takes 3x of the previous one to craft but offers 4x the storage."]
 			id: "04BA07FF50AA59AB"
-			rewards: [{
-				id: "3E83F81BCDD77683"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "3E83F81BCDD77683"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+				{
+					id: "3279B00C73C552B5"
+					type: "xp"
+					xp: 10
+				}
+			]
 			tasks: [{
 				id: "3E8E56B801D575D0"
 				item: "ae2:cell_component_4k"
@@ -1228,11 +1277,18 @@
 			dependencies: ["04BA07FF50AA59AB"]
 			description: [""]
 			id: "7BE5A8D53B880A5C"
-			rewards: [{
-				id: "54E14AC5D404A381"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "54E14AC5D404A381"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+				{
+					id: "205C45B2929F4234"
+					type: "xp"
+					xp: 10
+				}
+			]
 			tasks: [{
 				id: "50C7A287E77FD5BC"
 				item: "ae2:cell_component_16k"
@@ -1244,11 +1300,18 @@
 		{
 			dependencies: ["7BE5A8D53B880A5C"]
 			id: "2A510DC4EE123F2C"
-			rewards: [{
-				id: "738E7C87599AF7D0"
-				item: "kubejs:infused_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "738E7C87599AF7D0"
+					item: "kubejs:infused_coin"
+					type: "item"
+				}
+				{
+					id: "39BF6BDAB9454909"
+					type: "xp"
+					xp: 10
+				}
+			]
 			tasks: [{
 				id: "2C10648A9B6D1AA2"
 				item: "ae2:cell_component_64k"
@@ -1260,11 +1323,18 @@
 		{
 			dependencies: ["2A510DC4EE123F2C"]
 			id: "7F1CEC8B3B07FE4D"
-			rewards: [{
-				id: "0FFEBF504D5B34E1"
-				item: "kubejs:infused_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "0FFEBF504D5B34E1"
+					item: "kubejs:infused_coin"
+					type: "item"
+				}
+				{
+					id: "1EFC5502DAB4064E"
+					type: "xp"
+					xp: 10
+				}
+			]
 			tasks: [{
 				id: "384CF023C6AF8B5D"
 				item: "ae2:cell_component_256k"
@@ -1371,9 +1441,9 @@
 			id: "2CD963618CF02F10"
 			optional: true
 			rewards: [{
-				id: "351D7ADFBBE5377C"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
+				id: "6A945F899D3288AE"
+				type: "xp"
+				xp: 10
 			}]
 			tasks: [{
 				id: "2BC0E71127DCF8A6"
@@ -1706,9 +1776,9 @@
 			id: "6EE4B174356FB915"
 			optional: true
 			rewards: [{
-				id: "71766F444782ADF8"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
+				id: "3E61DCE1F6F426A6"
+				type: "xp"
+				xp: 10
 			}]
 			tasks: [{
 				id: "40FDC0A339B993D4"
@@ -1875,6 +1945,11 @@
 		{
 			dependencies: ["794E40A7B810D043"]
 			id: "6C0DDC638326D231"
+			rewards: [{
+				id: "7158F052A1EA49FC"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "7D9FE0FBAA5F4455"
 				item: "ae2:item_cell_housing"
@@ -1898,6 +1973,11 @@
 				"Sneak right-click in the air with an empty cell to separate the component and housing."
 			]
 			id: "4295EC2020E4146C"
+			rewards: [{
+				id: "132BDEDE8189418D"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1AA8A8047DE1B325"
 				item: {
@@ -1933,6 +2013,7 @@
 						]
 					}
 				}
+				title: "ME Fluid Storage Cells"
 				type: "item"
 			}]
 			title: "&3ME Fluid Storage Cells&r"
@@ -1942,6 +2023,11 @@
 		{
 			dependencies: ["794E40A7B810D043"]
 			id: "2D0807B323940745"
+			rewards: [{
+				id: "6A47938F81922A87"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "7D3F46D3EE50291B"
 				item: "ae2:fluid_cell_housing"
@@ -1949,6 +2035,77 @@
 			}]
 			x: 0.5d
 			y: 13.5d
+		}
+		{
+			description: [
+				"&2This quest was made by MiniMaxi!&r"
+				"&1Thank you a lot!&r"
+			]
+			id: "09B1FD2981B34B12"
+			invisible: true
+			optional: true
+			rewards: [{
+				id: "2FF267A5D8576451"
+				item: "botania:terrasteel_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "18CC3714384DB289"
+				title: "&2This quest was made by MiniMaxi!&r&1 Thank you a lot!&r"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6C0DDC638326D231"]
+			id: "13B80939975C5846"
+			rewards: [{
+				id: "08D883EB9A98C37E"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3C5CE8FEA8676475"
+				item: {
+					Count: 1
+					id: "expatternprovider:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:f"
+							id: "minecraft:water"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["6C0DDC638326D231"]
+			id: "503EFF531224AE06"
+			rewards: [{
+				id: "0C65C8BEF27020CD"
+				item: "kubejs:apotheotic_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "68A61EE57E6833D6"
+				item: {
+					Count: 1
+					id: "expatternprovider:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:i"
+							id: "minecraft:cobblestone"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 14.0d
 		}
 	]
 	title: "&3Applied Energistics 2&r"

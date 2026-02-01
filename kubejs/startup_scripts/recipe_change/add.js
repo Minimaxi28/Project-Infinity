@@ -16,6 +16,24 @@ StartupEvents.registry('item', (e) => {
     .maxStackSize(64)
     .texture('kubejs:item/ultimate_prediction');
 
+  e.create('ultimate_vanilla_prediction')
+    .tag('kubejs:ultimate_vanilla_prediction')
+    .displayName('§dUltimate Vanilla Prediction')
+    .maxStackSize(64)
+    .texture('kubejs:item/ultimate_vanilla_prediction');
+
+  e.create('ultimate_boss_prediction')
+    .tag('kubejs:ultimate_boss_prediction')
+    .displayName('§dUltimate Boss Prediction')
+    .maxStackSize(64)
+    .texture('kubejs:item/wip');
+
+  e.create('ultimate_misc_prediction')
+    .tag('kubejs:ultimate_misc_prediction')
+    .displayName('§dUltimate Misc Prediction')
+    .maxStackSize(64)
+    .texture('kubejs:item/wip');
+
   e.create('allthemodium_mesh')
     .tag('exdeorum:sieve_meshes')
     .displayName('§6Allthemodium Mesh')
@@ -340,6 +358,44 @@ StartupEvents.registry('item', (e) => {
   createAddon(e, 'speed_addon_3');
   createAddon(e, 'speed_addon_4');
   createAddon(e, 'speed_addon_5');
+
+  //Draconic Evolution
+  function createDraconic (e, input) {
+    e.create(input)
+      .texture('kubejs:item/draconic/' + input)
+      .displayName(
+        input
+          .replace(/_/g, ' ')
+          .replace(
+            /\w\S*/g,
+            (txt) => txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase()
+          ) + ' Dummy Item'
+      );
+  }
+  createDraconic(e, 'creative_capacitor');
+  createDraconic(e, 'chaotic_axe');
+  createDraconic(e, 'chaotic_bow');
+  createDraconic(e, 'chaotic_capacitor');
+  createDraconic(e, 'chaotic_hoe');
+  createDraconic(e, 'chaotic_pickaxe');
+  createDraconic(e, 'chaotic_shovel');
+  createDraconic(e, 'chaotic_staff');
+  createDraconic(e, 'chaotic_sword');
+  createDraconic(e, 'draconic_axe');
+  createDraconic(e, 'draconic_bow');
+  createDraconic(e, 'draconic_capacitor');
+  createDraconic(e, 'draconic_hoe');
+  createDraconic(e, 'draconic_pickaxe');
+  createDraconic(e, 'draconic_shovel');
+  createDraconic(e, 'draconic_staff');
+  createDraconic(e, 'draconic_sword');
+  createDraconic(e, 'wyvern_axe');
+  createDraconic(e, 'wyvern_bow');
+  createDraconic(e, 'wyvern_capacitor');
+  createDraconic(e, 'wyvern_hoe');
+  createDraconic(e, 'wyvern_pickaxe');
+  createDraconic(e, 'wyvern_shovel');
+  createDraconic(e, 'wyvern_sword');
 });
 
 StartupEvents.registry('block', (event) => {
@@ -374,6 +430,14 @@ StartupEvents.registry('block', (event) => {
     .hardness(0.8)
     .resistance(1.0)
     .textureAll('kubejs:block/silent/compressed_slate');
+
+  event
+    .create('compressed_hellforgedparts')
+    .displayName('Compressed Hellforged Parts')
+    .soundType('metal')
+    .hardness(1.0)
+    .resistance(1.0)
+    .textureAll('kubejs:block/silent/compressed_hellforgedparts');
 
   event
     .create('double_compressed_slate')
@@ -490,7 +554,7 @@ StartupEvents.registry('block', (event) => {
     .soundType('metal')
     .hardness(1.0)
     .resistance(1.0)
-    .textureAll('kubejs:block/silent/fake_mob_masher')
+    .textureAll('kubejs:block/silent/fake_mob_masher');
 });
 
 StartupEvents.registry('block', (e) => {

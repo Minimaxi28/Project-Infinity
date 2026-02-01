@@ -24,6 +24,7 @@ ServerEvents.recipes((event) => {
         'bhc:blue_heart_melted',
         'bhc:blue_heart',
         'born_in_chaos_v1:holiday_candy',
+        'bosses_of_mass_destruction:crystal_fruit',
         'cyclic:apple_iron',
         'cyclic:apple_ender',
         'cyclic:apple_lofty_stature',
@@ -40,8 +41,8 @@ ServerEvents.recipes((event) => {
         'mysticalagradditions:supremium_apple',
         'mysticalagradditions:insanium_apple',
         'allthemodium:allthemodium_apple',
-        'pickletweaks:diamond_apple',
-        'pickletweaks:emerald_apple',
+        'tconstruct:jeweled_apple',
+        'ifeu:apple_core',
       ],
 
       result: { item: '8x avaritia:ultimate_stew' },

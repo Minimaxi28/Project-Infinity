@@ -1,37 +1,37 @@
 // priority: 1;
+function createCompactorRecipe (
+  event,
+  input,
+  output,
+  itemInputCount,
+  extraInputs
+) {
+  extraInputs = extraInputs || [];
 
-function createCompactorRecipe (event, input, output, itemInputCount) {
   var outputCount = Math.floor(itemInputCount / 4);
-
   var sanitizedOutput = output.replace(/:/g, '_');
 
-  event
+  var builder = event
     .create('mm:multi_compactor_' + sanitizedOutput)
     .structureId('mm:multi_compactor_structure')
     .ticks(2)
     .input({
       type: 'mm:input/consume',
-      ingredient: {
-        type: 'mm:item',
-        item: input,
-        count: itemInputCount,
-      },
+      ingredient: { type: 'mm:item', item: input, count: itemInputCount },
     })
     .input({
       type: 'mm:input/consume',
-      ingredient: {
-        type: 'mm:energy',
-        amount: 50000,
-      },
-    })
-    .output({
-      type: 'mm:output/simple',
-      ingredient: {
-        type: 'mm:item',
-        item: output,
-        count: outputCount,
-      },
+      ingredient: { type: 'mm:energy', amount: 50000 },
     });
+
+  extraInputs.forEach(function (inObj) {
+    builder.input(inObj);
+  });
+
+  builder.output({
+    type: 'mm:output/simple',
+    ingredient: { type: 'mm:item', item: output, count: outputCount },
+  });
 }
 
 MMEvents.createProcesses((event) => {
@@ -148,7 +148,49 @@ MMEvents.createProcesses((event) => {
     event,
     'mysticalagriculture:supremium_essence',
     'mysticalagriculture:awakened_supremium_essence',
-    256
+    256,
+    [
+      {
+        type: 'mm:input/consume',
+        ingredient: {
+          type: 'mm:item',
+          item: 'mysticalagriculture:air_essence',
+          count: 10,
+        },
+      },
+      {
+        type: 'mm:input/consume',
+        ingredient: {
+          type: 'mm:item',
+          item: 'mysticalagriculture:earth_essence',
+          count: 10,
+        },
+      },
+      {
+        type: 'mm:input/consume',
+        ingredient: {
+          type: 'mm:item',
+          item: 'mysticalagriculture:water_essence',
+          count: 10,
+        },
+      },
+      {
+        type: 'mm:input/consume',
+        ingredient: {
+          type: 'mm:item',
+          item: 'mysticalagriculture:fire_essence',
+          count: 10,
+        },
+      },
+      {
+        type: 'mm:input/consume',
+        ingredient: {
+          type: 'mm:item',
+          item: 'mysticalagriculture:cognizant_dust',
+          count: 4,
+        },
+      },
+    ]
   );
   createCompactorRecipe(
     event,

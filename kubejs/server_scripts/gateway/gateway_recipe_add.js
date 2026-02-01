@@ -12,6 +12,7 @@ ServerEvents.recipes((event) => {
     ['cow_gate', 'minecraft:milk_bucket'],
     ['drowned_gate', 'minecraft:trident'],
     ['evoker_gate', 'minecraft:totem_of_undying'],
+    ['elderguardian_gate', 'armorplus:guardian_scale'],
     ['glowsquid_gate', 'minecraft:glow_ink_sac'],
     ['guardian_gate', 'minecraft:prismarine_shard'],
     ['hoglin_gate', 'minecraft:porkchop'],

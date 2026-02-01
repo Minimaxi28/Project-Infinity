@@ -1577,6 +1577,27 @@
 			x: 4.0d
 			y: 3.0d
 		}
+		{
+			description: [
+				"&2This quest was made by whothehellisnico!&r"
+				"&1Thank you a lot!&r"
+			]
+			id: "32E906F55B0D9F31"
+			invisible: true
+			optional: true
+			rewards: [{
+				id: "3F6A29CF663DDEDA"
+				item: "botania:terrasteel_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "111A6F2CA186260C"
+				title: "&2This quest was made by whothehellisnico!&r&1 Thank you a lot!&r"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
 	]
 	title: "Mob Grinding Utilities"
 }

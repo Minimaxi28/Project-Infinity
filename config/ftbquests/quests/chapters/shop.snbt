@@ -53,6 +53,7 @@
 	quests: [
 		{
 			can_repeat: true
+			description: ["Jetpack needs to be full."]
 			icon: {
 				Count: 1
 				id: "everlastingabilities:ability_totem"
@@ -81,13 +82,30 @@
 			}]
 			size: 2.0d
 			subtitle: "Allows you to fly. Needs a lot of levels"
-			tasks: [{
-				consume_items: true
-				count: 32L
-				id: "026A2E6DAD722840"
-				item: "kubejs:ascended_coin"
-				type: "item"
-			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 32L
+					id: "026A2E6DAD722840"
+					item: "kubejs:ascended_coin"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "6870A5E2C3EB46B3"
+					item: {
+						Count: 1
+						id: "ironjetpacks:jetpack"
+						tag: {
+							Energy: 48000000
+							Id: "ironjetpacks:emerald"
+							Throttle: 1.0d
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+			]
 			title: "Creative Flight"
 			x: -5.0d
 			y: -1.0d
@@ -2291,6 +2309,7 @@
 				item: { Count: 8, id: "kubejs:infused_coin" }
 				type: "item"
 			}]
+			title: "Chance Cube"
 			x: 4.5d
 			y: 5.5d
 		}
@@ -2492,7 +2511,7 @@
 			y: 8.5d
 		}
 		{
-			can_repeat: true
+			can_repeat: false
 			icon: {
 				Count: 1
 				id: "ftbquests:lootcrate"
@@ -2501,6 +2520,7 @@
 				}
 			}
 			id: "387D824688AA51F6"
+			invisible: true
 			optional: true
 			rewards: [{
 				id: "29DD2EF52D6DC4EE"
@@ -2525,7 +2545,7 @@
 			y: 10.0d
 		}
 		{
-			can_repeat: true
+			can_repeat: false
 			icon: {
 				Count: 1
 				id: "ftbquests:lootcrate"
@@ -2534,6 +2554,7 @@
 				}
 			}
 			id: "2039DCD2D0B134B0"
+			invisible: true
 			optional: true
 			rewards: [{
 				id: "15135DFCC991D365"
@@ -2558,7 +2579,7 @@
 			y: 10.0d
 		}
 		{
-			can_repeat: true
+			can_repeat: false
 			icon: {
 				Count: 1
 				id: "ftbquests:lootcrate"
@@ -2567,6 +2588,7 @@
 				}
 			}
 			id: "23D354D1B1816982"
+			invisible: true
 			optional: true
 			rewards: [{
 				id: "3359395649967916"
@@ -2591,7 +2613,7 @@
 			y: 10.0d
 		}
 		{
-			can_repeat: true
+			can_repeat: false
 			icon: {
 				Count: 1
 				id: "ftbquests:lootcrate"
@@ -2600,6 +2622,7 @@
 				}
 			}
 			id: "175892FD048EEF25"
+			invisible: true
 			optional: true
 			rewards: [{
 				id: "77F29F547C966039"
@@ -2624,7 +2647,7 @@
 			y: 10.0d
 		}
 		{
-			can_repeat: true
+			can_repeat: false
 			icon: {
 				Count: 1
 				id: "ftbquests:lootcrate"
@@ -2633,6 +2656,7 @@
 				}
 			}
 			id: "70218208AA687752"
+			invisible: true
 			optional: true
 			rewards: [{
 				id: "76841A8904C4A010"
@@ -2657,7 +2681,7 @@
 			y: 10.0d
 		}
 		{
-			can_repeat: true
+			can_repeat: false
 			icon: {
 				Count: 1
 				id: "ftbquests:lootcrate"
@@ -2666,6 +2690,7 @@
 				}
 			}
 			id: "131FE21036BACDA8"
+			invisible: true
 			optional: true
 			rewards: [{
 				id: "22C18495BD8BE9A7"
@@ -2690,7 +2715,7 @@
 			y: 10.0d
 		}
 		{
-			can_repeat: true
+			can_repeat: false
 			icon: {
 				Count: 1
 				id: "ftbquests:lootcrate"
@@ -2699,6 +2724,7 @@
 				}
 			}
 			id: "113D2767E823335D"
+			invisible: true
 			optional: true
 			rewards: [{
 				id: "17B6641DC4A4DF05"
@@ -2723,7 +2749,7 @@
 			y: 11.5d
 		}
 		{
-			can_repeat: true
+			can_repeat: false
 			icon: {
 				Count: 1
 				id: "ftbquests:lootcrate"
@@ -2732,6 +2758,7 @@
 				}
 			}
 			id: "3B8FD7AD472F7603"
+			invisible: true
 			optional: true
 			rewards: [{
 				id: "138ADE5D7007E489"
@@ -2756,7 +2783,7 @@
 			y: 11.5d
 		}
 		{
-			can_repeat: true
+			can_repeat: false
 			icon: {
 				Count: 1
 				id: "ftbquests:lootcrate"
@@ -2765,6 +2792,7 @@
 				}
 			}
 			id: "48B11B61EE35E4B2"
+			invisible: true
 			optional: true
 			rewards: [{
 				id: "632EB7F08A00B0C3"
@@ -2789,7 +2817,7 @@
 			y: 11.5d
 		}
 		{
-			can_repeat: true
+			can_repeat: false
 			icon: {
 				Count: 1
 				id: "ftbquests:lootcrate"
@@ -2798,6 +2826,7 @@
 				}
 			}
 			id: "7765B1B15362D569"
+			invisible: true
 			optional: true
 			rewards: [{
 				id: "318D186C22848A77"
@@ -2970,6 +2999,42 @@
 			title: "64x Enhanced: Iron Ingot"
 			x: 13.0d
 			y: 0.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "expatternprovider:infinity_cell"
+				tag: {
+					record: {
+						"#c": "ae2:f"
+						id: "minecraft:water"
+					}
+				}
+			}
+			id: "7FD38B66D035300F"
+			rewards: [{
+				id: "4EC7086D84A0C9B8"
+				item: {
+					Count: 1
+					id: "expatternprovider:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:i"
+							id: "ae2:matter_ball"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 64L
+				id: "76E687D0E55A3805"
+				item: { Count: 64, id: "kubejs:ascended_coin" }
+				type: "item"
+			}]
+			title: "ME Infinity Matter Ball Cell"
+			x: 2.0d
+			y: 1.5d
 		}
 	]
 	title: "&dShop"

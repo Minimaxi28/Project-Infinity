@@ -14,7 +14,7 @@
 		x: -12.5d
 		y: -4.5d
 	}]
-	order_index: 7
+	order_index: 8
 	quest_links: [ ]
 	quests: [
 		{
@@ -447,6 +447,7 @@
 				item: "nuclearcraft:fusion_core"
 				type: "item"
 			}]
+			title: "Fusion Core"
 			x: -10.0d
 			y: 4.5d
 		}
@@ -469,6 +470,7 @@
 				item: "nuclearcraft:fusion_reactor_connector"
 				type: "item"
 			}]
+			title: "Fusion Reactor Connector"
 			x: -8.5d
 			y: 4.5d
 		}
@@ -1053,6 +1055,7 @@
 					type: "item"
 				}
 			]
+			title: "Uranium and Thorium"
 			x: -14.5d
 			y: -1.0d
 		}

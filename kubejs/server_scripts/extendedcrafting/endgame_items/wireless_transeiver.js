@@ -4,13 +4,13 @@ ServerEvents.recipes((event) => {
     .custom({
       type: 'extendedcrafting:shaped_table',
       pattern: [
-        'AAAAAAA',
-        'ABBBBBA',
-        'ABCDEBA',
-        'AFGHIFA',
-        'ABEJCBA',
-        'ABBBBBA',
-        'AAAAAAA',
+        'AA   AA',
+        'ABB BBA',
+        ' BCDEB ',
+        ' FGHIF ',
+        ' BEJCB ',
+        'ABB BBA',
+        'AA   AA',
       ],
       key: {
         A: {
@@ -20,13 +20,13 @@ ServerEvents.recipes((event) => {
           item: 'ae2:quantum_link',
         },
         C: {
-          item: 'mekanism_extras:alloy_spectrum',
+          item: 'extendedae_plus:infinity_core',
         },
         D: {
           item: 'ae2omnicells:spent_nuclear_waste_singularity',
         },
         E: {
-          item: 'evolvedmekanism:alloy_exoversal',
+          item: 'extendedae_plus:infinity_core',
         },
         F: {
           item: 'botanicalextramachinery:crimson_dragonstone',

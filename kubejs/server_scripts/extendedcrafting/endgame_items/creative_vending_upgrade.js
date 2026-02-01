@@ -19,10 +19,7 @@ ServerEvents.recipes((event) => {
           item: 'botanicalextramachinery:shadow_dragonstone_block',
         },
         B: {
-          type: 'forge:nbt',
-          item: 'twilightforest:glass_sword',
-          count: 1,
-          nbt: '{Damage:0}',
+          item: 'twilightforest:glass_sword'
         },
         C: {
           item: 'mekanism:creative_bin',

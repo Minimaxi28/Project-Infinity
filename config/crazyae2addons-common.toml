@@ -16,6 +16,10 @@
 		EntityTickerBlackList = ["mysticalagriculture:ultimate_infinity_seeds"]
 		#Allow routing P2P tunnels through a Wormhole tunnel
 		nestedP2Pwormhole = false
+		#Allow teleporting through a Wormhole P2P
+		wormholeP2PTeleportation = false
+		#Create immersive portals on wormhole p2ps. Expect visual glitches with shaders.
+		immersiveP2PWormhole = false
 
 	[general.Machines]
 		#XP cost multiplier for Auto Enchanter
@@ -23,6 +27,10 @@
 		autoEnchanterCost = 10
 		#Allow Energy Exporter part to export EU if a GregTech battery is inserted
 		energyExporterGT = false
+		#Allow Wormhole P2P to transfer EU
+		wormholeEUP2PGT = true
+		#Allow Wormhole P2P to transfer EU to more than 1 output simultaneously
+		wormholeGoodEUP2PGT = false
 
 	[general.Autobuilder]
 		#FE cost multiplier for Autobuilder
@@ -123,10 +131,10 @@
 		#Keys with ':' must be quoted, e.g. { "minecraft:glass" = 1 }.
 		#Default: empty map.
 		[general.Research.researchUnitExtraQBlocks]
-			"avaritia:infinity" = 30
+			"avaritia:infinity" = 35
 			"avaritia:neutron" = 25
 			"avaritia:crystal_matrix" = 22
-			"kubejs:empowered_super_block" = 18
+			"kubejs:empowered_super_block" = 20
 
 	[general.EnergyParts]
 		#Enable Energy Exporter

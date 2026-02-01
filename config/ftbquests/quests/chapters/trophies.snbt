@@ -59,19 +59,11 @@
 		}
 		{
 			height: 2.0d
-			image: "kubejs:block/screen/theundergarden"
-			rotation: 0.0d
-			width: 6.0d
-			x: -7.5d
-			y: 3.5d
-		}
-		{
-			height: 2.0d
 			image: "kubejs:block/screen/minecraft"
 			rotation: 0.0d
 			width: 7.0d
 			x: -7.0d
-			y: -2.5d
+			y: 3.5d
 		}
 		{
 			height: 3.0d
@@ -260,7 +252,7 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: 0.0d
+			y: 6.0d
 		}
 		{
 			can_repeat: false
@@ -329,7 +321,7 @@
 				type: "item"
 			}]
 			x: -7.0d
-			y: 0.0d
+			y: 6.0d
 		}
 		{
 			can_repeat: false
@@ -624,7 +616,7 @@
 				type: "item"
 			}]
 			x: -5.0d
-			y: 0.0d
+			y: 6.0d
 		}
 		{
 			can_repeat: false
@@ -957,7 +949,7 @@
 				type: "item"
 			}]
 			x: -9.0d
-			y: 0.0d
+			y: 6.0d
 		}
 		{
 			can_repeat: false
@@ -992,40 +984,6 @@
 			}]
 			x: 3.0d
 			y: 12.0d
-		}
-		{
-			can_repeat: false
-			hide_details_until_startable: false
-			hide_text_until_complete: false
-			hide_until_deps_visible: false
-			icon_scale: 2.0d
-			id: "559D47A831D253AA"
-			rewards: [{
-				id: "1D8D377A94A1DFAF"
-				item: "kubejs:ascended_coin"
-				type: "item"
-			}]
-			shape: "rsquare"
-			size: 2.0d
-			tasks: [{
-				consume_items: false
-				id: "67E04CAC0A1FB9D3"
-				item: {
-					Count: 1
-					id: "obtrophies:trophy"
-					tag: {
-						BlockEntityTag: {
-							VariantID: 0
-							entity: "undergarden:forgotten_guardian"
-						}
-					}
-				}
-				match_nbt: true
-				only_from_crafting: false
-				type: "item"
-			}]
-			x: -9.0d
-			y: 6.0d
 		}
 		{
 			can_repeat: false

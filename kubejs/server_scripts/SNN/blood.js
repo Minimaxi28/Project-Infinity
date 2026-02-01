@@ -30,7 +30,6 @@ ServerEvents.recipes((event) => {
         'minecraft:cow',
         'minecraft:cod',
         'minecraft:chicken',
-        'undergarden:gloomper',
       ],
     },
     tier2: {
@@ -41,8 +40,6 @@ ServerEvents.recipes((event) => {
         'born_in_chaos_v1:dark_vortex',
         'born_in_chaos_v1:restless_spirit',
         'outer_end:stalker',
-        'undergarden:dweller',
-        'undergarden:forgotten_guardian',
         'thermal:basalz',
         'thermal:blizz',
         'thermal:blitz',

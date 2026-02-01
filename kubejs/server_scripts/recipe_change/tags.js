@@ -1,6 +1,6 @@
 priority: 0;
 ServerEvents.tags('item', (event) => {
-  event.remove('forge:ingots/neutronium', 'avaritia:neutron_ingot');
+  event.add('forge:ingots/neutronium', 'avaritia:neutron_ingot');
 
   event.add('forge:plastic', 'pneumaticcraft:plastic');
   event.add('mysticalagriculture:essences', [
@@ -21,9 +21,28 @@ ServerEvents.tags('item', (event) => {
 
   event.add('mysticalagriculture:seeds', [
     'mysticalagriculture:boron_seeds',
+    'mysticalagriculture:cognizant_dust_seeds',
     'mysticalagriculture:dark_metal_ingot_seeds',
     'mysticalagriculture:niter_seeds',
     'mysticalagriculture:plastic_seeds',
+    'mysticalagriculture:iesnium_seeds',
+    'mysticalagriculture:ignitium_seeds',
+    'mysticalagriculture:sky_steel_seeds',
+    'mysticalagriculture:allthemodium_seeds',
+    'mysticalagriculture:unobtainium_seeds',
+    'mysticalagriculture:vibranium_seeds',
+    'mysticalagriculture:plutonium_seeds',
+    'mysticalagriculture:lithium_seeds',
+  ]);
+
+    event.add('ae2:growth_acceleratable', [
+    'mysticalagriculture:boron_seeds',
+    'mysticalagriculture:cognizant_dust_seeds',
+    'mysticalagriculture:dark_metal_ingot_seeds',
+    'mysticalagriculture:niter_seeds',
+    'mysticalagriculture:plastic_seeds',
+    'mysticalagriculture:iesnium_seeds',
+    'mysticalagriculture:ignitium_seeds',
     'mysticalagriculture:sky_steel_seeds',
     'mysticalagriculture:allthemodium_seeds',
     'mysticalagriculture:unobtainium_seeds',

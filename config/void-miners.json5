@@ -4,7 +4,11 @@
   "MINER_DIMENSION_SETTINGS": {
     "enabled": true,
     "defaultAllow": false,
-    "globalAllow": ["minecraft:overworld","minecraft:the_nether","minecraft:the_end"],
+    "globalAllow": [
+      "minecraft:overworld",
+      "minecraft:the_nether",
+      "minecraft:the_end"
+    ],
     "globalBlock": [],
     "tierRules": {}
   },
@@ -384,10 +388,10 @@
         },
         "efficiency": {
           "generation": 1.0,
-          "efficiency": 0.75,
+          "efficiency": 0.89,
           "weatherResistance": 1.0,
           "tooltip": [
-            "\u00a7bEfficiency Boost: \u00a7f+25%"
+            "\u00a7bEfficiency Boost: \u00a7f+11%"
           ]
         }
       },
@@ -412,10 +416,10 @@
         },
         "efficiency": {
           "generation": 1.0,
-          "efficiency": 0.83,
+          "efficiency": 0.95,
           "weatherResistance": 1.0,
           "tooltip": [
-            "\u00a7bEfficiency Boost: \u00a7f+17%"
+            "\u00a7bEfficiency Boost: \u00a7f+5%"
           ]
         }
       },
@@ -440,10 +444,10 @@
         },
         "efficiency": {
           "generation": 1.0,
-          "efficiency": 0.73,
+          "efficiency": 0.87,
           "weatherResistance": 1.0,
           "tooltip": [
-            "\u00a7bEfficiency Boost: \u00a7f+27%"
+            "\u00a7bEfficiency Boost: \u00a7f+13%"
           ]
         }
       },
@@ -468,10 +472,10 @@
         },
         "efficiency": {
           "generation": 1.0,
-          "efficiency": 0.77,
+          "efficiency": 0.91,
           "weatherResistance": 1.0,
           "tooltip": [
-            "\u00a7bEfficiency Boost: \u00a7f+23%"
+            "\u00a7bEfficiency Boost: \u00a7f+9%"
           ]
         }
       },
@@ -484,7 +488,7 @@
     "ultimate": {
       "energyStorage": 461168601842738,
       "duration": 15,
-      "energyGeneration": 203685477,
+      "energyGeneration": 203685472,
       "modifiers": {
         "weather_resistance": {
           "generation": 1.0,
@@ -496,10 +500,10 @@
         },
         "efficiency": {
           "generation": 1.0,
-          "efficiency": 0.65,
+          "efficiency": 0.85,
           "weatherResistance": 1.0,
           "tooltip": [
-            "\u00a7bEfficiency Boost: \u00a7f+35%"
+            "\u00a7bEfficiency Boost: \u00a7f+15%"
           ]
         }
       },
@@ -524,10 +528,10 @@
         },
         "efficiency": {
           "generation": 1.0,
-          "efficiency": 0.81,
+          "efficiency": 0.93,
           "weatherResistance": 1.0,
           "tooltip": [
-            "\u00a7bEfficiency Boost: \u00a7f+19%"
+            "\u00a7bEfficiency Boost: \u00a7f+7%"
           ]
         }
       },
@@ -552,10 +556,10 @@
         },
         "efficiency": {
           "generation": 1.0,
-          "efficiency": 0.79,
+          "efficiency": 0.92,
           "weatherResistance": 1.0,
           "tooltip": [
-            "\u00a7bEfficiency Boost: \u00a7f+21%"
+            "\u00a7bEfficiency Boost: \u00a7f+8%"
           ]
         }
       },
@@ -580,10 +584,10 @@
         },
         "efficiency": {
           "generation": 1.0,
-          "efficiency": 0.71,
+          "efficiency": 0.86,
           "weatherResistance": 1.0,
           "tooltip": [
-            "\u00a7bEfficiency Boost: \u00a7f+29%"
+            "\u00a7bEfficiency Boost: \u00a7f+14%"
           ]
         }
       },
@@ -608,10 +612,10 @@
         },
         "efficiency": {
           "generation": 1.0,
-          "efficiency": 0.85,
+          "efficiency": 0.98,
           "weatherResistance": 1.0,
           "tooltip": [
-            "\u00a7bEfficiency Boost: \u00a7f+15%"
+            "\u00a7bEfficiency Boost: \u00a7f+2%"
           ]
         }
       },
@@ -621,5 +625,9 @@
         "\u00a7aGeneration: \u00a7f512 FE/t"
       ]
     }
-  }
+  },
+  "ALLOW_TICK_ACCELERATION_MULTIBLOCKS": false,
+  "UPGRADE_T1_SLOTS": 3,
+  "UPGRADE_T2_SLOTS": 9,
+  "UPGRADE_T3_SLOTS": 27
 }

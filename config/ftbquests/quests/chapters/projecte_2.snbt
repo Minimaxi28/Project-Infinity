@@ -79,10 +79,11 @@
 			y: 3.5d
 		}
 	]
-	order_index: 2
+	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["130ECB24009A590F"]
 			description: ["&dProjectE&r is a mod focused around &aconverting items&r to &eEMC&r and &eEMC&r back into &brarer items&r."]
 			icon: "projectexpansion:fading_matter"
 			id: "1E3D292C23AC2F93"

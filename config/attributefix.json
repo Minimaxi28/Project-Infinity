@@ -110,17 +110,6 @@
         "value": 1000
       }
     },
-    "undead_revamp2:bossloader": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 1,
-        "value": 1
-      }
-    },
     "attributeslib:cold_damage": {
       "enabled": false,
       "min": {
@@ -174,28 +163,6 @@
       "max": {
         "default": 1024,
         "value": 1024
-      }
-    },
-    "undead_revamp2:cheroattackspeed": {
-      "enabled": false,
-      "min": {
-        "default": 1,
-        "value": 1
-      },
-      "max": {
-        "default": 20,
-        "value": 20
-      }
-    },
-    "undead_revamp2:returnvauleundead": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 3,
-        "value": 3
       }
     },
     "attributeslib:dodge_chance": {

@@ -1,4 +1,3 @@
-dimdoors:limbo
 incendium:big_cave
 minecraft:canyon
 minecraft:cave
@@ -8,4 +7,3 @@ mythicbotany:canyon
 mythicbotany:cave
 twilightforest:highland_caves
 twilightforest:tf_caves
-undergarden:undergarden_cave

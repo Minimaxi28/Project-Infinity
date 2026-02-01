@@ -142,9 +142,15 @@
 			y: 10.0d
 		}
 		{
-			description: ["You can change the ingots from one mod to another when you find a bad input."]
+			description: [
+				"You can change the ingots from one mod to another when you find a bad input."
+				""
+				"&4This Item is not craftable!"
+				"Cheats only&r"
+			]
 			icon: "mekanism:oredictionificator"
 			id: "25E585C8AE7430DC"
+			optional: true
 			rewards: [{
 				id: "0F1FEE53279D1DCB"
 				type: "xp_levels"
@@ -574,7 +580,7 @@
 					type: "item"
 				}
 			]
-			title: "Portal"
+			title: "Mining Dimension (JAMD)"
 			x: -2.0d
 			y: 7.0d
 		}
@@ -620,6 +626,9 @@
 				"Higher tiers of upgrades mean a higher transfer rate."
 				""
 				"&3Filters&r can be used with &aitem&r pipes, &9fluid&r pipes and &7gas&r pipes. To add a specific item, just &eClick&r it on the slot in the filter &o&bGUI&r. Alternatively you can type the item &o&bID&r in the text field next to it."
+				""
+				"&4Pipez is not a TPS friendly option!&r"
+				"&2Use Curvy Pipes.&r"
 			]
 			id: "4D3274AE190EEA88"
 			min_width: 420
@@ -945,7 +954,16 @@
 			y: 3.0d
 		}
 		{
-			description: ["The &6Tempad&r mod introduces a device inspired by the \"Loki\" series, allowing players to save specific locations and teleport to them from anywhere in the game world. Users can customize the color of the portals and the interface, with 30 available options."]
+			description: [
+				"&eTool Belt&r adds a wearable belt that stores &atools and weapons&r outside your inventory."
+				""
+				"• Frees up hotbar space"
+				"• Holds up to &a9 non-stackable items&r"
+				"• Quick item switching via keybind"
+				"• Supports Curios / extra slots"
+				""
+				"Perfect for building, exploring, and large modded playthroughs."
+			]
 			id: "20F4CBC52CD12260"
 			rewards: [{
 				id: "2195836678E272FB"
@@ -953,15 +971,19 @@
 				xp: 3
 			}]
 			size: 2.0d
-			tasks: [{
-				id: "21B1A6D1E4DECF01"
-				item: {
-					Count: 1
-					id: "tempad:tempad"
-					tag: { }
+			tasks: [
+				{
+					id: "1615D4DE6A1B536E"
+					item: "toolbelt:belt"
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "6643B34E7B2A3B92"
+					item: "toolbelt:pouch"
+					type: "item"
+				}
+			]
+			title: "&eTool Belt&r"
 			x: -1.0d
 			y: 8.0d
 		}
@@ -986,6 +1008,7 @@
 					type: "item"
 				}
 			]
+			title: "Flux Network"
 			x: -8.0d
 			y: 5.0d
 		}
@@ -1186,78 +1209,8 @@
 					type: "item"
 				}
 				{
-					id: "36FECF870F320795"
-					item: "compactmachines:machine_small"
-					type: "item"
-				}
-				{
-					id: "60664CC58FB27F46"
-					item: "compactmachines:machine_normal"
-					type: "item"
-				}
-				{
-					id: "7EA638DD2F41B849"
-					item: "compactmachines:machine_large"
-					type: "item"
-				}
-				{
-					id: "32FA1263E076ACA0"
-					item: "compactmachines:machine_giant"
-					type: "item"
-				}
-				{
-					id: "53AE8CC5CB0F00C6"
-					item: "compactmachines:machine_maximum"
-					type: "item"
-				}
-				{
 					id: "55688C3E732E87DF"
 					item: "compactmachines:personal_shrinking_device"
-					type: "item"
-				}
-				{
-					count: 8L
-					id: "4A28D0DC1AB298F7"
-					item: { Count: 8, id: "compactmachines:wall" }
-					type: "item"
-				}
-				{
-					id: "6386CB0C085772DE"
-					item: {
-						Count: 1
-						id: "compactmachines:tunnel"
-						tag: {
-							definition: {
-								id: "compactmachines:energy"
-							}
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "00E0A01DE7174F71"
-					item: {
-						Count: 1
-						id: "compactmachines:tunnel"
-						tag: {
-							definition: {
-								id: "compactmachines:fluid"
-							}
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "6C579C4274F37C54"
-					item: {
-						Count: 1
-						id: "compactmachines:tunnel"
-						tag: {
-							definition: {
-								id: "compactmachines:item"
-							}
-						}
-					}
 					type: "item"
 				}
 			]
@@ -1295,15 +1248,24 @@
 		}
 		{
 			description: [
-				"The mod &1Torcherino&r (from \"Torch\" and \"Rino\" as a nod to \"Turbo\") allows players to speed up certain blocks and processes in the game."
+				"The &eBlocks Booster&r is a powerful acceleration mod that increases the &atick rate&r of nearby machines."
 				""
-				"By placing special torches, you can increase the tick rate of machines, crop growth, or other block-based activities in their vicinity."
+				"By consuming large amounts of &cForge Energy (FE)&r, machines can run &amany times faster&r than normal."
 				""
-				"This mod is perfect for making farms more efficient or speeding up slow processes, with customizable settings to tailor the experience."
 				""
-				"&4BE CAREFUL TO NOT PLACE TO MANY! IT WILL CRASH YOUR GAME/ SERVER&r"
+				"Blocks Boosters include built-in &aTPS protection&r."
+				""
+				"If server performance drops below a configured value, boosters will temporarily &cdisable themselves&r."
+				""
+				"&4⚠ WARNING:&r"
+				"Accelerated ticking can be &cdangerous&r."
+				""
+				"Some machines or mods are &cNOT designed&r to be ticked at very high speeds and may:"
+				"• Break"
+				"• Desync"
+				"• Cause lag or crashes"
 			]
-			icon: "torcherino:double_compressed_torcherino"
+			icon: "blockbooster:booster_t1"
 			id: "54D3F98DB1BC6BB2"
 			min_width: 350
 			rewards: [{
@@ -1314,18 +1276,23 @@
 			size: 2.0d
 			tasks: [
 				{
-					id: "24DD9DAEDB95BA32"
-					item: "torcherino:torcherino"
+					id: "59603B0BE10A6CBC"
+					item: "blockbooster:booster_t1"
 					type: "item"
 				}
 				{
-					id: "56AD780BEC076BBC"
-					item: "torcherino:compressed_torcherino"
+					id: "4A278099D046A4DD"
+					item: "blockbooster:booster_t2"
 					type: "item"
 				}
 				{
-					id: "6DAB92B17ADD4970"
-					item: "torcherino:double_compressed_torcherino"
+					id: "037475C0BA64B669"
+					item: "blockbooster:booster_t3"
+					type: "item"
+				}
+				{
+					id: "16AB17A451B45E5A"
+					item: "blockbooster:booster_mana"
 					type: "item"
 				}
 			]
@@ -1336,10 +1303,8 @@
 			description: ["Use the Multibuilder Tool to build your multiblocks fast. Just place the items in the inventory from the tool and select the structure."]
 			icon: {
 				Count: 1
-				id: "patchouli:guide_book"
-				tag: {
-					"patchouli:book": "patchouli:project_infinity"
-				}
+				id: "mbtool:mbtool"
+				tag: { }
 			}
 			id: "518405876B7FEB5A"
 			rewards: [{

@@ -3,6 +3,7 @@ ServerEvents.recipes((event) => {
   event
     .custom({
       type: 'extendedcrafting:shaped_table',
+      tier: 2,
       pattern: [' A ', 'BCB', ' A '],
       key: {
         A: {

@@ -1,5 +1,6 @@
 {
   "values": [
+    "mm:loot_fabrication_plant_controller",
     "mm:advanced_awakening_altar_controller",
     "mm:auto_crusher_controller",
     "mm:auto_sieve_controller",

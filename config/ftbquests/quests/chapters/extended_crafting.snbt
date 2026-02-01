@@ -5,7 +5,7 @@
 	group: "29543B666C58207C"
 	icon: "extendedcrafting:ultimate_singularity"
 	id: "059EE974D686567D"
-	order_index: 9
+	order_index: 11
 	quest_links: [ ]
 	quests: [
 		{
@@ -4680,7 +4680,7 @@
 			shape: "hexagon"
 			tasks: [{
 				id: "0015067ECD067757"
-				item: "undergarden:forgotten_ingot"
+				item: "mekanism_extras:ingot_naquadah"
 				type: "item"
 			}]
 			x: 13.5d

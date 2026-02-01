@@ -26,7 +26,7 @@ MMEvents.createProcesses((event) => {
       ingredient: {
         type: 'mm:item',
         item: 'evolvedmekanism:ingot_better_gold',
-        count: 4,
+        count: 2,
       },
     })
     .input({
@@ -34,7 +34,7 @@ MMEvents.createProcesses((event) => {
       ingredient: {
         type: 'mm:item',
         item: 'kubejs:empowered_super_block',
-        count: 4,
+        count: 2,
       },
     })
     .input({
@@ -50,7 +50,7 @@ MMEvents.createProcesses((event) => {
       ingredient: {
         type: 'mm:item',
         item: 'nuclearcraft:neutronium_ingot',
-        count: 4,
+        count: 2,
       },
     })
     .input({
@@ -58,7 +58,7 @@ MMEvents.createProcesses((event) => {
       ingredient: {
         type: 'mm:item',
         item: 'avaritia:neutron_nugget',
-        count: 2,
+        count: 1,
       },
     })
     .input({
@@ -96,7 +96,7 @@ MMEvents.createProcesses((event) => {
       ingredient: {
         type: 'mm:mekanism/gas',
         gas: 'mekanism:antimatter',
-        amount: 5,
+        amount: 25,
       },
     })
     .input({
@@ -109,7 +109,7 @@ MMEvents.createProcesses((event) => {
     })
     .input({
       type: 'mm:input/consume',
-      chance: 0.0,
+      chance: 0.20,
       ingredient: {
         type: 'mm:item',
         item: 'kubejs:ultimate_heart',
@@ -120,7 +120,7 @@ MMEvents.createProcesses((event) => {
       type: 'mm:input/consume',
       ingredient: {
         type: 'mm:energy',
-        amount: 200000000,
+        amount: 20000000,
       },
     })
     .output({
@@ -128,7 +128,7 @@ MMEvents.createProcesses((event) => {
       ingredient: {
         type: 'mm:item',
         item: 'draconicevolution:small_chaos_frag',
-        count: 16,
+        count: 24,
       },
     });
 });

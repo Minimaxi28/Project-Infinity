@@ -10,31 +10,31 @@
 			canSpawnWeapon = true
 			#The chance that mobs will spawn with better_gold Swords rather than better_gold Shovels.
 			#Range: 0.0 ~ 1.0
-			swordWeight = 0.33
+			swordWeight = 0.0
 			#The chance that mobs can spawn with better_gold Helmets.
 			#Range: 0.0 ~ 1.0
-			helmetChance = 1.0
+			helmetChance = 0.0
 			#The chance that mobs can spawn with better_gold Chestplates.
 			#Range: 0.0 ~ 1.0
-			chestplateChance = 1.0
+			chestplateChance = 0.0
 			#The chance that mobs can spawn with better_gold Leggings.
 			#Range: 0.0 ~ 1.0
-			leggingsChance = 1.0
+			leggingsChance = 0.0
 			#The chance that mobs can spawn with better_gold Boots.
 			#Range: 0.0 ~ 1.0
-			bootsChance = 1.0
+			bootsChance = 0.0
 			#The chance that after each piece of better_gold Armor a mob spawns with that no more pieces will be added. Order of pieces tried is boots, leggings, chestplate, helmet.
 			#Range: 0.0 ~ 1.0
-			multiplePieceChance = 0.25
+			multiplePieceChance = 0.0
 			#The chance on hard mode that after each piece of better_gold Armor a mob spawns with that no more pieces will be added. Order of pieces tried is boots, leggings, chestplate, helmet.
 			#Range: 0.0 ~ 1.0
-			multiplePieceChanceHard = 0.1
+			multiplePieceChanceHard = 0.0
 			#The chance that if a mob spawns with better_gold Weapons that it will be enchanted. This is multiplied modified by the chunk's difficulty modifier.
 			#Range: 0.0 ~ 1.0
-			weaponEnchantmentChance = 0.25
+			weaponEnchantmentChance = 0.0
 			#The chance that if a mob spawns with better_gold Armor that they will be enchanted. This is multiplied modified by the chunk's difficulty modifier.
 			#Range: 0.0 ~ 1.0
-			armorEnchantmentChance = 0.5
+			armorEnchantmentChance = 0.0
 
 		#Spawn chances for pieces of plaslitherite gear. Note: These values are after the general mobArmorSpawnRate (or corresponding weapon rate) has been checked, and after an even split between material types has been done.
 		[tools.mobArmorSpawnRate.plaslitherite]
@@ -42,31 +42,31 @@
 			canSpawnWeapon = true
 			#The chance that mobs will spawn with plaslitherite Swords rather than plaslitherite Shovels.
 			#Range: 0.0 ~ 1.0
-			swordWeight = 0.33
+			swordWeight = 0.0
 			#The chance that mobs can spawn with plaslitherite Helmets.
 			#Range: 0.0 ~ 1.0
-			helmetChance = 1.0
+			helmetChance = 0.0
 			#The chance that mobs can spawn with plaslitherite Chestplates.
 			#Range: 0.0 ~ 1.0
-			chestplateChance = 1.0
+			chestplateChance = 0.0
 			#The chance that mobs can spawn with plaslitherite Leggings.
 			#Range: 0.0 ~ 1.0
-			leggingsChance = 1.0
+			leggingsChance = 0.0
 			#The chance that mobs can spawn with plaslitherite Boots.
 			#Range: 0.0 ~ 1.0
-			bootsChance = 1.0
+			bootsChance = 0.0
 			#The chance that after each piece of plaslitherite Armor a mob spawns with that no more pieces will be added. Order of pieces tried is boots, leggings, chestplate, helmet.
 			#Range: 0.0 ~ 1.0
-			multiplePieceChance = 0.25
+			multiplePieceChance = 0.0
 			#The chance on hard mode that after each piece of plaslitherite Armor a mob spawns with that no more pieces will be added. Order of pieces tried is boots, leggings, chestplate, helmet.
 			#Range: 0.0 ~ 1.0
-			multiplePieceChanceHard = 0.1
+			multiplePieceChanceHard = 0.0
 			#The chance that if a mob spawns with plaslitherite Weapons that it will be enchanted. This is multiplied modified by the chunk's difficulty modifier.
 			#Range: 0.0 ~ 1.0
-			weaponEnchantmentChance = 0.25
+			weaponEnchantmentChance = 0.0
 			#The chance that if a mob spawns with plaslitherite Armor that they will be enchanted. This is multiplied modified by the chunk's difficulty modifier.
 			#Range: 0.0 ~ 1.0
-			armorEnchantmentChance = 0.5
+			armorEnchantmentChance = 0.0
 
 		#Spawn chances for pieces of refined_redstone gear. Note: These values are after the general mobArmorSpawnRate (or corresponding weapon rate) has been checked, and after an even split between material types has been done.
 		[tools.mobArmorSpawnRate.refined_redstone]
@@ -74,31 +74,31 @@
 			canSpawnWeapon = true
 			#The chance that mobs will spawn with refined_redstone Swords rather than refined_redstone Shovels.
 			#Range: 0.0 ~ 1.0
-			swordWeight = 0.33
+			swordWeight = 0.0
 			#The chance that mobs can spawn with refined_redstone Helmets.
 			#Range: 0.0 ~ 1.0
-			helmetChance = 1.0
+			helmetChance = 0.0
 			#The chance that mobs can spawn with refined_redstone Chestplates.
 			#Range: 0.0 ~ 1.0
-			chestplateChance = 1.0
+			chestplateChance = 0.0
 			#The chance that mobs can spawn with refined_redstone Leggings.
 			#Range: 0.0 ~ 1.0
-			leggingsChance = 1.0
+			leggingsChance = 0.0
 			#The chance that mobs can spawn with refined_redstone Boots.
 			#Range: 0.0 ~ 1.0
-			bootsChance = 1.0
+			bootsChance = 0.0
 			#The chance that after each piece of refined_redstone Armor a mob spawns with that no more pieces will be added. Order of pieces tried is boots, leggings, chestplate, helmet.
 			#Range: 0.0 ~ 1.0
-			multiplePieceChance = 0.25
+			multiplePieceChance = 0.0
 			#The chance on hard mode that after each piece of refined_redstone Armor a mob spawns with that no more pieces will be added. Order of pieces tried is boots, leggings, chestplate, helmet.
 			#Range: 0.0 ~ 1.0
-			multiplePieceChanceHard = 0.1
+			multiplePieceChanceHard = 0.0
 			#The chance that if a mob spawns with refined_redstone Weapons that it will be enchanted. This is multiplied modified by the chunk's difficulty modifier.
 			#Range: 0.0 ~ 1.0
-			weaponEnchantmentChance = 0.25
+			weaponEnchantmentChance = 0.0
 			#The chance that if a mob spawns with refined_redstone Armor that they will be enchanted. This is multiplied modified by the chunk's difficulty modifier.
 			#Range: 0.0 ~ 1.0
-			armorEnchantmentChance = 0.5
+			armorEnchantmentChance = 0.0
 
 	#Material Settings for Better Gold
 	[tools.better_gold]

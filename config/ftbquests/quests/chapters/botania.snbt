@@ -17,8 +17,8 @@
 			image: "kubejs:block/screen/botania_mana_pattern2"
 			rotation: 0.0d
 			width: 10.0d
-			x: 13.976190476190474d
-			y: 4.750000000000007d
+			x: 26.5d
+			y: 18.0d
 		}
 		{
 			height: 0.5d
@@ -277,7 +277,7 @@
 			y: 15.0d
 		}
 	]
-	order_index: 0
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
@@ -1856,9 +1856,9 @@
 			id: "68D4B660E7F35ADB"
 			min_width: 320
 			rewards: [{
-				id: "4BF009FACF575238"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
+				id: "415E2DD5FA0042B9"
+				type: "xp"
+				xp: 10
 			}]
 			tasks: [{
 				id: "240196294AC8ABB2"
@@ -2629,7 +2629,8 @@
 				""
 				"To use the &bmana&r in a pattern importer / exporter or any other thing that can be filtered, right click with a &bMana Tablet&r to set the filter to &bmana&r."
 				""
-				"&4Don't permanently input mana into the machines from the Botanical Machinery + Extra Quest Line! The mana will get voided.&r"
+				"You can put &bmana&r into your patterns. The image below is the conversion."
+				"You can place &bmana&r with right clicking a mana tablet inside a pattern."
 			]
 			id: "4C60FCDAD393F563"
 			rewards: [{

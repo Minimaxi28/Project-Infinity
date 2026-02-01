@@ -5,7 +5,7 @@
 	group: "5255C8D5C49409ED"
 	icon: "bigreactors:reinforced_reactorchargingportfe"
 	id: "1EC3E81AC4B01484"
-	order_index: 8
+	order_index: 9
 	quest_links: [ ]
 	quests: [
 		{
@@ -619,6 +619,7 @@
 				title: "Any #forge:ingots/blutonium"
 				type: "item"
 			}]
+			title: "Blutonium Ingot"
 			x: -3.0d
 			y: -1.5d
 		}
@@ -814,6 +815,7 @@
 				title: "Any #forge:ingots/inanite"
 				type: "item"
 			}]
+			title: "Inanite Ingot"
 			x: -3.0d
 			y: 1.5d
 		}
@@ -845,6 +847,7 @@
 				title: "Any #forge:storage_blocks/insanite"
 				type: "item"
 			}]
+			title: "Insanite Block"
 			x: 0.5d
 			y: 2.3d
 		}
@@ -873,6 +876,7 @@
 				title: "Any #forge:ingots/insanite"
 				type: "item"
 			}]
+			title: "Insanite Ingot"
 			x: -3.0d
 			y: 3.0d
 		}

@@ -19,7 +19,6 @@
     "$minecraft:trident"
   ],
   "incompatible": [
-    "undead_revamp2:devillsweep",
     "endlessbiomes:vwooping"
   ]
 }

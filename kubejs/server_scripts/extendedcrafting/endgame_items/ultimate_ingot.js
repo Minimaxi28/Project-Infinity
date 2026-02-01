@@ -110,7 +110,7 @@ ServerEvents.recipes((event) => {
         'enderio:dark_steel_ingot',
         'enderio:soularium_ingot',
         'enderio:end_steel_ingot',
-        'undergarden:forgotten_ingot',
+        'mekanism_extras:ingot_naquadah',
         'common_ore_library:manyullyn_ingot',
         'mysticalexpansion:extremium_ingot',
         'mysticalexpansion:etherium_ingot',

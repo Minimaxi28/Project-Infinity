@@ -63,6 +63,10 @@ ServerEvents.recipes((event) => {
 
   shapeless(event, '9x kubejs:voidmetal_ingot', ['kubejs:voidmetal_block']);
 
+  create3x3same(event, 'kubejs:compressed_hellforgedparts', ['bloodmagic:hellforgedparts']);
+
+  shapeless(event, '9x bloodmagic:hellforgedparts', ['kubejs:compressed_hellforgedparts']);
+
   create3x3(event, 'kubejs:bunny_steel_ingot', [
     'minecraft:air',
     'minecraft:rabbit_hide',

@@ -46,7 +46,7 @@ ServerEvents.recipes((event) => {
           item: 'armorplus:ender_dragon_pickaxe',
         },
         K: {
-          item: 'pickletweaks:emerald_pickaxe',
+          item: 'cyclic:emerald_pickaxe',
         },
         L: {
           item: 'mysticalagriculture:tertium_pickaxe',

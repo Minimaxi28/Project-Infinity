@@ -200,9 +200,9 @@ ServerEvents.recipes((event) => {
           },
         },
         {
-          amount: 64,
+          amount: 7,
           ingredient: {
-            item: 'ae2:singularity',
+            item: 'ae2omnicells:singularity_block',
           },
         },
       ],
@@ -240,7 +240,7 @@ ServerEvents.recipes((event) => {
         {
           amount: 64,
           ingredient: {
-            item: 'ae2:sky_dust',
+            item: 'ae2:sky_stone_block',
           },
         },
       ],

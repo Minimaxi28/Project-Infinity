@@ -28,7 +28,7 @@ ServerEvents.recipes((event) => {
           item: 'thermal_extra:dragonsteel_axe',
         },
         E: {
-          item: 'undergarden:cloggrum_axe',
+          item: 'armorplus:slayer_battle_axe',
         },
         F: {
           item: 'thermal_extra:signalum_axe',

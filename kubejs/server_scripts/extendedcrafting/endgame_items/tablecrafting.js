@@ -1,32 +1,4 @@
 ServerEvents.recipes((event) => {
-  //Advanced Table
-  event
-    .custom({
-      type: 'extendedcrafting:shaped_table',
-      pattern: ['ABA', 'CDC', 'AEA'],
-      key: {
-        A: {
-          item: 'extendedcrafting:advanced_component',
-        },
-        B: {
-          item: 'extendedcrafting:advanced_catalyst',
-        },
-        C: {
-          item: 'extendedcrafting:basic_table',
-        },
-        D: {
-          item: 'redstone_arsenal:flux_metal_block',
-        },
-        E: {
-          item: 'extendedcrafting:ender_ingot_block',
-        },
-      },
-      result: {
-        item: 'extendedcrafting:advanced_table',
-      },
-    })
-    .id('extendedcrafting:advanced_table');
-
   //Elite Table
   event
     .custom({

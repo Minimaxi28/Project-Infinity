@@ -74,7 +74,7 @@ ServerEvents.recipes((event) => {
         },
       },
       result: {
-        item: '4x mekanism:creative_bin',
+        item: 'mekanism:creative_bin',
       },
     })
     .id('mekanism:creative_bin');

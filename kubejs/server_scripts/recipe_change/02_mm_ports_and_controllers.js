@@ -560,7 +560,7 @@ ServerEvents.recipes((event) => {
     'botania:elementium_ingot',
     'common_ore_library:cobalt_block',
     'thermal:rf_coil',
-    'dimdoors:black_fabric',
+    'minecraft:black_concrete',
     'thermal:redstone_servo',
   ]);
 
@@ -585,6 +585,18 @@ ServerEvents.recipes((event) => {
     'common_ore_library:cobalt_block',
     'thermal:rf_coil',
     'mysticalagriculture:awakening_altar',
+    'thermal:redstone_servo',
+  ]);
+
+    create3x3(event, 'mm:loot_fabrication_plant_controller', [
+    'thermal:redstone_servo',
+    'extrahnn:simulator_modeling',
+    'thermal:rf_coil',
+    'common_ore_library:cobalt_block',
+    'botania:elementium_ingot',
+    'common_ore_library:cobalt_block',
+    'thermal:rf_coil',
+    'extrahnn:merger_camera',
     'thermal:redstone_servo',
   ]);
 
@@ -652,9 +664,9 @@ ServerEvents.recipes((event) => {
     'thermal:redstone_servo',
     'mysticalagriculture:master_infusion_crystal',
     'thermal:rf_coil',
-    'projectexpansion:blue_fuel_block',
+    'projectexpansion:pink_fuel_block',
     'botania:elementium_ingot',
-    'projectexpansion:blue_fuel_block',
+    'projectexpansion:pink_fuel_block',
     'thermal:rf_coil',
     'projecte:philosophers_stone',
     'thermal:redstone_servo',

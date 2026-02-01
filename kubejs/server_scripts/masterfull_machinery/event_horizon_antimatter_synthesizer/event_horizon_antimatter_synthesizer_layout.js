@@ -18,7 +18,7 @@ MMEvents.createStructures((event) => {
           ' BDDDB ',
           'B     B',
           'D     D',
-          'D  F  D',
+          'J  F  J',
           'D     D',
           'B     B',
           ' BDDDB ',
@@ -54,7 +54,7 @@ MMEvents.createStructures((event) => {
           ' BDDDB ',
           'B     B',
           'D     D',
-          'D  F  D',
+          'I  F  I',
           'D     D',
           'B     B',
           ' BDCDB ',
@@ -88,6 +88,12 @@ MMEvents.createStructures((event) => {
         })
         .key('H', {
           block: 'mm:colossal_gas_port_output',
+        })
+        .key('I', {
+          block: 'mm:gigantic_fluid_port_output',
+        })
+        .key('J', {
+          block: 'mm:gigantic_fluid_port_input',
         });
     });
 });

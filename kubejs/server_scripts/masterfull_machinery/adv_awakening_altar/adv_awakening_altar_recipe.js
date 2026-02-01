@@ -459,8 +459,109 @@ MMEvents.createProcesses((event) => {
         count: 1,
       },
     });
+
+  //draconic energy relay crystal
+  event
+    .create('mm:altar_draconic_energy_relay_crystal_recipe1')
+    .structureId('mm:advanced_awakening_altar_structure1')
+    .ticks(100)
+    .input({
+      type: 'mm:input/consume',
+      ingredient: {
+        type: 'mm:item',
+        item: 'draconicevolution:wyvern_energy_core',
+        count: 1,
+      },
+    })
+    .input({
+      type: 'mm:input/consume',
+      ingredient: {
+        type: 'mm:item',
+        item: 'draconicevolution:wyvern_energy_core',
+        count: 1,
+      },
+    })
+    .input({
+      type: 'mm:input/consume',
+      ingredient: {
+        type: 'mm:item',
+        item: 'draconicevolution:wyvern_energy_core',
+        count: 1,
+      },
+    })
+    .input({
+      type: 'mm:input/consume',
+      ingredient: {
+        type: 'mm:item',
+        item: 'draconicevolution:wyvern_energy_core',
+        count: 1,
+      },
+    })
+    .input({
+      type: 'mm:input/consume',
+      ingredient: {
+        type: 'mm:item',
+        item: 'minecraft:diamond',
+        count: 1,
+      },
+    })
+    .input({
+      type: 'mm:input/consume',
+      ingredient: {
+        type: 'mm:item',
+        item: 'minecraft:diamond',
+        count: 1,
+      },
+    })
+    .input({
+      type: 'mm:input/consume',
+      ingredient: {
+        type: 'mm:item',
+        item: 'minecraft:diamond',
+        count: 1,
+      },
+    })
+    .input({
+      type: 'mm:input/consume',
+      ingredient: {
+        type: 'mm:item',
+        item: 'minecraft:diamond',
+        count: 1,
+      },
+    })
+    .input({
+      type: 'mm:input/consume',
+      ingredient: {
+        type: 'mm:item',
+        item: 'draconicevolution:wyvern_core',
+        count: 1,
+      },
+    })
+    .input({
+      type: 'mm:input/consume',
+      ingredient: {
+        type: 'mm:item',
+        item: 'draconicevolution:wyvern_relay_crystal',
+        count: 4,
+      },
+    })
+    .input({
+      type: 'mm:input/consume',
+      ingredient: {
+        type: 'mm:energy',
+        amount: 200000000,
+      },
+    })
+    .output({
+      type: 'mm:output/simple',
+      ingredient: {
+        type: 'mm:item',
+        item: 'draconicevolution:draconic_relay_crystal',
+        count: 4,
+      },
+    });
   //------------------------------------------------------------------------------------------------------------------------------------------
-  // TIER 2
+  // TIER 2 Recipes
   //Awakened Supremium Block
   event
     .create('mm:altar_awakened_supremium_block_recipe2')
@@ -917,6 +1018,107 @@ MMEvents.createProcesses((event) => {
         type: 'mm:item',
         item: 'allthemodium:unobtainium_ingot',
         count: 4,
+      },
+    });
+
+  //draconic energy relay crystal
+  event
+    .create('mm:altar_draconic_energy_relay_crystal_recipe2')
+    .structureId('mm:advanced_awakening_altar_structure2')
+    .ticks(2)
+    .input({
+      type: 'mm:input/consume',
+      ingredient: {
+        type: 'mm:item',
+        item: 'draconicevolution:wyvern_energy_core',
+        count: 4,
+      },
+    })
+    .input({
+      type: 'mm:input/consume',
+      ingredient: {
+        type: 'mm:item',
+        item: 'draconicevolution:wyvern_energy_core',
+        count: 4,
+      },
+    })
+    .input({
+      type: 'mm:input/consume',
+      ingredient: {
+        type: 'mm:item',
+        item: 'draconicevolution:wyvern_energy_core',
+        count: 4,
+      },
+    })
+    .input({
+      type: 'mm:input/consume',
+      ingredient: {
+        type: 'mm:item',
+        item: 'draconicevolution:wyvern_energy_core',
+        count: 4,
+      },
+    })
+    .input({
+      type: 'mm:input/consume',
+      ingredient: {
+        type: 'mm:item',
+        item: 'minecraft:diamond',
+        count: 4,
+      },
+    })
+    .input({
+      type: 'mm:input/consume',
+      ingredient: {
+        type: 'mm:item',
+        item: 'minecraft:diamond',
+        count: 4,
+      },
+    })
+    .input({
+      type: 'mm:input/consume',
+      ingredient: {
+        type: 'mm:item',
+        item: 'minecraft:diamond',
+        count: 4,
+      },
+    })
+    .input({
+      type: 'mm:input/consume',
+      ingredient: {
+        type: 'mm:item',
+        item: 'minecraft:diamond',
+        count: 4,
+      },
+    })
+    .input({
+      type: 'mm:input/consume',
+      ingredient: {
+        type: 'mm:item',
+        item: 'draconicevolution:wyvern_core',
+        count: 4,
+      },
+    })
+    .input({
+      type: 'mm:input/consume',
+      ingredient: {
+        type: 'mm:item',
+        item: 'draconicevolution:wyvern_relay_crystal',
+        count: 16,
+      },
+    })
+    .input({
+      type: 'mm:input/consume',
+      ingredient: {
+        type: 'mm:energy',
+        amount: 200000000,
+      },
+    })
+    .output({
+      type: 'mm:output/simple',
+      ingredient: {
+        type: 'mm:item',
+        item: 'draconicevolution:draconic_relay_crystal',
+        count: 16,
       },
     });
 });

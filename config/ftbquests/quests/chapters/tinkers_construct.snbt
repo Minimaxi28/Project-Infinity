@@ -11,7 +11,7 @@
 		}
 	}
 	id: "3D67528F44964049"
-	order_index: 11
+	order_index: 14
 	quest_links: [ ]
 	quests: [
 		{
@@ -867,7 +867,7 @@
 				Count: 1
 				id: "tconstruct:tinkers_anvil"
 				tag: {
-					texture: "tconstruct:hepatizon_block"
+					texture: "tconstruct:rose_gold_block"
 				}
 			}
 			id: "03D428D3BB5C4C60"
@@ -893,7 +893,13 @@
 			shape: "rsquare"
 			tasks: [{
 				id: "0C267E8C8B050DD1"
-				item: "tconstruct:scorched_anvil"
+				item: {
+					Count: 1
+					id: "tconstruct:tinkers_anvil"
+					tag: {
+						texture: "tconstruct:rose_gold_block"
+					}
+				}
 				match_nbt: false
 				type: "item"
 				weak_nbt_match: true

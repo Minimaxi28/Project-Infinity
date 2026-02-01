@@ -130,13 +130,23 @@ ServerEvents.recipes((event) => {
     'minecraft:copper_ingot',
     'minecraft:diamond_block'
   );
-    event.replaceInput(
-    { output: Item.of('expatternprovider:infinity_cell', '{record:{"#c":"ae2:i",id:"minecraft:cobblestone"}}') },
+  event.replaceInput(
+    {
+      output: Item.of(
+        'expatternprovider:infinity_cell',
+        '{record:{"#c":"ae2:i",id:"minecraft:cobblestone"}}'
+      ),
+    },
     'ae2:cell_component_16k',
     'ae2omnicells:quantum_omni_cell_component_256m'
   );
-    event.replaceInput(
-    { output: Item.of('expatternprovider:infinity_cell', '{record:{"#c":"ae2:f",id:"minecraft:water"}}') },
+  event.replaceInput(
+    {
+      output: Item.of(
+        'expatternprovider:infinity_cell',
+        '{record:{"#c":"ae2:f",id:"minecraft:water"}}'
+      ),
+    },
     'ae2:cell_component_16k',
     'ae2omnicells:quantum_omni_cell_component_256m'
   );
@@ -184,16 +194,6 @@ ServerEvents.recipes((event) => {
     { output: 'industrialforegoing:pity_black_hole_unit' },
     '#forge:chests/wooden',
     'industrialforegoing:common_black_hole_unit'
-  );
-  event.replaceInput(
-    { output: 'pickletweaks:diamond_apple' },
-    'minecraft:diamond',
-    'minecraft:diamond_block'
-  );
-  event.replaceInput(
-    { output: 'pickletweaks:emerald_apple' },
-    'minecraft:emerald',
-    'minecraft:emerald_block'
   );
   event.replaceInput(
     { output: 'apotheosis:treasure_shelf' },
@@ -286,5 +286,10 @@ ServerEvents.recipes((event) => {
     { output: 'evolvedmekanism:creative_induction_provider' },
     'evolvedmekanism:multiversal_induction_provider',
     '#em_ev:induction_provider'
+  );
+  event.replaceInput(
+    { output: 'industrialforegoingsouls:soul_surge' },
+    'minecraft:piston',
+    'allthemodium:unobtainium_gear'
   );
 });

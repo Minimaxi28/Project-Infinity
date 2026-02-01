@@ -871,6 +871,11 @@
 					}
 					type: "item"
 				}
+				{
+					dimension: "hunting_dimension_reforged:hunting_dimension"
+					id: "35FBC631C6633859"
+					type: "dimension"
+				}
 			]
 			title: "Hunting Dimension"
 			x: 1.0d
@@ -989,11 +994,18 @@
 		{
 			dependencies: ["231765C07B4A12B7"]
 			id: "4008B1B8424D9602"
-			rewards: [{
-				id: "1BF15AB3982F2D29"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "1BF15AB3982F2D29"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+				{
+					id: "39EB95C68BB3A702"
+					item: "ironfurnaces:upgrade_iron"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "52A1A241B6B187A7"
 				item: "ironfurnaces:iron_furnace"
@@ -1005,11 +1017,18 @@
 		{
 			dependencies: ["4008B1B8424D9602"]
 			id: "3A122567049AB660"
-			rewards: [{
-				id: "47402F1DEA658AC0"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "47402F1DEA658AC0"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+				{
+					id: "68E97C142DE55428"
+					item: "ironfurnaces:upgrade_gold"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "76BF54449185A7F9"
 				item: "ironfurnaces:gold_furnace"
@@ -1021,11 +1040,18 @@
 		{
 			dependencies: ["3A122567049AB660"]
 			id: "0D63E399B22C756D"
-			rewards: [{
-				id: "0A905B12F09622AA"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "0A905B12F09622AA"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+				{
+					id: "6353D59A65A8ECD8"
+					item: "ironfurnaces:upgrade_diamond"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "70BCC60C7D2789E6"
 				item: "ironfurnaces:diamond_furnace"
@@ -1041,7 +1067,7 @@
 				id: "743415F74F0411BD"
 				item: {
 					Count: 1
-					id: "pickletweaks:flint_shears"
+					id: "cyclic:shears_flint"
 					tag: {
 						Damage: 0
 					}
@@ -1222,10 +1248,11 @@
 			description: ["Craft a &6Nether Cake&r to enter the Nether. Alternatively you can still enter it via the regular &6Nether Portal&r."]
 			id: "2453487FBB29D7C6"
 			tasks: [{
-				id: "249B66DA88670520"
-				item: "telepastries:nether_cake"
-				type: "item"
+				dimension: "minecraft:the_nether"
+				id: "649B8BC46DFD0EA3"
+				type: "dimension"
 			}]
+			title: "Visit THE NETHER"
 			x: 0.0d
 			y: 5.5d
 		}
@@ -1239,10 +1266,11 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "2301EDF24F1FCC3F"
-				item: "telepastries:end_cake"
-				type: "item"
+				dimension: "minecraft:the_end"
+				id: "7697CB0FE47E3294"
+				type: "dimension"
 			}]
+			title: "Visit the END"
 			x: -1.0d
 			y: 3.0d
 		}
@@ -1346,11 +1374,18 @@
 		{
 			dependencies: ["0D63E399B22C756D"]
 			id: "3E443BB724DC178E"
-			rewards: [{
-				id: "50B14A0C261D96A4"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "50B14A0C261D96A4"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+				{
+					id: "4FC6BF7E06152F4C"
+					item: "ironfurnaces:upgrade_crystal"
+					type: "item"
+				}
+			]
 			size: 1.0d
 			tasks: [{
 				id: "288802ADEDDA52C6"
@@ -1379,11 +1414,18 @@
 		{
 			dependencies: ["3E443BB724DC178E"]
 			id: "7E979D1D78C4CB58"
-			rewards: [{
-				id: "25F69EAC7C138E25"
-				item: "kubejs:apotheotic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "25F69EAC7C138E25"
+					item: "kubejs:apotheotic_coin"
+					type: "item"
+				}
+				{
+					id: "51B7A2EB0957AA10"
+					item: "ironfurnaces:upgrade_obsidian2"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "2BB55E269F50155A"
 				item: "ironfurnaces:obsidian_furnace"
@@ -1395,11 +1437,18 @@
 		{
 			dependencies: ["7E979D1D78C4CB58"]
 			id: "4E5D2DC8876218AB"
-			rewards: [{
-				id: "73BBBB2ADB308C7B"
-				item: "kubejs:infused_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "73BBBB2ADB308C7B"
+					item: "kubejs:infused_coin"
+					type: "item"
+				}
+				{
+					id: "4E72B05BC2ED5E17"
+					item: "ironfurnaces:upgrade_netherite"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "5EFF479E72A79A8E"
 				item: "ironfurnaces:netherite_furnace"
@@ -1411,11 +1460,18 @@
 		{
 			dependencies: ["4E5D2DC8876218AB"]
 			id: "2A57C2EDE90570E5"
-			rewards: [{
-				id: "570F52B26935EA80"
-				item: "kubejs:infused_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "570F52B26935EA80"
+					item: "kubejs:infused_coin"
+					type: "item"
+				}
+				{
+					id: "1DAA2F297BCB5F93"
+					item: "ironfurnaces:upgrade_allthemodium"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "5DB31BC917BC9D29"
 				item: "ironfurnaces:allthemodium_furnace"
@@ -1427,11 +1483,18 @@
 		{
 			dependencies: ["2A57C2EDE90570E5"]
 			id: "0410CC14F379B144"
-			rewards: [{
-				id: "01A009F8DB248037"
-				item: "kubejs:infused_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "01A009F8DB248037"
+					item: "kubejs:infused_coin"
+					type: "item"
+				}
+				{
+					id: "5709229121682762"
+					item: "ironfurnaces:upgrade_vibranium"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "603E0405B3EEEF8C"
 				item: "ironfurnaces:vibranium_furnace"
@@ -1443,11 +1506,18 @@
 		{
 			dependencies: ["0410CC14F379B144"]
 			id: "531A6E6A086E4327"
-			rewards: [{
-				id: "08489B7186607164"
-				item: "kubejs:infused_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "08489B7186607164"
+					item: "kubejs:infused_coin"
+					type: "item"
+				}
+				{
+					id: "15BD9B796E25B94F"
+					item: "ironfurnaces:upgrade_unobtainium"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "3D3BD8B4D2F1BB47"
 				item: "ironfurnaces:unobtainium_furnace"
@@ -1508,10 +1578,11 @@
 			dependencies: ["349588784C2748E2"]
 			id: "14C6DFD828E30ECE"
 			tasks: [{
-				id: "51D99FB04983AE6E"
-				item: "telepastries:lost_city_cake"
-				type: "item"
+				dimension: "lostcities:lostcity"
+				id: "577BD88783E01524"
+				type: "dimension"
 			}]
+			title: "Visit the LOST CITYS"
 			x: -1.5d
 			y: 4.0d
 		}
@@ -1519,10 +1590,11 @@
 			dependencies: ["349588784C2748E2"]
 			id: "7EEA94C0D88156AC"
 			tasks: [{
-				id: "44C118A1EF89402E"
-				item: "telepastries:twilight_cake"
-				type: "item"
+				dimension: "twilightforest:twilight_forest"
+				id: "4CC33BA161652E30"
+				type: "dimension"
 			}]
+			title: "Visit the TWILLIGHT FOREST"
 			x: -1.0d
 			y: 5.0d
 		}
@@ -1538,6 +1610,27 @@
 			title: "Quest Line by whothehellisnico"
 			x: 0.75d
 			y: 1.25d
+		}
+		{
+			description: [
+				"&2This quest was made by whothehellisnico!&r"
+				"&1Thank you a lot!&r"
+			]
+			id: "10649AC32D9EA7B6"
+			invisible: true
+			optional: true
+			rewards: [{
+				id: "4075CC0E1A2E51F9"
+				item: "botania:terrasteel_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6FA47CBFB55675F7"
+				title: "&2This quest was made by whothehellisnico!&r&1 Thank you a lot!&r"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: -1.5d
 		}
 	]
 	title: "The Beginning"

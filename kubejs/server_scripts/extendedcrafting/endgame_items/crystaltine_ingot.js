@@ -32,7 +32,7 @@ ServerEvents.recipes((event) => {
           item: 'kubejs:crystalline_alloy',
         },
         G: {
-          item: 'undergarden:froststeel_ingot',
+          item: 'tconstruct:slimesteel_ingot',
         },
         H: {
           item: 'armorplus:infused_frost_lava_crystal',
