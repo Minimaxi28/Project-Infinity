@@ -1,7 +1,7 @@
 {
   "type": "draconicevolution:fusion_crafting",
   "catalyst": {
-    "item": "draconicevolution:draconic_shovel"
+    "item": "kubejs:draconic_shovel"
   },
   "ingredients": [
     {

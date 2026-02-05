@@ -73,7 +73,7 @@ ServerEvents.recipes((event) => {
           item: 'armorplus:ender_dragon_helmet',
         },
         T: {
-          item: 'draconicadditions:infused_potato_helm',
+          item: 'draconicadditions:inert_potato_helm',
         },
         U: {
           item: 'mysticalagriculture:imperium_helmet',

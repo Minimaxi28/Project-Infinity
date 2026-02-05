@@ -40,7 +40,7 @@ ServerEvents.recipes((event) => {
           item: 'advancednetherite:netherite_diamond_hoe',
         },
         I: {
-          item: 'draconicevolution:wyvern_hoe',
+          item: 'kubejs:wyvern_hoe',
         },
         J: {
           item: 'projecte:dm_hoe',
@@ -49,7 +49,7 @@ ServerEvents.recipes((event) => {
           item: 'mysticalagriculture:tertium_hoe',
         },
         L: {
-          item: 'draconicevolution:chaotic_hoe',
+          item: 'kubejs:chaotic_hoe',
         },
         M: {
           item: 'mekanismtools:refined_obsidian_hoe',
@@ -106,7 +106,7 @@ ServerEvents.recipes((event) => {
           item: 'allthemodium:unobtainium_hoe',
         },
         e: {
-          item: 'draconicevolution:draconic_hoe',
+          item: 'kubejs:draconic_hoe',
         },
         f: {
           item: 'thermal_extra:lumium_hoe',

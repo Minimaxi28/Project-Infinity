@@ -396,6 +396,12 @@ StartupEvents.registry('item', (e) => {
   createDraconic(e, 'wyvern_pickaxe');
   createDraconic(e, 'wyvern_shovel');
   createDraconic(e, 'wyvern_sword');
+  createDraconic(e, 'wyvern_chestpiece');
+  createDraconic(e, 'draconic_chestpiece');
+  createDraconic(e, 'chaotic_chestpiece');
+  createDraconic(e, 'wyvern_necklace');
+  createDraconic(e, 'draconic_necklace');
+  createDraconic(e, 'chaotic_necklace');
 });
 
 StartupEvents.registry('block', (event) => {

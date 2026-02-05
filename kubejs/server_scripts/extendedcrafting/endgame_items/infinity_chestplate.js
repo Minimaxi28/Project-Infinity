@@ -58,7 +58,7 @@ ServerEvents.recipes((event) => {
           item: 'avaritia:infinity_ingot',
         },
         O: {
-          item: 'draconicadditions:infused_potato_chest',
+          item: 'draconicadditions:inert_potato_chest',
         },
         P: {
           item: 'mysticalagriculture:prudentium_chestplate',

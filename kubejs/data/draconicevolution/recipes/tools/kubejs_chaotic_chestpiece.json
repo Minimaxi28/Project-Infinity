@@ -1,7 +1,7 @@
 {
   "type": "draconicevolution:fusion_crafting",
   "catalyst": {
-    "item": "kubejs:draconic_pickaxe"
+    "item": "kubejs:draconic_chestpiece"
   },
   "ingredients": [
     {
@@ -30,7 +30,7 @@
     }
   ],
   "result": {
-    "item": "kubejs:chaotic_pickaxe"
+    "item": "kubejs:chaotic_chestpiece"
   },
   "tier": "CHAOTIC",
   "total_energy": 128000000

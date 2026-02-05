@@ -19,7 +19,7 @@ ServerEvents.recipes((event) => {
           item: 'allthemodium:unobtainium_axe',
         },
         B: {
-          item: 'draconicevolution:draconic_axe',
+          item: 'kubejs:draconic_axe',
         },
         C: {
           item: 'avaritia:infinity_ingot',
@@ -37,13 +37,13 @@ ServerEvents.recipes((event) => {
           item: 'thermal_extra:twinite_axe',
         },
         H: {
-          item: 'draconicevolution:wyvern_axe',
+          item: 'kubejs:wyvern_axe',
         },
         I: {
           item: 'kubejs:infinity_12',
         },
         J: {
-          item: 'draconicevolution:chaotic_axe',
+          item: 'kubejs:chaotic_axe',
         },
         K: {
           item: 'minecraft:netherite_axe',

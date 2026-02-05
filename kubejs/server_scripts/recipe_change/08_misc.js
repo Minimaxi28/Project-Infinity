@@ -704,12 +704,59 @@ ServerEvents.recipes((event) => {
   'wyvern_hoe',
   'wyvern_pickaxe',
   'wyvern_shovel',
-  'wyvern_sword'
+  'wyvern_sword',
+  'wyvern_chestpiece',
+  'draconic_chestpiece',
+  'chaotic_chestpiece'
   ];
 
   draconicItemsArray.forEach((item) => {
     shapelessdraconic(event, item);
   });
+
+  draconicItemsArray.forEach((item) => {
+    reverseshapelessdraconic(event, item);
+  });
+
+  const draconicAdditionsItemsArray = [
+  'wyvern_necklace',
+  'draconic_necklace',
+  'chaotic_necklace',
+  ];
+
+  draconicAdditionsItemsArray.forEach((item) => {
+    shapelessdraconicadditions(event, item);
+  });
+
+  draconicAdditionsItemsArray.forEach((item) => {
+    reverseshapelessdraconicadditions(event, item);
+  });
+
+  shapeless(event, 'kubejs:chaotic_necklace',
+    [
+      'kubejs:draconic_necklace',
+      'draconicevolution:chaotic_core'
+    ]
+  );
+
+  shapeless(event, 'kubejs:draconic_necklace',
+    [
+      'kubejs:wyvern_necklace',
+      'draconicevolution:awakened_core'
+    ]
+  );
+
+  create3x3(event, 'kubejs:wyvern_necklace', [
+    'minecraft:gold_ingot',
+    'minecraft:gold_ingot',
+    'minecraft:gold_ingot',
+    'minecraft:gold_ingot',
+    'minecraft:air',
+    'minecraft:gold_ingot',
+    'minecraft:air',
+    'draconicevolution:wyvern_core',
+    'minecraft:air',
+  ]);
 
   create3x3(
     event,

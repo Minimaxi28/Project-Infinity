@@ -46,7 +46,7 @@ ServerEvents.recipes((event) => {
           item: 'redstone_arsenal:flux_boots',
         },
         K: {
-          item: 'draconicadditions:infused_potato_boots',
+          item: 'draconicadditions:inert_potato_boots',
         },
         L: {
           item: 'born_in_chaos_v1:nightmare_mantleofthe_night_boots',
@@ -121,7 +121,7 @@ ServerEvents.recipes((event) => {
           item: 'pneumaticcraft:pneumatic_boots',
         },
         j: {
-          item: 'draconicadditions:infused_potato_boots',
+          item: 'draconicadditions:inert_potato_boots',
         },
         k: {
           item: 'advanced_ae:quantum_boots',

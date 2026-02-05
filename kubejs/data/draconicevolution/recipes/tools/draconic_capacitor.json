@@ -1,7 +1,7 @@
 {
   "type": "draconicevolution:fusion_crafting",
   "catalyst": {
-    "item": "draconicevolution:wyvern_capacitor"
+    "item": "kubejs:wyvern_capacitor"
   },
   "ingredients": [
     {

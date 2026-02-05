@@ -1,7 +1,7 @@
 {
   "type": "draconicevolution:fusion_crafting",
   "catalyst": {
-    "item": "kubejs:wyvern_pickaxe"
+    "item": "kubejs:wyvern_chestpiece"
   },
   "ingredients": [
     {
@@ -30,7 +30,7 @@
     }
   ],
   "result": {
-    "item": "kubejs:draconic_pickaxe"
+    "item": "kubejs:draconic_chestpiece"
   },
   "tier": "DRACONIC",
   "total_energy": 32000000

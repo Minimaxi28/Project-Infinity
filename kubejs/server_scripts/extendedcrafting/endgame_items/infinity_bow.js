@@ -58,7 +58,7 @@ ServerEvents.recipes((event) => {
           item: 'mysticalagriculture:tertium_bow',
         },
         O: {
-          item: 'draconicevolution:draconic_bow',
+          item: 'kubejs:draconic_bow',
         },
         P: {
           item: 'avaritia:crystal_matrix',
@@ -73,7 +73,7 @@ ServerEvents.recipes((event) => {
           item: 'redstone_arsenal:flux_bow',
         },
         T: {
-          item: 'draconicevolution:chaotic_bow',
+          item: 'kubejs:chaotic_bow',
         },
         U: {
           item: 'twilightforest:triple_bow',
@@ -85,7 +85,7 @@ ServerEvents.recipes((event) => {
           item: 'dimensionalpocketsii:dimensional_bow',
         },
         X: {
-          item: 'draconicevolution:wyvern_bow',
+          item: 'kubejs:wyvern_bow',
         },
         Y: {
           item: 'armorplus:obsidian_bow',
