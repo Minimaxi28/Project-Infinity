@@ -64,7 +64,7 @@ ServerEvents.recipes((event) => {
           item: 'mysticaladaptations:insanium_leggings',
         },
         Q: {
-          item: 'draconicadditions:infused_potato_legs',
+          item: 'draconicadditions:inert_potato_legs',
         },
         R: {
           item: 'redstone_arsenal:flux_leggings',

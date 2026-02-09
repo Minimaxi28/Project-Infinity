@@ -49,7 +49,7 @@ ServerEvents.recipes((event) => {
           item: 'redstone_arsenal:flux_sword',
         },
         L: {
-          item: 'draconicevolution:chaotic_sword',
+          item: 'kubejs:chaotic_sword',
         },
         M: {
           item: 'dimensionalpocketsii:dimensional_sword_enhanced',

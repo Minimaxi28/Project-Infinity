@@ -25,7 +25,7 @@ ServerEvents.recipes((event) => {
           item: 'avaritia:neutron_ingot',
         },
         D: {
-          item: 'draconicevolution:wyvern_shovel',
+          item: 'kubejs:wyvern_shovel',
         },
         E: {
           item: 'redstone_arsenal:flux_shovel',
@@ -40,7 +40,7 @@ ServerEvents.recipes((event) => {
           item: 'allthemodium:vibranium_shovel',
         },
         I: {
-          item: 'draconicevolution:draconic_shovel',
+          item: 'kubejs:draconic_shovel',
         },
         J: {
           item: 'mysticaladaptations:insanium_shovel',
@@ -58,7 +58,7 @@ ServerEvents.recipes((event) => {
           item: 'projecte:dm_shovel',
         },
         O: {
-          item: 'draconicevolution:chaotic_shovel',
+          item: 'kubejs:chaotic_shovel',
         },
         P: {
           item: 'thermal_extra:signalum_shovel',

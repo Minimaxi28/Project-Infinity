@@ -1,7 +1,7 @@
 {
   "type": "draconicevolution:fusion_crafting",
   "catalyst": {
-    "item": "draconicevolution:draconic_bow"
+    "item": "kubejs:draconic_bow"
   },
   "ingredients": [
     {

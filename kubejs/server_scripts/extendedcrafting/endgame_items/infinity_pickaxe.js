@@ -31,10 +31,10 @@ ServerEvents.recipes((event) => {
           item: 'allthemodium:alloy_pick',
         },
         F: {
-          item: 'draconicevolution:draconic_pickaxe',
+          item: 'kubejs:draconic_pickaxe',
         },
         G: {
-          item: 'draconicevolution:chaotic_pickaxe',
+          item: 'kubejs:chaotic_pickaxe',
         },
         H: {
           item: 'allthemodium:unobtainium_pickaxe',

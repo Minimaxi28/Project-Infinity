@@ -1,7 +1,7 @@
 {
   "type": "draconicevolution:fusion_crafting",
   "catalyst": {
-    "item": "draconicevolution:wyvern_bow"
+    "item": "kubejs:wyvern_bow"
   },
   "ingredients": [
     {
