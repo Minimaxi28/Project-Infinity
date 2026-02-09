@@ -198,18 +198,13 @@ ServerEvents.recipes((event) => {
         },
         {
           type: 'pneumaticcraft:stacked_item',
-          count: 2,
-          item: 'minecraft:iron_block',
-        },
-        {
-          type: 'pneumaticcraft:stacked_item',
           count: 4,
           item: 'extendedcrafting:advanced_component',
         },
         {
           type: 'pneumaticcraft:stacked_item',
           count: 1,
-          item: 'extendedcrafting:advanced_component',
+          item: 'extendedcrafting:advanced_catalyst',
         },
         {
           type: 'pneumaticcraft:stacked_item',

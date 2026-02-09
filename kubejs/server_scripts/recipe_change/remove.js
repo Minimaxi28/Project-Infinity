@@ -190,7 +190,11 @@ const removeItemsbyOutput = [
   'evolvedmekanism:creative_personal_barrel',
   'draconicevolution:grinder',
   'extendedcrafting:advanced_table',
-  
+  'draconicevolution:draconic_staff',
+  'draconicevolution:chaotic_staff',
+  'draconicevolution:wyvern_chestpiece',
+  'draconicevolution:draconic_chestpiece',
+  'draconicevolution:chaotic_chestpiece',
 ];
 
 const removeItemsbyID = [
@@ -506,8 +510,6 @@ const removeItemsbyID = [
   '',
   '',
   '',
-  '',
-  ''
 ];
 
 const removeItemsbyType = [
@@ -569,8 +571,12 @@ ServerEvents.recipes((event) => {
   event.remove([{ output: /mold/, mod: 'evolvedmekanism' }]);
   event.remove([{ output: /molten/, mod: 'evolvedmekanism' }]);
   event.remove([{ output: /evolvedmekanism\/molten/, type: 'ifeu:infuser' }]);
-  event.remove([{ output: /evolvedmekanism\/molten/, type: 'thermal:bottler' }]);
-  event.remove([{ output: /evolvedmekanism\/molten/, type: 'tconstruct:casting_table' }]);
+  event.remove([
+    { output: /evolvedmekanism\/molten/, type: 'thermal:bottler' },
+  ]);
+  event.remove([
+    { output: /evolvedmekanism\/molten/, type: 'tconstruct:casting_table' },
+  ]);
   event.remove([{ output: /bucket/, type: 'thermal:bottler' }]);
   event.remove([{ output: /bottler_florb/, type: 'thermal:bottler' }]);
 

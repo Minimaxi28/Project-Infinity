@@ -12,7 +12,7 @@
 	#Booster Tier 2 boost rate
 	t2_boost_rate = 5
 	#Booster Tier 3 FE per tick to operate
-	t3_fe_per_tick = 2000000000
+	t3_fe_per_tick = 1009317314
 	#Booster Tier 3 boost rate
 	t3_boost_rate = 10
 	#Booster Tier 3 scan radius (scans a cube area)

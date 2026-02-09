@@ -31,11 +31,11 @@
 	#Adds back and forth conversions of objects and their Tag variant. (EMC values assigned to tags will not behave properly if this mapper is disabled)
 	TagMapper = true
 	#(AppliedE) Maps Applied Energistics 2 P2P tunnels.
-	AE2P2PTunnels = false
+	AE2P2PTunnels = true
 	#(AppliedE) Maps Applied Energistics 2 cable facades.
 	AE2FacadeMapper = false
 	#(AppliedE) Maps Applied Energistics 2 matter condenser results.
-	AE2MatterCondenser = false
+	AE2MatterCondenser = true
 
 [CraftingMapper]
 
