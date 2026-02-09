@@ -3027,9 +3027,10 @@
 				type: "item"
 			}]
 			tasks: [{
+				consume_items: true
 				count: 64L
 				id: "76E687D0E55A3805"
-				item: { Count: 64, id: "kubejs:ascended_coin" }
+				item: "kubejs:ascended_coin"
 				type: "item"
 			}]
 			title: "ME Infinity Matter Ball Cell"

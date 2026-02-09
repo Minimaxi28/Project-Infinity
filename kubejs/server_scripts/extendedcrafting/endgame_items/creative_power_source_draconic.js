@@ -22,7 +22,7 @@ ServerEvents.recipes((event) => {
           item: 'draconicevolution:chaos_shard',
         },
         C: {
-          item: 'draconicadditions:infused_potato_helm',
+          item: 'draconicadditions:inert_potato_helm',
         },
         D: {
           item: 'draconicevolution:chaotic_core',
@@ -31,7 +31,7 @@ ServerEvents.recipes((event) => {
           item: 'draconicevolution:draconic_wireless_crystal',
         },
         F: {
-          item: 'draconicevolution:chaotic_capacitor',
+          item: 'kubejs:chaotic_capacitor',
         },
         G: {
           item: 'kubejs:infinity_12',
@@ -49,46 +49,46 @@ ServerEvents.recipes((event) => {
           item: 'draconicevolution:reactor_stabilizer',
         },
         L: {
-          item: 'draconicevolution:chaotic_sword',
+          item: 'kubejs:chaotic_sword',
         },
         M: {
-          item: 'draconicevolution:chaotic_pickaxe',
+          item: 'kubejs:chaotic_pickaxe',
         },
         N: {
-          item: 'draconicevolution:chaotic_axe',
+          item: 'kubejs:chaotic_axe',
         },
         O: {
-          item: 'draconicadditions:infused_potato_chest',
+          item: 'draconicadditions:inert_potato_chest',
         },
         P: {
-          item: 'draconicadditions:chaotic_necklace',
+          item: 'kubejs:chaotic_necklace',
         },
         Q: {
-          item: 'draconicevolution:chaotic_staff',
+          item: 'kubejs:chaotic_staff',
         },
         R: {
           item: 'draconicevolution:reactor_core',
         },
         S: {
-          item: 'draconicevolution:chaotic_chestpiece',
+          item: 'kubejs:chaotic_chestpiece',
         },
         U: {
-          item: 'draconicadditions:infused_potato_legs',
+          item: 'draconicadditions:inert_potato_legs',
         },
         V: {
-          item: 'draconicevolution:chaotic_shovel',
+          item: 'kubejs:chaotic_shovel',
         },
         W: {
-          item: 'draconicevolution:chaotic_hoe',
+          item: 'kubejs:chaotic_hoe',
         },
         X: {
-          item: 'draconicevolution:chaotic_bow',
+          item: 'kubejs:chaotic_bow',
         },
         Y: {
           item: 'draconicevolution:reactor_injector',
         },
         Z: {
-          item: 'draconicadditions:infused_potato_boots',
+          item: 'draconicadditions:inert_potato_boots',
         },
       },
       result: {

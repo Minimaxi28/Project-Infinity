@@ -7,6 +7,18 @@ function shapelessdraconic (event, output) {
   event.shapeless(`draconicevolution:${output}`, `kubejs:${output}`);
 }
 
+function reverseshapelessdraconic (event, output) {
+  event.shapeless(`kubejs:${output}`, `draconicevolution:${output}`);
+}
+
+function shapelessdraconicadditions (event, output) {
+  event.shapeless(`draconicadditions:${output}`, `kubejs:${output}`);
+}
+
+function reverseshapelessdraconicadditions (event, output) {
+  event.shapeless(`kubejs:${output}`, `draconicadditions:${output}`);
+}
+
 function create323 (event, output, input) {
   event.shaped(output, ['000', '0 0', '000'], {
     0: input[0],
