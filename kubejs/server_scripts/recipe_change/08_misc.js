@@ -670,7 +670,7 @@ ServerEvents.recipes((event) => {
   // Draconic Evolution misc recipes
   create3x3(event, 'draconicevolution:grinder', [
     'draconicevolution:draconium_ingot',
-    'draconicevolution:draconic_sword',
+    'kubejs:draconic_sword',
     'draconicevolution:draconium_ingot',
     'mythicbotany:alfsteel_sword',
     'draconicevolution:draconic_energy_core',
