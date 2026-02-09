@@ -20,21 +20,14 @@ creative items recipes!
 EMC
 
 /---------------------------------------------------------------------------------------------------------------/
-changelog v. 0.0.47.0
+changelog v. 0.0.47.2
 -updated some mods
 ----------------------------------------------------------------------------------------
 Mod added:
--EnderIO Custom Capacitor
--Replaced Botanical Machinery Reforked with Botanical Machinery
+-
 ----------------------------------------------------------------------------------------
 Mods removed:
--Torcherino
--Dimensional Doors
--Pickle Tweaks
--Undead Revamp
--Bigger AE2
--TemPad
--Undergarden
+-none
 ----------------------------------------------------------------------------------------
 Mod INFO:
 -mods maybe getting removed:
@@ -42,75 +35,16 @@ Mod INFO:
     -Occultism
     -Chemlib and Alchemistry
 
-AE Additions will not getting removed!
-
 ----------------------------------------------------------------------------------------
 Recipe changes and fixes:
--added Mekanism CTM + Extra Fusion Resource Pack
--removed old creative ME Item and Fluid cell recipes
--fixed quest things
--resuffled some quests
--changed recipe for ATM gears
--changed soul surge recipe
--added some quests(thx to klaasy__, vespa13 and sir_dragon)
--added a Packagede questline
--added evolved mekanism pipes to cable facade support
--added draconic energy relay crystal recipe to the awakaned altar multiblock
--changed recipe for lava and frost crystal inside the mechanical empowerer
--changed recipe for ultimate stew (removed pickletweaks apples)
--added custom Capacitors and added recipes
--changed layout for multi compressor (titanic item input port --> compressed titanic item input port) (thx to Sir_Dragon)
--changed the compution power for the custom blocks. (its easier now)
--fixed shattered singularity recipe in reaction chamber
--changed power usage for block boosters (thx to Erbus)
--added quest for EnderIO
--creative bin --> you wont get 4 you will get 1 now
--removed ATM dupe (thx to biodinosaur)
--removed recipe for oredictionificator
--removed ATM ores from the voidminers (go craft or search them) (potatoman999 said thats a good idea. go hate him not me)
--added naquadah ore to void miner tier 7 and 8(tier 9 is still there)
--added recipe for elder guardian gateway
--changed recipe for emerald jetpack (thx to sohail160) (be happy I wanted to add Infinity 4 but he said I should add Infinity 1....)
--fixed quantum alloy recipe isside the reaction chamber
--changed ult ingot recipe (undergarden ingot --> naquadah ingot)
--changed simulated hydroponic bed recipe (undergaden hoe --> dragon hoe)
--changed inf axe recipe (undergaden axe --> ender dragon axe)
--changed crystaltine ingot (froststeel ingot --> slimesteel ingot)
--changed cosmic meatballs recipe
--changed ultimate stew recipe
--changed the lord pumpkin head recipe
--added recipe for wither acolite flower
--fixed some seeds cant be planted next to a ae2 growth accelerator
--changed recipe for multi_compactor_controller from 2 blue fuel blocks to 2 pink fuel blocks (thx to turtlepenguin9)
--removed Armor Plus arrow recipes(they crash the game)
--added compressed hellforged parts
--added 2 new blood magic meteor rituals (thx to 9loo7)
-    -first needs demonite ore with 1M blood
-    -second needs 1 compressed hellforged part and 10M blood 
--changed singularity value for ironwood from 15k to 10k (thx to SaphSess)
--changed solar modifier values a lot!
-    -ultimate solar panel with 24 efficiency modifiers are generating 5.8G RF/t
--changed wireless transeiver recipe
--added recipe to dupe ult miner and solar ult panel from voidminer mod
--added dummy items to draconic evolution tools and weapons
--it is no longer possible to get shop coins from woot farms. 
-    -the player needs to kill the mobs to get coins
--added the loot fabrication plant multiblock
-    -added recipe for the controller
-    -added recipes to generate a lot of predictions
--added EMC to Tome of the Knowledge and Prosperity Shards
--changed recipe for the advanced crafting table from basic to pneumatic craft chamber (thx to lightreaper45. hate him pls)
--changed layout of the event horizon multiblock!
--changed recipe for tiny chaos shard in the infinity crucible (harder now!)
--changed recipe for chaos shard (easier now)
--changed recipe for awakened_supremium_essence from supremium_essence in the multi compressor
--removed the recipe for compact_thermal_evaporation (thx to MiniMaxi)
+-fixed infinity crucible in mbtool
+-fixed Lord Pumpkinhead Recipe
+-changed and fixed creative power source recipe (thx to MiniMaxi)
+-added 6 new dummy items for draconic (thx to MiniMaxi)
+-
 ----------------------------------------------------------------------------------------
 Mod changes and fixes:
--Fixed Masterful Machinery Recipe is never finishing
--downgraded Applied Botanics Addon and Botanical Machinery Extra
-    -the void bug is not fixed but at leats its not crashing
--removed Light Overlay and added More Overlays for the JEI highlight feature
+-
 /---------------------------
 known bugs:
 -polymorph (changing the output for mod conflicts) is not possible with tinkers crafting station

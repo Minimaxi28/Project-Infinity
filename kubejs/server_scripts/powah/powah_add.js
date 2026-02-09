@@ -38,7 +38,7 @@ ServerEvents.recipes((event) => {
     energy: 810000,
     result: {
       item: 'powah:blazing_crystal_block',
-      count: 1,
+      count: 4,
     },
   });
   //niotic_crystal_block
