@@ -31,10 +31,7 @@ ServerEvents.recipes((event) => {
           item: 'powah:energy_discharger_nitro',
         },
         E: {
-          type: 'forge:nbt',
-          item: 'powah:battery_nitro',
-          count: 1,
-          nbt: '{powah_tile_data:{energy_stored_main_energy:2000000000L}}',
+          item: 'kubejs:full_battery_nitro',
         },
         F: {
           item: 'powah:ender_cell_nitro',

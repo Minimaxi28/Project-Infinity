@@ -292,4 +292,11 @@ ServerEvents.recipes((event) => {
     'minecraft:piston',
     'allthemodium:unobtainium_gear'
   );
+
+  //Powah
+  event.replaceOutput(
+    { input: 'powah:battery_spirited' },
+    'powah:battery_nitro',
+    'kubejs:empty_battery_nitro'
+  );
 });

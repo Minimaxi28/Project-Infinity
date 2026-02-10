@@ -31,7 +31,7 @@ ServerEvents.recipes((event) => {
           item: 'kubejs:infinity_7',
         },
         F: {
-          item: 'powah:battery_nitro',
+          item: 'kubejs:empty_battery_nitro',
         },
         G: {
           item: 'mysticalagradditions:insanium_ingot',

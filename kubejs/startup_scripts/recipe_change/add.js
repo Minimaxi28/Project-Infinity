@@ -402,6 +402,24 @@ StartupEvents.registry('item', (e) => {
   createDraconic(e, 'wyvern_necklace');
   createDraconic(e, 'draconic_necklace');
   createDraconic(e, 'chaotic_necklace');
+
+  //Powah
+  function createPowah (e, input) {
+    e.create(input)
+      .texture('kubejs:item/powah/' + input)
+      .displayName(
+        input
+          .replace(/_/g, ' ')
+          .replace(
+            /\w\S*/g,
+            (txt) => txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase()
+          )
+          .replace(/(\w+)$/, '($1)')
+          + ' Dummy Item'
+      );
+  }
+  createPowah(e, 'full_battery_nitro');
+  createPowah(e, 'empty_battery_nitro');
 });
 
 StartupEvents.registry('block', (event) => {

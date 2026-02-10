@@ -1743,4 +1743,8 @@ ServerEvents.recipes((event) => {
       Item.of('ironjetpacks:thruster', '{Id:"ironjetpacks:emerald"}').weakNBT(),
     ]
   );
+
+  //Powah Battery
+  event.shapeless(`powah:battery_nitro`, `kubejs:empty_battery_nitro`);
+  event.shapeless(`kubejs:empty_battery_nitro`, `powah:battery_nitro`);
 });
