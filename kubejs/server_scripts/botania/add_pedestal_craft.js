@@ -8,7 +8,7 @@ ServerEvents.recipes((event) => {
           type: 'forge:partial_nbt',
           item: 'hostilenetworks:data_model',
           count: 1,
-          nbt: '{data_model:{data:1254,id:"hostilenetworks:wither"}}',
+          nbt: '{data_model:{data:1255,id:"hostilenetworks:wither"}}',
         },
         {
           item: 'mythicbotany:exoblaze',
