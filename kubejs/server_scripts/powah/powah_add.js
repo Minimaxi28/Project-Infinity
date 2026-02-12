@@ -78,4 +78,17 @@ ServerEvents.recipes((event) => {
       count: 8,
     },
   });
+
+  //full_battery_nitro Dummy
+  event.custom({
+    type: 'powah:energizing',
+    ingredients: [
+      { item: 'kubejs:empty_battery_nitro' },
+    ],
+    energy: 2000000000,
+    result: {
+      item: 'kubejs:full_battery_nitro',
+      count: 1,
+    },
+  });
 });

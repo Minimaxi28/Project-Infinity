@@ -670,7 +670,7 @@ ServerEvents.recipes((event) => {
   // Draconic Evolution misc recipes
   create3x3(event, 'draconicevolution:grinder', [
     'draconicevolution:draconium_ingot',
-    'draconicevolution:draconic_sword',
+    'kubejs:draconic_sword',
     'draconicevolution:draconium_ingot',
     'mythicbotany:alfsteel_sword',
     'draconicevolution:draconic_energy_core',
@@ -1743,4 +1743,8 @@ ServerEvents.recipes((event) => {
       Item.of('ironjetpacks:thruster', '{Id:"ironjetpacks:emerald"}').weakNBT(),
     ]
   );
+
+  //Powah Battery
+  event.shapeless(`powah:battery_nitro`, `kubejs:empty_battery_nitro`);
+  event.shapeless(`kubejs:empty_battery_nitro`, `powah:battery_nitro`);
 });
