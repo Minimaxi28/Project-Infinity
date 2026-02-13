@@ -113,7 +113,8 @@ ServerEvents.recipes((event) => {
     inputFluid: '{Amount:1000,FluidName:"ifeu:liquid_dragon_breath"}',
     output: {
       count: 1,
-      item: 'ifeu:processing_addon_6'
+      item: 'ifeu:processing_addon_6',
+      nbt: '{TitaniumAugment:{Processing:7.0f}}',
     },
     processingTime: 200,
   });
@@ -231,6 +232,7 @@ event.custom({
     inputFluid: '{Amount:1000,FluidName:"ifeu:liquid_dragon_breath"}',
     output: {
       count: 1,
+      nbt: '{TitaniumAugment:{Efficiency:0.39999998f}}',
       item: 'ifeu:efficiency_addon_6'
     },
     processingTime: 200,
@@ -349,7 +351,8 @@ event.custom({
     inputFluid: '{Amount:1000,FluidName:"ifeu:liquid_dragon_breath"}',
     output: {
       count: 1,
-      item: 'ifeu:speed_addon_6'
+      item: 'ifeu:speed_addon_6',
+      nbt: '{TitaniumAugment:{Speed:7.0f}}',
     },
     processingTime: 200,
   });
