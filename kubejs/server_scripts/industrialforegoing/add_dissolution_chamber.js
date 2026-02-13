@@ -232,8 +232,8 @@ event.custom({
     inputFluid: '{Amount:1000,FluidName:"ifeu:liquid_dragon_breath"}',
     output: {
       count: 1,
+      item: 'ifeu:efficiency_addon_6',
       nbt: '{TitaniumAugment:{Efficiency:0.39999998f}}',
-      item: 'ifeu:efficiency_addon_6'
     },
     processingTime: 200,
   });
